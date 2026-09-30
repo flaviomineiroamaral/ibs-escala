@@ -2517,17 +2517,35 @@
 
       isSyncingSupabase = true;
       try {
-        const payload = {
-          id: 'ibs_escala_master',
-          mensagem_aniversario_padrao: JSON.stringify({
-            services: ALL_SERVICES,
-            volunteers: VOLUNTEERS,
-            approved_songs: APPROVED_SONGS,
-            updated_at: new Date().toISOString()
-          })
+        const payloadData = {
+          services: ALL_SERVICES,
+          volunteers: VOLUNTEERS,
+          approved_songs: APPROVED_SONGS,
+          updated_at: new Date().toISOString()
         };
 
-        const res = await fetch(SUPABASE_URL + '/rest/v1/crm_configuracoes', {
+        // 1. Tenta salvar na tabela dedicada 'ibs_escalas' (se já criada via SQL)
+        let savedDedicated = false;
+        try {
+          const resDedicated = await fetch(SUPABASE_URL + '/rest/v1/ibs_escalas', {
+            method: 'POST',
+            headers: {
+              'apikey': SUPABASE_ANON_KEY,
+              'Authorization': 'Bearer ' + SUPABASE_ANON_KEY,
+              'Content-Type': 'application/json',
+              'Prefer': 'resolution=merge-duplicates,return=representation'
+            },
+            body: JSON.stringify({
+              id: 'ibs_escala_master',
+              mes: currentMonth,
+              dados: payloadData
+            })
+          });
+          if (resDedicated.ok) savedDedicated = true;
+        } catch(e) {}
+
+        // 2. Salva também em crm_configuracoes para garantir disponibilidade imediata
+        const resFallback = await fetch(SUPABASE_URL + '/rest/v1/crm_configuracoes', {
           method: 'POST',
           headers: {
             'apikey': SUPABASE_ANON_KEY,
@@ -2535,10 +2553,13 @@
             'Content-Type': 'application/json',
             'Prefer': 'resolution=merge-duplicates,return=representation'
           },
-          body: JSON.stringify(payload)
+          body: JSON.stringify({
+            id: 'ibs_escala_master',
+            mensagem_aniversario_padrao: JSON.stringify(payloadData)
+          })
         });
 
-        if (res.ok) {
+        if (savedDedicated || resFallback.ok) {
           if (statusEl) {
             statusEl.className = 'cursor-pointer text-[9px] font-bold px-1.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-200 border border-emerald-400/40 flex items-center gap-1 shadow-2xs';
             statusEl.innerHTML = '<i class="fa-solid fa-cloud-check"></i> Nuvem OK';
@@ -2555,6 +2576,27 @@
       }
     }
 
+    function applyRemoteData(parsed) {
+      if (!parsed) return;
+      if (parsed.services && typeof parsed.services === 'object') {
+        ALL_SERVICES = parsed.services;
+        localStorage.setItem('ibs_services_v4', JSON.stringify(ALL_SERVICES));
+      }
+      if (parsed.volunteers && typeof parsed.volunteers === 'object') {
+        VOLUNTEERS = parsed.volunteers;
+        localStorage.setItem('ibs_volunteers_v5', JSON.stringify(VOLUNTEERS));
+      }
+      if (parsed.approved_songs && Array.isArray(parsed.approved_songs)) {
+        APPROVED_SONGS = parsed.approved_songs;
+        localStorage.setItem('ibs_approved_songs', JSON.stringify(APPROVED_SONGS));
+      }
+
+      initUserDropdown();
+      renderDatalists();
+      onMonthChange(currentMonth);
+      changeUser(currentUserId);
+    }
+
     async function fetchFromSupabase() {
       const statusEl = document.getElementById('cloudSyncStatus');
       if (statusEl) {
@@ -2563,38 +2605,45 @@
       }
 
       try {
-        const res = await fetch(SUPABASE_URL + '/rest/v1/crm_configuracoes?id=eq.ibs_escala_master&select=*', {
-          headers: {
-            'apikey': SUPABASE_ANON_KEY,
-            'Authorization': 'Bearer ' + SUPABASE_ANON_KEY
+        let loaded = false;
+
+        // 1. Tenta carregar da tabela dedicada 'ibs_escalas'
+        try {
+          const resDedicated = await fetch(SUPABASE_URL + '/rest/v1/ibs_escalas?id=eq.ibs_escala_master&select=*', {
+            headers: {
+              'apikey': SUPABASE_ANON_KEY,
+              'Authorization': 'Bearer ' + SUPABASE_ANON_KEY
+            }
+          });
+          if (resDedicated.ok) {
+            const dataDedicated = await resDedicated.json();
+            if (dataDedicated && dataDedicated[0] && dataDedicated[0].dados) {
+              applyRemoteData(dataDedicated[0].dados);
+              loaded = true;
+            }
           }
-        });
+        } catch(e) {}
 
-        if (res.ok) {
-          const data = await res.json();
-          if (data && data[0] && data[0].mensagem_aniversario_padrao) {
-            const parsed = JSON.parse(data[0].mensagem_aniversario_padrao);
-            if (parsed.services && typeof parsed.services === 'object') {
-              ALL_SERVICES = parsed.services;
-              localStorage.setItem('ibs_services_v4', JSON.stringify(ALL_SERVICES));
+        // 2. Se a tabela dedicada ainda não existir, carrega de crm_configuracoes
+        if (!loaded) {
+          const resFallback = await fetch(SUPABASE_URL + '/rest/v1/crm_configuracoes?id=eq.ibs_escala_master&select=*', {
+            headers: {
+              'apikey': SUPABASE_ANON_KEY,
+              'Authorization': 'Bearer ' + SUPABASE_ANON_KEY
             }
-            if (parsed.volunteers && typeof parsed.volunteers === 'object') {
-              VOLUNTEERS = parsed.volunteers;
-              localStorage.setItem('ibs_volunteers_v5', JSON.stringify(VOLUNTEERS));
-            }
-            if (parsed.approved_songs && Array.isArray(parsed.approved_songs)) {
-              APPROVED_SONGS = parsed.approved_songs;
-              localStorage.setItem('ibs_approved_songs', JSON.stringify(APPROVED_SONGS));
-            }
+          });
 
-            initUserDropdown();
-            renderDatalists();
-            onMonthChange(currentMonth);
-            changeUser(currentUserId);
+          if (resFallback.ok) {
+            const dataFallback = await resFallback.json();
+            if (dataFallback && dataFallback[0] && dataFallback[0].mensagem_aniversario_padrao) {
+              const parsed = JSON.parse(dataFallback[0].mensagem_aniversario_padrao);
+              applyRemoteData(parsed);
+              loaded = true;
+            }
           }
         }
 
-        // Importa membros cadastrados no Genesis App
+        // Importa membros da IBS de usuarios_membros do Genesis App
         fetchMembrosFromSupabase();
 
         if (statusEl) {

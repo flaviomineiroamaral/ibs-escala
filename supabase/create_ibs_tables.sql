@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS public.ibs_escalas (
 );
 
 -- 2. TABELA DE CANÇÕES LITÚRGICAS APROVADAS
-CREATE TABLE IF NOT EXISTS public.ibs_canções (
+CREATE TABLE IF NOT EXISTS public.ibs_cancoes (
   id VARCHAR(100) PRIMARY KEY,
   titulo VARCHAR(200) NOT NULL,
   artista VARCHAR(150),
@@ -31,7 +31,7 @@ CREATE POLICY "Permitir leitura e escrita para o App IBS Escala"
   ON public.ibs_escalas FOR ALL TO anon
   USING (true) WITH CHECK (true);
 
-ALTER TABLE public.ibs_canções ENABLE ROW LEVEL SECURITY;
+ALTER TABLE public.ibs_cancoes ENABLE ROW LEVEL SECURITY;
 CREATE POLICY "Permitir leitura e escrita para canções IBS"
-  ON public.ibs_canções FOR ALL TO anon
+  ON public.ibs_cancoes FOR ALL TO anon
   USING (true) WITH CHECK (true);
