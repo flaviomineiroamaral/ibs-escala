@@ -1,0 +1,4848 @@
+{
+  "Jan": [
+    {
+      "date": "Qui, 01/01/2026",
+      "date_raw": "2026-01-01",
+      "weekday": "Quinta-feira",
+      "title": "NÃO HAVERÁ ATIVIDADES",
+      "team": "",
+      "preacher": "",
+      "theme": "",
+      "text": "",
+      "worship": "A definir",
+      "kids": "A definir",
+      "media": "A definir",
+      "diaconia": "",
+      "details": {
+        "preacher": "",
+        "theme": "",
+        "text": "",
+        "minister": "",
+        "back1": "",
+        "back2": "",
+        "guitar_ac": "",
+        "guitar_el": "",
+        "keys": "",
+        "bass": "",
+        "drums": "",
+        "kids1": "",
+        "kids2": "",
+        "sound": "",
+        "proj": "",
+        "stream": "",
+        "acolhimento": "",
+        "estacionamento": ""
+      },
+      "songs": []
+    },
+    {
+      "date": "Dom, 04/01/2026",
+      "date_raw": "2026-01-04",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração PRIMÍCIAS",
+      "team": "Equipe 01",
+      "preacher": "Pr. Flávio Amaral",
+      "theme": "1/7 DIREÇÃO DIVINA -  COMECE ONDE VOCÊ ESTÁ",
+      "text": "Zacarias 4:10",
+      "worship": "Manú (Ministro) • Karol, Kamynnsky (Back) • Flávio F. (Violão) • Efrain (Teclado) • Italo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Yasmin • T2: Mariana",
+      "media": "Som: Felipe • Proj: Lorivaldo • Transm: Lorivaldo",
+      "diaconia": "Acolhimento: Johnatan e Tatiana • Estacionamento: Leadnro e Paula",
+      "details": {
+        "preacher": "Pr. Flávio Amaral",
+        "theme": "1/7 DIREÇÃO DIVINA -  COMECE ONDE VOCÊ ESTÁ",
+        "text": "Zacarias 4:10",
+        "minister": "Manú",
+        "back1": "Karol",
+        "back2": "Kamynnsky",
+        "guitar_ac": "Flávio F.",
+        "guitar_el": "-",
+        "keys": "Efrain",
+        "bass": "Italo",
+        "drums": "Ícaro",
+        "kids1": "Yasmin",
+        "kids2": "Mariana",
+        "sound": "Felipe",
+        "proj": "Lorivaldo",
+        "stream": "Lorivaldo",
+        "acolhimento": "Johnatan e Tatiana",
+        "estacionamento": "Leadnro e Paula"
+      },
+      "songs": []
+    },
+    {
+      "date": "Qui, 08/01/2026",
+      "date_raw": "2026-01-08",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "Equipe 02",
+      "preacher": "Ana Paula",
+      "theme": "2/7 DIREÇÃO DIVINA - VEJA OS SINAIS DE PARE",
+      "text": "1 Coríntios 16:1-9",
+      "worship": "Manú (Ministro) • Bruno, Letícia (Back) • Bruno (Violão) • Italo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Valéria",
+      "media": "Som: Felipe • Proj: Jordana • Transm: Lorivaldo",
+      "diaconia": "Acolhimento: Edson e Sandra • Estacionamento: Efrain e Edla",
+      "details": {
+        "preacher": "Ana Paula",
+        "theme": "2/7 DIREÇÃO DIVINA - VEJA OS SINAIS DE PARE",
+        "text": "1 Coríntios 16:1-9",
+        "minister": "Manú",
+        "back1": "Bruno",
+        "back2": "Letícia",
+        "guitar_ac": "Bruno",
+        "guitar_el": "-",
+        "keys": "-",
+        "bass": "Italo",
+        "drums": "Ícaro",
+        "kids1": "Valéria",
+        "kids2": "",
+        "sound": "Felipe",
+        "proj": "Jordana",
+        "stream": "Lorivaldo",
+        "acolhimento": "Edson e Sandra",
+        "estacionamento": "Efrain e Edla"
+      },
+      "songs": []
+    },
+    {
+      "date": "Dom, 11/01/2026",
+      "date_raw": "2026-01-11",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração FAMÍLIA",
+      "team": "Equipe 03",
+      "preacher": "Pr. Flávio Amaral",
+      "theme": "3/7 DIREÇÃO DIVINA - PERMANEÇA NA PRESENÇA",
+      "text": "Atos 20:22-24",
+      "worship": "Karol (Ministro) • Manú (Back) • Bruno (Violão) • Efrain (Teclado) • Italo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Ana Carolina • T2: Jordana",
+      "media": "Som: Felipe • Proj: Ramon • Transm: Lorivaldo",
+      "diaconia": "Acolhimento: Johnatan e Tatiana • Estacionamento: João Paulo e Roberta",
+      "details": {
+        "preacher": "Pr. Flávio Amaral",
+        "theme": "3/7 DIREÇÃO DIVINA - PERMANEÇA NA PRESENÇA",
+        "text": "Atos 20:22-24",
+        "minister": "Karol",
+        "back1": "Manú",
+        "back2": "-",
+        "guitar_ac": "Bruno",
+        "guitar_el": "-",
+        "keys": "Efrain",
+        "bass": "Italo",
+        "drums": "Ícaro",
+        "kids1": "Ana Carolina",
+        "kids2": "Jordana",
+        "sound": "Felipe",
+        "proj": "Ramon",
+        "stream": "Lorivaldo",
+        "acolhimento": "Johnatan e Tatiana",
+        "estacionamento": "João Paulo e Roberta"
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Ele vem"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Canção do apocalipse"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Medley"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Minha morada"
+        }
+      ]
+    },
+    {
+      "date": "Qui, 15/01/2026",
+      "date_raw": "2026-01-15",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "Equipe 04",
+      "preacher": "Pra. Iracilene",
+      "theme": "4/7 DIREÇÃO DIVINA - AVANCE PARA O DESTINO",
+      "text": "Gênesis: 12:1-20",
+      "worship": "Bruno (Ministro) • Manú, Letícia (Back) • Bruno (Violão) • Italo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Edla",
+      "media": "Som: Felipe • Proj: Yasmin • Transm: Lorivaldo",
+      "diaconia": "Acolhimento: Efrain e Edla • Estacionamento: Moiséis e Thaynará",
+      "details": {
+        "preacher": "Pra. Iracilene",
+        "theme": "4/7 DIREÇÃO DIVINA - AVANCE PARA O DESTINO",
+        "text": "Gênesis: 12:1-20",
+        "minister": "Bruno",
+        "back1": "Manú",
+        "back2": "Letícia",
+        "guitar_ac": "Bruno",
+        "guitar_el": "-",
+        "keys": "-",
+        "bass": "Italo",
+        "drums": "Ícaro",
+        "kids1": "Edla",
+        "kids2": "",
+        "sound": "Felipe",
+        "proj": "Yasmin",
+        "stream": "Lorivaldo",
+        "acolhimento": "Efrain e Edla",
+        "estacionamento": "Moiséis e Thaynará"
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Nem olhos viram"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Único"
+        }
+      ]
+    },
+    {
+      "date": "Dom, 18/01/2026",
+      "date_raw": "2026-01-18",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração REVIVA CANÇÕES",
+      "team": "Equipe 05",
+      "preacher": "Pr. Carlos",
+      "theme": "",
+      "text": "Mateus 16.24-25",
+      "worship": "Manú (Ministro) • Kamynnsky, Bruno (Back) • Flávio F. (Violão) • Efrain (Teclado) • Ítalo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Valéria • T2: Karol",
+      "media": "Som: Felipe • Proj: Ramon • Transm: Lorivaldo",
+      "diaconia": "Acolhimento: Leadnro e Paula • Estacionamento: João Paulo e Roberta",
+      "details": {
+        "preacher": "Pr. Carlos",
+        "theme": "",
+        "text": "Mateus 16.24-25",
+        "minister": "Manú",
+        "back1": "Kamynnsky",
+        "back2": "Bruno",
+        "guitar_ac": "Flávio F.",
+        "guitar_el": "-",
+        "keys": "Efrain",
+        "bass": "Ítalo",
+        "drums": "Ícaro",
+        "kids1": "Valéria",
+        "kids2": "Karol",
+        "sound": "Felipe",
+        "proj": "Ramon",
+        "stream": "Lorivaldo",
+        "acolhimento": "Leadnro e Paula",
+        "estacionamento": "João Paulo e Roberta"
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Com muito louvor"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Jesus em tua presença"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Palavras"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Eu vejo a Glória"
+        }
+      ]
+    },
+    {
+      "date": "Qui, 22/01/2026",
+      "date_raw": "2026-01-22",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "Equipe 06",
+      "preacher": "Edla",
+      "theme": "5/7 DIREÇÃO DIVINA - SIRVA ANTES DE TUDO",
+      "text": "2 Reis 5.1-17",
+      "worship": "Ana Júlia (Ministro) • Manú (Back) • Bruno (Violão) • Efrain (Teclado) • Italo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Ana Carolina",
+      "media": "Som: Felipe • Proj: Jordana • Transm: Lorivaldo",
+      "diaconia": "Acolhimento: Johnatan e Tatiana • Estacionamento: Moiséis e Thaynará",
+      "details": {
+        "preacher": "Edla",
+        "theme": "5/7 DIREÇÃO DIVINA - SIRVA ANTES DE TUDO",
+        "text": "2 Reis 5.1-17",
+        "minister": "Ana Júlia",
+        "back1": "Manú",
+        "back2": "-",
+        "guitar_ac": "Bruno",
+        "guitar_el": "",
+        "keys": "Efrain",
+        "bass": "Italo",
+        "drums": "Ícaro",
+        "kids1": "Ana Carolina",
+        "kids2": "",
+        "sound": "Felipe",
+        "proj": "Jordana",
+        "stream": "Lorivaldo",
+        "acolhimento": "Johnatan e Tatiana",
+        "estacionamento": "Moiséis e Thaynará"
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Atos 2"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Quero conhecer Jesus"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Sonda-me"
+        }
+      ]
+    },
+    {
+      "date": "Dom, 25/01/2026",
+      "date_raw": "2026-01-25",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração PROFÉTICO",
+      "team": "Equipe 07",
+      "preacher": "Pr. Flávio Amaral",
+      "theme": "6/7 DIREÇÃO DIVINA - ENCONTRE OS QUE TE MELHORAM",
+      "text": "Filipenses 3:12-14",
+      "worship": "Kamynnsky (Ministro) • Manú, Bruno (Back) • Flávio F. (Violão) • Efrain (Teclado) • João Paulo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Letícia • T2: Jordana",
+      "media": "Som: Felipe • Proj: Ramon • Transm: Lorivaldo",
+      "diaconia": "Acolhimento: Joel e Nadir • Estacionamento: Edson e Sandra",
+      "details": {
+        "preacher": "Pr. Flávio Amaral",
+        "theme": "6/7 DIREÇÃO DIVINA - ENCONTRE OS QUE TE MELHORAM",
+        "text": "Filipenses 3:12-14",
+        "minister": "Kamynnsky",
+        "back1": "Manú",
+        "back2": "Bruno",
+        "guitar_ac": "Flávio F.",
+        "guitar_el": "Italo",
+        "keys": "Efrain",
+        "bass": "João Paulo",
+        "drums": "Ícaro",
+        "kids1": "Letícia",
+        "kids2": "Jordana",
+        "sound": "Felipe",
+        "proj": "Ramon",
+        "stream": "Lorivaldo",
+        "acolhimento": "Joel e Nadir",
+        "estacionamento": "Edson e Sandra"
+      },
+      "songs": []
+    },
+    {
+      "date": "Qui, 29/01/2026",
+      "date_raw": "2026-01-29",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração e Vigília",
+      "team": "Equipe 08",
+      "preacher": "Manuele/Pr. Flávio",
+      "theme": "O DESPERTAR DE UMA NOVA GERAÇÃO e 7/7 DIREÇÃO DIVINA - FIRME NO PROPÓSITO E VÁ",
+      "text": "Daniel 1:1-21",
+      "worship": "Manú (Ministro) • Kamynnsky, Ana Júlia (Back) • Bruno (Violão) • Efrain (Teclado) • Italo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Letícia",
+      "media": "Som: Felipe • Proj: Yasmin • Transm: Lorivaldo",
+      "diaconia": "Acolhimento: Edson e Sandra • Estacionamento: Leadnro e Paula",
+      "details": {
+        "preacher": "Manuele/Pr. Flávio",
+        "theme": "O DESPERTAR DE UMA NOVA GERAÇÃO e 7/7 DIREÇÃO DIVINA - FIRME NO PROPÓSITO E VÁ",
+        "text": "Daniel 1:1-21",
+        "minister": "Manú",
+        "back1": "Kamynnsky",
+        "back2": "Ana Júlia",
+        "guitar_ac": "Bruno",
+        "guitar_el": "-",
+        "keys": "Efrain",
+        "bass": "Italo",
+        "drums": "Ícaro",
+        "kids1": "Letícia",
+        "kids2": "",
+        "sound": "Felipe",
+        "proj": "Yasmin",
+        "stream": "Lorivaldo",
+        "acolhimento": "Edson e Sandra",
+        "estacionamento": "Leadnro e Paula"
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Nada pode calar um adorador"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Jesus é o caminho"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "maravilhado"
+        }
+      ]
+    }
+  ],
+  "Fev": [
+    {
+      "date": "Qui, 29/01/2026",
+      "date_raw": "2026-01-29",
+      "weekday": "Quinta-feira",
+      "title": "NÃO HAVERÁ ATIVIDADES",
+      "team": "",
+      "preacher": "",
+      "theme": "",
+      "text": "",
+      "worship": "A definir",
+      "kids": "A definir",
+      "media": "A definir",
+      "diaconia": "",
+      "details": {
+        "preacher": "",
+        "theme": "",
+        "text": "",
+        "minister": "",
+        "back1": "",
+        "back2": "",
+        "guitar_ac": "",
+        "guitar_el": "",
+        "keys": "",
+        "bass": "",
+        "drums": "",
+        "kids1": "",
+        "kids2": "",
+        "sound": "",
+        "proj": "",
+        "stream": "",
+        "acolhimento": "",
+        "estacionamento": ""
+      },
+      "songs": []
+    },
+    {
+      "date": "Dom, 01/02/2026",
+      "date_raw": "2026-02-01",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração CEIA DO SENHOR",
+      "team": "Equipe 01",
+      "preacher": "Pr. Flávio",
+      "theme": "O Poder da Vulnerabilidade - Por que sua história real importa mais que sua \"vida de novela\"",
+      "text": "At 22.1-21",
+      "worship": "Karol (Ministro) • Manú/Ana Júlia, Letícia/Bruno (Back) • Flávio F. (Violão) • Efrain (Teclado) • Italo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Jordana • T2: Ana Júlia",
+      "media": "Som: Felipe • Proj: Yasmin • Transm: Lucas e Davi",
+      "diaconia": "Acolhimento: Joel e Nadir • Estacionamento: Johnatan",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "O Poder da Vulnerabilidade - Por que sua história real importa mais que sua \"vida de novela\"",
+        "text": "At 22.1-21",
+        "minister": "Karol",
+        "back1": "Manú/Ana Júlia",
+        "back2": "Letícia/Bruno",
+        "guitar_ac": "Flávio F.",
+        "guitar_el": "-",
+        "keys": "Efrain",
+        "bass": "Italo",
+        "drums": "Ícaro",
+        "kids1": "Jordana",
+        "kids2": "Ana Júlia",
+        "sound": "Felipe",
+        "proj": "Yasmin",
+        "stream": "Lucas e Davi",
+        "acolhimento": "Joel e Nadir",
+        "estacionamento": "Johnatan"
+      },
+      "songs": []
+    },
+    {
+      "date": "Qui, 05/02/2026",
+      "date_raw": "2026-02-05",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "Equipe 02",
+      "preacher": "Pra. Iracilene",
+      "theme": "Arquitetando o Amanhã - Como construir sonhos de Deus num terreno difícil\n\n\n\"\n\n\n - Por que sua história real importa mais que sua \"vida de novela\"",
+      "text": "Jr 29.4-7, 11;At 2.17-18",
+      "worship": "Ana Júlia (Ministro) • Manú, Letícia (Back) • Bruno (Violão) • Efrain (Teclado) • Italo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Ana Carolina",
+      "media": "Som: Lucas e João Gabriel • Proj: Ramon e Samuel • Transm: Lorivaldo",
+      "diaconia": "Acolhimento: Juliana e Maria Ed. • Estacionamento: Kauã",
+      "details": {
+        "preacher": "Pra. Iracilene",
+        "theme": "Arquitetando o Amanhã - Como construir sonhos de Deus num terreno difícil\n\n\n\"\n\n\n - Por que sua história real importa mais que sua \"vida de novela\"",
+        "text": "Jr 29.4-7, 11;At 2.17-18",
+        "minister": "Ana Júlia",
+        "back1": "Manú",
+        "back2": "Letícia",
+        "guitar_ac": "Bruno",
+        "guitar_el": "-",
+        "keys": "Efrain",
+        "bass": "Italo",
+        "drums": "Ícaro",
+        "kids1": "Ana Carolina",
+        "kids2": "",
+        "sound": "Lucas e João Gabriel",
+        "proj": "Ramon e Samuel",
+        "stream": "Lorivaldo",
+        "acolhimento": "Juliana e Maria Ed.",
+        "estacionamento": "Kauã"
+      },
+      "songs": []
+    },
+    {
+      "date": "Dom, 08/02/2026",
+      "date_raw": "2026-02-08",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração PROFÉTICO",
+      "team": "Equipe 03",
+      "preacher": "Pr. Flávio",
+      "theme": "O Mito da Igreja Perfeita - Por que a verdadeira comunhão dá trabalho, custa caro e vale a pena.",
+      "text": "At 2.42-47; Fp 2.1-5",
+      "worship": "Ana Júlia (Ministro) • Manú, Karol (Back) • Flávio F. (Violão) • Efrain (Teclado) • Italo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Yasmin • T2: Mariana",
+      "media": "Som: Felipe • Proj: Jordana • Transm: Lucas e Davi",
+      "diaconia": "Acolhimento: Leandro e Paula • Estacionamento: Edson",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "O Mito da Igreja Perfeita - Por que a verdadeira comunhão dá trabalho, custa caro e vale a pena.",
+        "text": "At 2.42-47; Fp 2.1-5",
+        "minister": "Ana Júlia",
+        "back1": "Manú",
+        "back2": "Karol",
+        "guitar_ac": "Flávio F.",
+        "guitar_el": "-",
+        "keys": "Efrain",
+        "bass": "Italo",
+        "drums": "Ícaro",
+        "kids1": "Yasmin",
+        "kids2": "Mariana",
+        "sound": "Felipe",
+        "proj": "Jordana",
+        "stream": "Lucas e Davi",
+        "acolhimento": "Leandro e Paula",
+        "estacionamento": "Edson"
+      },
+      "songs": []
+    },
+    {
+      "date": "Qui, 12/02/2026",
+      "date_raw": "2026-02-12",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "Equipe 04",
+      "preacher": "Paula",
+      "theme": "A Regra de Ouro da Convivência - O manual prático de como não se matar uns aos outros.",
+      "text": "1 Pedro 1.22",
+      "worship": "Bruno (Ministro) • Manú, Letícia (Back) • Bruno (Violão) • Efrain (Teclado) • Italo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Valéria e \nAnna Laura",
+      "media": "Som: Lucas e João Gabriel • Proj: Ramon e Samuel • Transm: Lorivaldo",
+      "diaconia": "Acolhimento: Moiséis e Thaynara • Estacionamento: Johnatan",
+      "details": {
+        "preacher": "Paula",
+        "theme": "A Regra de Ouro da Convivência - O manual prático de como não se matar uns aos outros.",
+        "text": "1 Pedro 1.22",
+        "minister": "Bruno",
+        "back1": "Manú",
+        "back2": "Letícia",
+        "guitar_ac": "Bruno",
+        "guitar_el": "-",
+        "keys": "Efrain",
+        "bass": "Italo",
+        "drums": "Ícaro",
+        "kids1": "Valéria e \nAnna Laura",
+        "kids2": "",
+        "sound": "Lucas e João Gabriel",
+        "proj": "Ramon e Samuel",
+        "stream": "Lorivaldo",
+        "acolhimento": "Moiséis e Thaynara",
+        "estacionamento": "Johnatan"
+      },
+      "songs": []
+    },
+    {
+      "date": "Dom, 15/02/2026",
+      "date_raw": "2026-02-15",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração GERAÇÕES",
+      "team": "Equipe 05",
+      "preacher": "Efrain",
+      "theme": "O Dinheiro e o Reino: O Tabu da Generosidade - Quando a fé mexe no bolso (e por que isso dói tanto).",
+      "text": "2 Co 8.1-5; At 4.32-37",
+      "worship": "Manú (Ministro) • Kamynnsky, Bruno (Back) • Italo (Violão) • Efrain (Teclado) • João Paulo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Ana Carolina • T2: Karol",
+      "media": "Som: Felipe • Proj: Yasmin • Transm: Lucas e Davi",
+      "diaconia": "Acolhimento: Flávio e Iracilene • Estacionamento: Johnatan",
+      "details": {
+        "preacher": "Efrain",
+        "theme": "O Dinheiro e o Reino: O Tabu da Generosidade - Quando a fé mexe no bolso (e por que isso dói tanto).",
+        "text": "2 Co 8.1-5; At 4.32-37",
+        "minister": "Manú",
+        "back1": "Kamynnsky",
+        "back2": "Bruno",
+        "guitar_ac": "Italo",
+        "guitar_el": "-",
+        "keys": "Efrain",
+        "bass": "João Paulo",
+        "drums": "Ícaro",
+        "kids1": "Ana Carolina",
+        "kids2": "Karol",
+        "sound": "Felipe",
+        "proj": "Yasmin",
+        "stream": "Lucas e Davi",
+        "acolhimento": "Flávio e Iracilene",
+        "estacionamento": "Johnatan"
+      },
+      "songs": []
+    },
+    {
+      "date": "Qui, 19/02/2026",
+      "date_raw": "2026-02-19",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "Equipe 06",
+      "preacher": "Italo",
+      "theme": "Quando \"Vou Orar\" Não é Suficiente - Passando da espiritualidade teórica para o cuidado prático.",
+      "text": "Tg 5.16; Fp 4.10-19",
+      "worship": "Bruno (Ministro) • Manú, Letícia (Back) • Bruno (Violão) • Efrain (Teclado) • Italo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Letícia",
+      "media": "Som: Lucas e João Gabriel • Proj: Ramon e Samuel • Transm: Lorivaldo",
+      "diaconia": "Acolhimento: Juliana e Maria Ed. • Estacionamento: Kauã",
+      "details": {
+        "preacher": "Italo",
+        "theme": "Quando \"Vou Orar\" Não é Suficiente - Passando da espiritualidade teórica para o cuidado prático.",
+        "text": "Tg 5.16; Fp 4.10-19",
+        "minister": "Bruno",
+        "back1": "Manú",
+        "back2": "Letícia",
+        "guitar_ac": "Bruno",
+        "guitar_el": "",
+        "keys": "Efrain",
+        "bass": "Italo",
+        "drums": "Ícaro",
+        "kids1": "Letícia",
+        "kids2": "",
+        "sound": "Lucas e João Gabriel",
+        "proj": "Ramon e Samuel",
+        "stream": "Lorivaldo",
+        "acolhimento": "Juliana e Maria Ed.",
+        "estacionamento": "Kauã"
+      },
+      "songs": []
+    },
+    {
+      "date": "Dom, 22/02/2026",
+      "date_raw": "2026-02-22",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração REVIVA CANÇÕES",
+      "team": "Equipe 07",
+      "preacher": "Pr. Flávio",
+      "theme": "Onde Você Quer Chegar? O Perigo de Correr sem Direção - Visão sem disciplina é apenas um sonho bonito que nunca vai acontecer.",
+      "text": "At 26.19; At 2.42-47",
+      "worship": "Kamynnsky (Ministro) • Manú, Bruno (Back) • Flávio F. (Violão) • Efrain (Teclado) • João Paulo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Letícia • T2: Anna Laura",
+      "media": "Som: Felipe • Proj: Jordana • Transm: Lucas e Davi",
+      "diaconia": "Acolhimento: Joel e Nadir • Estacionamento: Edson",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "Onde Você Quer Chegar? O Perigo de Correr sem Direção - Visão sem disciplina é apenas um sonho bonito que nunca vai acontecer.",
+        "text": "At 26.19; At 2.42-47",
+        "minister": "Kamynnsky",
+        "back1": "Manú",
+        "back2": "Bruno",
+        "guitar_ac": "Flávio F.",
+        "guitar_el": "Italo",
+        "keys": "Efrain",
+        "bass": "João Paulo",
+        "drums": "Ícaro",
+        "kids1": "Letícia",
+        "kids2": "Anna Laura",
+        "sound": "Felipe",
+        "proj": "Jordana",
+        "stream": "Lucas e Davi",
+        "acolhimento": "Joel e Nadir",
+        "estacionamento": "Edson"
+      },
+      "songs": []
+    },
+    {
+      "date": "Qui, 26/02/2026",
+      "date_raw": "2026-02-26",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração e Vigília",
+      "team": "Equipe 08",
+      "preacher": "Leandro / Manú(Vig)",
+      "theme": "Treino Duro, Jogo Fácil - A disciplina do corpo como ato de guerra espiritual.\n\n\n\"",
+      "text": "1 Co 9.24-27",
+      "worship": "Manú (Ministro) • Kamynnsky, Ana Júlia (Back) • Bruno (Violão) • Efrain (Teclado) • Italo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Valéria e \nAnna Laura",
+      "media": "Som: Lucas e João Gabriel • Proj: Felipe • Transm: Felipe",
+      "diaconia": "Acolhimento: Moiséis e Thaynara • Estacionamento: Johnatan",
+      "details": {
+        "preacher": "Leandro / Manú(Vig)",
+        "theme": "Treino Duro, Jogo Fácil - A disciplina do corpo como ato de guerra espiritual.\n\n\n\"",
+        "text": "1 Co 9.24-27",
+        "minister": "Manú",
+        "back1": "Kamynnsky",
+        "back2": "Ana Júlia",
+        "guitar_ac": "Bruno",
+        "guitar_el": "-",
+        "keys": "Efrain",
+        "bass": "Italo",
+        "drums": "Ícaro",
+        "kids1": "Valéria e \nAnna Laura",
+        "kids2": "",
+        "sound": "Lucas e João Gabriel",
+        "proj": "Felipe",
+        "stream": "Felipe",
+        "acolhimento": "Moiséis e Thaynara",
+        "estacionamento": "Johnatan"
+      },
+      "songs": []
+    }
+  ],
+  "Mar": [
+    {
+      "date": "Dom, 01/03/2026",
+      "date_raw": "2026-03-01",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração CEIA DO SENHOR",
+      "team": "Equipe 01",
+      "preacher": "Pr. Flávio",
+      "theme": "O Cristão e o Dia do Senhor",
+      "text": "2Pe 3",
+      "worship": "Manú (Ministro) • Kamynnsky, Bruno (Back) • Flávio F. (Violão) • Efrain (Teclado) • Italo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Ana Carolina e Ester • T2: Ana Júlia",
+      "media": "Som: Lucas • Proj: Ramon e Samuel • Transm: Lucas",
+      "diaconia": "Acolhimento: Edson e Sandra • Estacionamento: Leandro e Paula",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "O Cristão e o Dia do Senhor",
+        "text": "2Pe 3",
+        "minister": "Manú",
+        "back1": "Kamynnsky",
+        "back2": "Bruno",
+        "guitar_ac": "Flávio F.",
+        "guitar_el": "-",
+        "keys": "Efrain",
+        "bass": "Italo",
+        "drums": "Ícaro",
+        "kids1": "Ana Carolina e Ester",
+        "kids2": "Ana Júlia",
+        "sound": "Lucas",
+        "proj": "Ramon e Samuel",
+        "stream": "Lucas",
+        "acolhimento": "Edson e Sandra",
+        "estacionamento": "Leandro e Paula"
+      },
+      "songs": []
+    },
+    {
+      "date": "Qui, 05/03/2026",
+      "date_raw": "2026-03-05",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "Equipe 02",
+      "preacher": "Pr. Flávio",
+      "theme": "O coração da vida simples",
+      "text": "Mq 6.8; Mt 6.33, 34",
+      "worship": "Manú (Ministro) • Karol, Letícia (Back) • Bruno (Violão) • Efrain (Teclado) • Italo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Karolyne e Anna  L.",
+      "media": "Som: Felipe • Proj: Lucas • Transm: Lucas",
+      "diaconia": "Acolhimento: Leandro e Paula • Estacionamento: Johnatan e Tatiana",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "O coração da vida simples",
+        "text": "Mq 6.8; Mt 6.33, 34",
+        "minister": "Manú",
+        "back1": "Karol",
+        "back2": "Letícia",
+        "guitar_ac": "Bruno",
+        "guitar_el": "-",
+        "keys": "Efrain",
+        "bass": "Italo",
+        "drums": "Ícaro",
+        "kids1": "Karolyne e Anna  L.",
+        "kids2": "",
+        "sound": "Felipe",
+        "proj": "Lucas",
+        "stream": "Lucas",
+        "acolhimento": "Leandro e Paula",
+        "estacionamento": "Johnatan e Tatiana"
+      },
+      "songs": []
+    },
+    {
+      "date": "Dom, 08/03/2026",
+      "date_raw": "2026-03-08",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração PROFÉTICO",
+      "team": "Equipe 03",
+      "preacher": "Pr. Flávio",
+      "theme": "Jesus explica a vida simples",
+      "text": "Mt 6.19-34",
+      "worship": "Karol (Ministro) • Manú, Ana Júlia (Back) • Flávio F. (Violão) • Efrain (Teclado) • Italo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Yasmim • T2: Mariana",
+      "media": "Som: Lucas • Proj: Jordana • Transm: Lucas",
+      "diaconia": "Acolhimento: Joel e Nadir • Estacionamento: Edson e Sandra",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "Jesus explica a vida simples",
+        "text": "Mt 6.19-34",
+        "minister": "Karol",
+        "back1": "Manú",
+        "back2": "Ana Júlia",
+        "guitar_ac": "Flávio F.",
+        "guitar_el": "-",
+        "keys": "Efrain",
+        "bass": "Italo",
+        "drums": "Ícaro",
+        "kids1": "Yasmim",
+        "kids2": "Mariana",
+        "sound": "Lucas",
+        "proj": "Jordana",
+        "stream": "Lucas",
+        "acolhimento": "Joel e Nadir",
+        "estacionamento": "Edson e Sandra"
+      },
+      "songs": []
+    },
+    {
+      "date": "Qui, 12/03/2026",
+      "date_raw": "2026-03-12",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "Equipe 04",
+      "preacher": "Pra. Iracilene",
+      "theme": "Livre de problemas financeiros",
+      "text": "Rm 13.8; Mt 6.19-34",
+      "worship": "Karol (Ministro) • Manú (Back) • Bruno (Violão) • Efrain (Teclado) • Italo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Valéria e \nMaria Eduarda",
+      "media": "Som: Felipe • Proj: Lucas • Transm: Lucas",
+      "diaconia": "Acolhimento: Moiséis e Thaynara • Estacionamento: Johnatan e Tatiana",
+      "details": {
+        "preacher": "Pra. Iracilene",
+        "theme": "Livre de problemas financeiros",
+        "text": "Rm 13.8; Mt 6.19-34",
+        "minister": "Karol",
+        "back1": "Manú",
+        "back2": "-",
+        "guitar_ac": "Bruno",
+        "guitar_el": "-",
+        "keys": "Efrain",
+        "bass": "Italo",
+        "drums": "Ícaro",
+        "kids1": "Valéria e \nMaria Eduarda",
+        "kids2": "",
+        "sound": "Felipe",
+        "proj": "Lucas",
+        "stream": "Lucas",
+        "acolhimento": "Moiséis e Thaynara",
+        "estacionamento": "Johnatan e Tatiana"
+      },
+      "songs": []
+    },
+    {
+      "date": "Dom, 15/03/2026",
+      "date_raw": "2026-03-15",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração GERAÇÕES",
+      "team": "Equipe 05",
+      "preacher": "Efrain",
+      "theme": "Se entregando a sua corrida - livre de pesos",
+      "text": "Hb 12.1, 2",
+      "worship": "Ana Júlia (Ministro) • Manú, Bruno (Back) • Italo (Violão) • Efrain (Teclado) • João Paulo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Ana Carolina • T2: Karol e Ester",
+      "media": "Som: Lucas • Proj: Ramon e Samuel • Transm: Lucas",
+      "diaconia": "Acolhimento: Ana Julia e Yasmin • Estacionamento: Kauã e Maria Ed.",
+      "details": {
+        "preacher": "Efrain",
+        "theme": "Se entregando a sua corrida - livre de pesos",
+        "text": "Hb 12.1, 2",
+        "minister": "Ana Júlia",
+        "back1": "Manú",
+        "back2": "Bruno",
+        "guitar_ac": "Italo",
+        "guitar_el": "-",
+        "keys": "Efrain",
+        "bass": "João Paulo",
+        "drums": "Ícaro",
+        "kids1": "Ana Carolina",
+        "kids2": "Karol e Ester",
+        "sound": "Lucas",
+        "proj": "Ramon e Samuel",
+        "stream": "Lucas",
+        "acolhimento": "Ana Julia e Yasmin",
+        "estacionamento": "Kauã e Maria Ed."
+      },
+      "songs": []
+    },
+    {
+      "date": "Qui, 19/03/2026",
+      "date_raw": "2026-03-19",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "Equipe 06",
+      "preacher": "Manú",
+      "theme": "Livre de ativismo",
+      "text": "Lc 9.57-62; Jo 15.1-4",
+      "worship": "Bruno (Ministro) • Manú, Letícia (Back) • Bruno (Violão) • Efrain (Teclado) • Italo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Letícia e Ester",
+      "media": "Som: Felipe • Proj: Lucas • Transm: Lucas",
+      "diaconia": "Acolhimento: Leandro e Paula • Estacionamento: Johnatan e Tatiana",
+      "details": {
+        "preacher": "Manú",
+        "theme": "Livre de ativismo",
+        "text": "Lc 9.57-62; Jo 15.1-4",
+        "minister": "Bruno",
+        "back1": "Manú",
+        "back2": "Letícia",
+        "guitar_ac": "Bruno",
+        "guitar_el": "",
+        "keys": "Efrain",
+        "bass": "Italo",
+        "drums": "Ícaro",
+        "kids1": "Letícia e Ester",
+        "kids2": "",
+        "sound": "Felipe",
+        "proj": "Lucas",
+        "stream": "Lucas",
+        "acolhimento": "Leandro e Paula",
+        "estacionamento": "Johnatan e Tatiana"
+      },
+      "songs": []
+    },
+    {
+      "date": "Dom, 22/03/2026",
+      "date_raw": "2026-03-22",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração REVIVA CANÇÕES",
+      "team": "Equipe 07",
+      "preacher": "Pr. Flávio",
+      "theme": "Administrando bem seu tempo",
+      "text": "Cl 4.5, 6; Ef 5.14-18",
+      "worship": "Kamynnsky (Ministro) • Manú, Bruno | Letícia (Back) • Flávio F. (Violão) • Efrain (Teclado) • Ítalo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Jordana • T2: Anna Laura",
+      "media": "Som: Lucas • Proj: Jordana • Transm: Lucas",
+      "diaconia": "Acolhimento: Joel e Nadir • Estacionamento: Edson",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "Administrando bem seu tempo",
+        "text": "Cl 4.5, 6; Ef 5.14-18",
+        "minister": "Kamynnsky",
+        "back1": "Manú",
+        "back2": "Bruno | Letícia",
+        "guitar_ac": "Flávio F.",
+        "guitar_el": "-",
+        "keys": "Efrain",
+        "bass": "Ítalo",
+        "drums": "Ícaro",
+        "kids1": "Jordana",
+        "kids2": "Anna Laura",
+        "sound": "Lucas",
+        "proj": "Jordana",
+        "stream": "Lucas",
+        "acolhimento": "Joel e Nadir",
+        "estacionamento": "Edson"
+      },
+      "songs": []
+    },
+    {
+      "date": "Qui, 26/03/2026",
+      "date_raw": "2026-03-26",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "Equipe 08",
+      "preacher": "Edla",
+      "theme": "Sabendo quando dizer não",
+      "text": "Mc 1.35-39",
+      "worship": "Manú (Ministro) • Karol (Back) • Bruno (Violão) • Efrain (Teclado) • Italo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Leticia e Ana Carolina",
+      "media": "Som: Felipe • Proj: Ramon e Samuel • Transm: Lucas",
+      "diaconia": "Acolhimento: Moiséis e Thaynara • Estacionamento: Kauã e Maria Ed.",
+      "details": {
+        "preacher": "Edla",
+        "theme": "Sabendo quando dizer não",
+        "text": "Mc 1.35-39",
+        "minister": "Manú",
+        "back1": "Karol",
+        "back2": "-",
+        "guitar_ac": "Bruno",
+        "guitar_el": "-",
+        "keys": "Efrain",
+        "bass": "Italo",
+        "drums": "Ícaro",
+        "kids1": "Leticia e Ana Carolina",
+        "kids2": "",
+        "sound": "Felipe",
+        "proj": "Ramon e Samuel",
+        "stream": "Lucas",
+        "acolhimento": "Moiséis e Thaynara",
+        "estacionamento": "Kauã e Maria Ed."
+      },
+      "songs": []
+    },
+    {
+      "date": "Dom, 29/03/2026",
+      "date_raw": "2026-03-29",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração GRATIDÃO",
+      "team": "Equipe 09",
+      "preacher": "Pr. Flávio",
+      "theme": "Vivendo despreocupado, curtindo a vida",
+      "text": "Lc 12.22-34; Fp 4.4-7, 11-13",
+      "worship": "Manú (Ministro) • Kamynnsky, Bruno (Back) • Flávio F. (Violão) • Efrain (Teclado) • Italo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Valeria • T2: Mariana",
+      "media": "Som: Lucas • Proj: Ramon e Samuel • Transm: Lucas",
+      "diaconia": "Acolhimento: Edson e Sandra • Estacionamento: Johnatan e Tatiana",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "Vivendo despreocupado, curtindo a vida",
+        "text": "Lc 12.22-34; Fp 4.4-7, 11-13",
+        "minister": "Manú",
+        "back1": "Kamynnsky",
+        "back2": "Bruno",
+        "guitar_ac": "Flávio F.",
+        "guitar_el": "João",
+        "keys": "Efrain",
+        "bass": "Italo",
+        "drums": "Ícaro",
+        "kids1": "Valeria",
+        "kids2": "Mariana",
+        "sound": "Lucas",
+        "proj": "Ramon e Samuel",
+        "stream": "Lucas",
+        "acolhimento": "Edson e Sandra",
+        "estacionamento": "Johnatan e Tatiana"
+      },
+      "songs": []
+    }
+  ],
+  "Abr": [
+    {
+      "date": "Qui, 02/04/2026",
+      "date_raw": "2026-04-02",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração e Vigília",
+      "team": "Equipe 01",
+      "preacher": "Efrain/Flávio(Vgl)",
+      "theme": "RECONHECENDO NOSSAS BARREIRAS AO EVANGELISMO",
+      "text": "2Co 5.14–21; Mc 8.34–38",
+      "worship": "Lucas (Ministro) • Manú (Back) • Ítalo (Violão) • Lucas (Teclado) • Ícaro (Bateria)",
+      "kids": "T1: Karolyne e Maria Eduarda",
+      "media": "Som: Lucas • Proj: Felipe • Transm: Felipe",
+      "diaconia": "Acolhimento: Johnatan e Tatiana • Estacionamento: Kauã e Maria Ed.",
+      "details": {
+        "preacher": "Efrain/Flávio(Vgl)",
+        "theme": "RECONHECENDO NOSSAS BARREIRAS AO EVANGELISMO",
+        "text": "2Co 5.14–21; Mc 8.34–38",
+        "minister": "Lucas",
+        "back1": "Manú",
+        "back2": "",
+        "guitar_ac": "Ítalo",
+        "guitar_el": "-",
+        "keys": "Lucas",
+        "bass": "",
+        "drums": "Ícaro",
+        "kids1": "Karolyne e Maria Eduarda",
+        "kids2": "",
+        "sound": "Lucas",
+        "proj": "Felipe",
+        "stream": "Felipe",
+        "acolhimento": "Johnatan e Tatiana",
+        "estacionamento": "Kauã e Maria Ed."
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "21. Senhor te quero"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "20. Tua graça me basta"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "45. Mensagem da Cruz"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "61. Pai nosso"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "85. Ele vem"
+        }
+      ]
+    },
+    {
+      "date": "Dom, 05/04/2026",
+      "date_raw": "2026-04-05",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração CEIA DO SENHOR",
+      "team": "Equipe 02",
+      "preacher": "Pr. Flávio",
+      "theme": "A MAIOR MOTIVAÇÃO PARA AMAR - A CRUZ",
+      "text": "Lc 19.1–10;15.1–10; Mt 28.18–20",
+      "worship": "Karol (Ministro) • Ana Júlia, Manú (Back) • Flávio F. (Violão) • Lucas (Teclado) • Efrain (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Ana Carolina • T2: Jordana",
+      "media": "Som: Felipe • Proj: Ramon e Samuel • Transm: Felipe",
+      "diaconia": "Acolhimento: Joel e Nadir • Estacionamento: Edson e Sandra",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "A MAIOR MOTIVAÇÃO PARA AMAR - A CRUZ",
+        "text": "Lc 19.1–10;15.1–10; Mt 28.18–20",
+        "minister": "Karol",
+        "back1": "Ana Júlia",
+        "back2": "Manú",
+        "guitar_ac": "Flávio F.",
+        "guitar_el": "-",
+        "keys": "Lucas",
+        "bass": "Efrain",
+        "drums": "Ícaro",
+        "kids1": "Ana Carolina",
+        "kids2": "Jordana",
+        "sound": "Felipe",
+        "proj": "Ramon e Samuel",
+        "stream": "Felipe",
+        "acolhimento": "Joel e Nadir",
+        "estacionamento": "Edson e Sandra"
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "01. Vem está é a hora"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "22. Meu respirar"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "50. Porque ele vive"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "79. O quão lindo esse nome é"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "80. Canção do apocalipse"
+        }
+      ]
+    },
+    {
+      "date": "Qui, 09/04/2026",
+      "date_raw": "2026-04-09",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "Equipe 03",
+      "preacher": "Pra. Iracilene",
+      "theme": "MOTIVANDO OS DESANIMADOS",
+      "text": "Mt 9.36–37; At 17.26–27",
+      "worship": "Bruno (Ministro) • Karol (Back) • Bruno (Violão) • Lucas (Teclado) • Italo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Léticia e \nMaria Eduarda",
+      "media": "Som: Lucas • Proj: Efrain • Transm: Efrain",
+      "diaconia": "Acolhimento: Moiséis e Thaynara • Estacionamento: Johnatan e Tatiana",
+      "details": {
+        "preacher": "Pra. Iracilene",
+        "theme": "MOTIVANDO OS DESANIMADOS",
+        "text": "Mt 9.36–37; At 17.26–27",
+        "minister": "Bruno",
+        "back1": "Karol",
+        "back2": "",
+        "guitar_ac": "Bruno",
+        "guitar_el": "-",
+        "keys": "Lucas",
+        "bass": "Italo",
+        "drums": "Ícaro",
+        "kids1": "Léticia e \nMaria Eduarda",
+        "kids2": "",
+        "sound": "Lucas",
+        "proj": "Efrain",
+        "stream": "Efrain",
+        "acolhimento": "Moiséis e Thaynara",
+        "estacionamento": "Johnatan e Tatiana"
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "05. Todas as coisas"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "31. Te Louvarei"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "53. Eu me rendo"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "70. Em Espírito em verdade"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "75. Único"
+        }
+      ]
+    },
+    {
+      "date": "Dom, 12/04/2026",
+      "date_raw": "2026-04-12",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração PROFÉTICO",
+      "team": "Equipe 04",
+      "preacher": "Pr. Maxsuel (CBN/Go)",
+      "theme": "MISSÕES",
+      "text": "",
+      "worship": "Manú (Ministro) • Letícia, Bruno (Back) • João Vitor (Violão) • Lucas (Teclado) • João Paulo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Valéria • T2: Ana Júlia e Ester",
+      "media": "Som: Felipe • Proj: Jordana • Transm: Felipe",
+      "diaconia": "Acolhimento: Edson e Sandra • Estacionamento: Johnatan e Tatiana",
+      "details": {
+        "preacher": "Pr. Maxsuel (CBN/Go)",
+        "theme": "MISSÕES",
+        "text": "",
+        "minister": "Manú",
+        "back1": "Letícia",
+        "back2": "Bruno",
+        "guitar_ac": "João Vitor",
+        "guitar_el": "Flávio F.",
+        "keys": "Lucas",
+        "bass": "João Paulo",
+        "drums": "Ícaro",
+        "kids1": "Valéria",
+        "kids2": "Ana Júlia e Ester",
+        "sound": "Felipe",
+        "proj": "Jordana",
+        "stream": "Felipe",
+        "acolhimento": "Edson e Sandra",
+        "estacionamento": "Johnatan e Tatiana"
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "01. Vem está é a hora"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "24. Me esvaziar"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "57. Cruz (Casa Worship)"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "61. Pai nosso"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "81. Maranata"
+        }
+      ]
+    },
+    {
+      "date": "Qui, 16/04/2026",
+      "date_raw": "2026-04-16",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "Equipe 05",
+      "preacher": "Manú",
+      "theme": "CRIANDO UMA ATMOSFERA PARA BOAS NOVAS",
+      "text": "Jo 4.1–42",
+      "worship": "Lucas (Ministro) • Letícia, Manú (Back) • Bruno (Violão) • Lucas (Teclado) • Italo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Karolyne e Ester",
+      "media": "Som: Lucas • Proj: Efrain • Transm: Efrain",
+      "diaconia": "Acolhimento: Johnatan e Tatiana • Estacionamento: Kauã e Maria Ed.",
+      "details": {
+        "preacher": "Manú",
+        "theme": "CRIANDO UMA ATMOSFERA PARA BOAS NOVAS",
+        "text": "Jo 4.1–42",
+        "minister": "Lucas",
+        "back1": "Letícia",
+        "back2": "Manú",
+        "guitar_ac": "Bruno",
+        "guitar_el": "",
+        "keys": "Lucas",
+        "bass": "Italo",
+        "drums": "Ícaro",
+        "kids1": "Karolyne e Ester",
+        "kids2": "",
+        "sound": "Lucas",
+        "proj": "Efrain",
+        "stream": "Efrain",
+        "acolhimento": "Johnatan e Tatiana",
+        "estacionamento": "Kauã e Maria Ed."
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "14. Estamos de pé"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "31. Te louvarei"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "47. A cruz"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "91. Até que o senhor venha"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "92. A terra clama"
+        }
+      ]
+    },
+    {
+      "date": "Dom, 19/04/2026",
+      "date_raw": "2026-04-19",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração GERAÇÕES",
+      "team": "Equipe 06",
+      "preacher": "Pr. Flávio",
+      "theme": "O IMPACTO DO TESTEMUNHO",
+      "text": "1 Pe 3.15–16; Ap 2.12–13",
+      "worship": "Ana Júlia (Ministro) • Bruno, Letícia (Back) • João Vitor (Violão) • Efrain (Teclado) • Ícaro (Bateria)",
+      "kids": "T1: Letícia • T2: ANa Carolina e Ester",
+      "media": "Som: Felipe • Proj: Jordana • Transm: Felipe",
+      "diaconia": "Acolhimento: Joel e Nadir • Estacionamento: Edson e Sandra",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "O IMPACTO DO TESTEMUNHO",
+        "text": "1 Pe 3.15–16; Ap 2.12–13",
+        "minister": "Ana Júlia",
+        "back1": "Bruno",
+        "back2": "Letícia",
+        "guitar_ac": "João Vitor",
+        "guitar_el": "Italo",
+        "keys": "Efrain",
+        "bass": "",
+        "drums": "Ícaro",
+        "kids1": "Letícia",
+        "kids2": "ANa Carolina e Ester",
+        "sound": "Felipe",
+        "proj": "Jordana",
+        "stream": "Felipe",
+        "acolhimento": "Joel e Nadir",
+        "estacionamento": "Edson e Sandra"
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "4. Filho do Deus vivo"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "21. Senhor te quero"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "53. Eu me rendo"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "76. Jeová Jireh"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "90. Meia noite"
+        }
+      ]
+    },
+    {
+      "date": "Qui, 23/04/2026",
+      "date_raw": "2026-04-23",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "Equipe 07",
+      "preacher": "Edla",
+      "theme": "PERGUNTAS QUE TRANSFORMAM VIDAS",
+      "text": "Mc 8.14–21; Tg 1.19",
+      "worship": "Bruno (Ministro) • Karol (Back) • Italo (Violão) • Lucas (Teclado) • Ícaro (Bateria)",
+      "kids": "T1: Valéria e \nMaria Eduarda",
+      "media": "Som: Lucas • Proj: Efrain • Transm: Efrain",
+      "diaconia": "Acolhimento: Moiséis e Thaynara • Estacionamento: Johnatan e Tatiana",
+      "details": {
+        "preacher": "Edla",
+        "theme": "PERGUNTAS QUE TRANSFORMAM VIDAS",
+        "text": "Mc 8.14–21; Tg 1.19",
+        "minister": "Bruno",
+        "back1": "Karol",
+        "back2": "-",
+        "guitar_ac": "Italo",
+        "guitar_el": "-",
+        "keys": "Lucas",
+        "bass": "",
+        "drums": "Ícaro",
+        "kids1": "Valéria e \nMaria Eduarda",
+        "kids2": "",
+        "sound": "Lucas",
+        "proj": "Efrain",
+        "stream": "Efrain",
+        "acolhimento": "Moiséis e Thaynara",
+        "estacionamento": "Johnatan e Tatiana"
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "05. Todas as coisas"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "31. Te Louvarei"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "50. Porque ele vive"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "66. Ao único"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "83. Vitorioso És"
+        }
+      ]
+    },
+    {
+      "date": "Dom, 26/04/2026",
+      "date_raw": "2026-04-26",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração REVIVA CANÇÕES",
+      "team": "Equipe 08",
+      "preacher": "Pr. Flávio",
+      "theme": "QUANDO ENCONTRO-ME COM O AMOR - P1",
+      "text": "Rm 3.23; 5.8; 6.23",
+      "worship": "Kamynnsky (Ministro) • Manú, Bruno (Back) • Flávio F. (Violão) • Lucas (Teclado) • João Paulo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Ana Carolina • T2: Jordana",
+      "media": "Som: Felipe • Proj: Ramon e Samuel • Transm: Felipe",
+      "diaconia": "Acolhimento: Edson e Sandra • Estacionamento: Johnatan e Tatiana",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "QUANDO ENCONTRO-ME COM O AMOR - P1",
+        "text": "Rm 3.23; 5.8; 6.23",
+        "minister": "Kamynnsky",
+        "back1": "Manú",
+        "back2": "Bruno",
+        "guitar_ac": "Flávio F.",
+        "guitar_el": "",
+        "keys": "Lucas",
+        "bass": "João Paulo",
+        "drums": "Ícaro",
+        "kids1": "Ana Carolina",
+        "kids2": "Jordana",
+        "sound": "Felipe",
+        "proj": "Ramon e Samuel",
+        "stream": "Felipe",
+        "acolhimento": "Edson e Sandra",
+        "estacionamento": "Johnatan e Tatiana"
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "12. Aclame ao Senhor"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "26. Coração igual ao teu"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "60. A Ele a Glória"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "70. Em espírito e em verdade"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "82. O rei está voltando"
+        }
+      ]
+    },
+    {
+      "date": "Qui, 30/04/2026",
+      "date_raw": "2026-04-30",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "Equipe 09",
+      "preacher": "Paula",
+      "theme": "QUANDO ENCONTRO-ME COM O AMOR - P2",
+      "text": "Ef 2.8–9; Rm 10.9–11",
+      "worship": "Karol (Ministro) • Letícia (Back) • Bruno (Violão) • Lucas (Teclado) • Italo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Ana Carolina",
+      "media": "Som: Lucas • Proj: Efrain • Transm: Efrain",
+      "diaconia": "Acolhimento: Johnatan e Tatiana • Estacionamento: Kauã e Maria Ed.",
+      "details": {
+        "preacher": "Paula",
+        "theme": "QUANDO ENCONTRO-ME COM O AMOR - P2",
+        "text": "Ef 2.8–9; Rm 10.9–11",
+        "minister": "Karol",
+        "back1": "Letícia",
+        "back2": "-",
+        "guitar_ac": "Bruno",
+        "guitar_el": "-",
+        "keys": "Lucas",
+        "bass": "Italo",
+        "drums": "Ícaro",
+        "kids1": "Ana Carolina",
+        "kids2": "",
+        "sound": "Lucas",
+        "proj": "Efrain",
+        "stream": "Efrain",
+        "acolhimento": "Johnatan e Tatiana",
+        "estacionamento": "Kauã e Maria Ed."
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "06. Rei do meu coração"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "30. Há um lugar"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "76. Jeová jireh"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "83. Vitorioso És"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "91. Até que senhor venha"
+        }
+      ]
+    }
+  ],
+  "Mai": [
+    {
+      "date": "Dom, 03/05/2026",
+      "date_raw": "2026-05-03",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração CEIA DO SENHOR",
+      "team": "Equipe 01",
+      "preacher": "Pr. Flávio",
+      "theme": "A Ilusão da Família Margarina: O que Davi e Eli nos Ensinam sobre a Passividade",
+      "text": "1Rs 1.5-6; 1Sm 3.11-14; 8.1-5",
+      "worship": "Manú (Ministro) • Ana J./Kamynnsky, Bruno (Back) • João Vitor (Violão) • Lucas (Teclado) • Italo (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Ana Carolina • T2: Ana Júlia e Karol",
+      "media": "Som: Felipe • Proj: Ramon e Samuel",
+      "diaconia": "Acolhimento: Edinho e Sandra",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "A Ilusão da Família Margarina: O que Davi e Eli nos Ensinam sobre a Passividade",
+        "text": "1Rs 1.5-6; 1Sm 3.11-14; 8.1-5",
+        "minister": "Manú",
+        "back1": "Ana J./Kamynnsky",
+        "back2": "Bruno",
+        "guitar_ac": "João Vitor",
+        "guitar_el": "Flavio F",
+        "keys": "Lucas",
+        "bass": "Italo",
+        "drums": "Icaro",
+        "kids1": "Ana Carolina",
+        "kids2": "Ana Júlia e Karol",
+        "sound": "Felipe",
+        "proj": "Ramon e Samuel",
+        "stream": "",
+        "acolhimento": "Edinho e Sandra",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Vem, esta é a hora"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Me esvaziar"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "A cruz"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Alfa e ômega"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "Pra sempre"
+        }
+      ]
+    },
+    {
+      "date": "Qui, 07/05/2026",
+      "date_raw": "2026-05-07",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "",
+      "preacher": "Pr. Flávio",
+      "theme": "A Idolatria da Família: Quando o Lar Rouba o Lugar de Deus",
+      "text": "Gn 30.30; 2.18, 21-25",
+      "worship": "Manú (Ministro) • Letícia, --- (Back) • Bruno (Violão) • Efrain (Teclado) • Italo (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Maria Ed. • T2: Permanece no culto",
+      "media": "Som: Felipe • Proj: Samuel",
+      "diaconia": "Acolhimento: Edinho e Sandra",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "A Idolatria da Família: Quando o Lar Rouba o Lugar de Deus",
+        "text": "Gn 30.30; 2.18, 21-25",
+        "minister": "Manú",
+        "back1": "Letícia",
+        "back2": "---",
+        "guitar_ac": "Bruno",
+        "guitar_el": "---",
+        "keys": "Efrain",
+        "bass": "Italo",
+        "drums": "Icaro",
+        "kids1": "Maria Ed.",
+        "kids2": "Permanece no culto",
+        "sound": "Felipe",
+        "proj": "Samuel",
+        "stream": "",
+        "acolhimento": "Edinho e Sandra",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Diante da cruz"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Pai nosso"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Creio que tu És a cura"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "Vitorioso És"
+        }
+      ]
+    },
+    {
+      "date": "Dom, 10/05/2026",
+      "date_raw": "2026-05-10",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração PROFÉTICO",
+      "team": "Equipe 02",
+      "preacher": "Pr. Flávio",
+      "theme": "A Teologia dos Bastidores: Quem Percebe Quando o Vinho Acaba?",
+      "text": "Jo 2.1-5",
+      "worship": "Manú (Ministro) • Ana J./Kamynnsky, Bruno (Back) • João Vitor (Violão) • Lucas (Teclado) • João Paulo (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Letícia e Ester • T2: Ana Júlia",
+      "media": "Som: Efrain • Proj: Jordana",
+      "diaconia": "Acolhimento: Johnatan e Tatiana",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "A Teologia dos Bastidores: Quem Percebe Quando o Vinho Acaba?",
+        "text": "Jo 2.1-5",
+        "minister": "Manú",
+        "back1": "Ana J./Kamynnsky",
+        "back2": "Bruno",
+        "guitar_ac": "João Vitor",
+        "guitar_el": "Italo",
+        "keys": "Lucas",
+        "bass": "João Paulo",
+        "drums": "Icaro",
+        "kids1": "Letícia e Ester",
+        "kids2": "Ana Júlia",
+        "sound": "Efrain",
+        "proj": "Jordana",
+        "stream": "",
+        "acolhimento": "Johnatan e Tatiana",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Teu amor não falha"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Vem me buscar"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Gratidão"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Casa de benção"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "Que se abram os céus"
+        }
+      ]
+    },
+    {
+      "date": "Qui, 14/05/2026",
+      "date_raw": "2026-05-14",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "",
+      "preacher": "Pr. Flávio",
+      "theme": "O Fim da Guerra Fria: Por Que o Silêncio Punitivo Destrói Casamentos",
+      "text": "Pv 15.1-2, 4",
+      "worship": "Manú (Ministro) • ---, --- (Back) • Bruno (Violão) • Efrain (Teclado) • Italo (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Letícia",
+      "media": "Som: Efrain • Proj: Lucas",
+      "diaconia": "Acolhimento: Johnatan e Tatiana",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "O Fim da Guerra Fria: Por Que o Silêncio Punitivo Destrói Casamentos",
+        "text": "Pv 15.1-2, 4",
+        "minister": "Manú",
+        "back1": "---",
+        "back2": "---",
+        "guitar_ac": "Bruno",
+        "guitar_el": "---",
+        "keys": "Efrain",
+        "bass": "Italo",
+        "drums": "Icaro",
+        "kids1": "Letícia",
+        "kids2": "",
+        "sound": "Efrain",
+        "proj": "Lucas",
+        "stream": "",
+        "acolhimento": "Johnatan e Tatiana",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Há um lugar"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Digno é o Cordeiro"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Quão grande é o meu Deus"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "A Ele a glória"
+        }
+      ]
+    },
+    {
+      "date": "Dom, 17/05/2026",
+      "date_raw": "2026-05-17",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração GERAÇÕES",
+      "team": "Equipe 03",
+      "preacher": "Pr. Flávio",
+      "theme": "Mamom na Mesa de Jantar: Quem Governa o seu Orçamento?",
+      "text": "Ml 3.7-12; Ec 5.10-12, 18-20",
+      "worship": "Manu (Ministro) • Ana J./Kamynnsky, Bruno (Back) • João Vitor (Violão) • Lucas (Teclado) • Italo (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Valéria • T2: Jordana",
+      "media": "Som: Kauã • Proj: Edla e Ana da Tatiana",
+      "diaconia": "Acolhimento: Joel e Nadir",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "Mamom na Mesa de Jantar: Quem Governa o seu Orçamento?",
+        "text": "Ml 3.7-12; Ec 5.10-12, 18-20",
+        "minister": "Manu",
+        "back1": "Ana J./Kamynnsky",
+        "back2": "Bruno",
+        "guitar_ac": "João Vitor",
+        "guitar_el": "---",
+        "keys": "Lucas",
+        "bass": "Italo",
+        "drums": "Icaro",
+        "kids1": "Valéria",
+        "kids2": "Jordana",
+        "sound": "Kauã",
+        "proj": "Edla e Ana da Tatiana",
+        "stream": "",
+        "acolhimento": "Joel e Nadir",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Estamos de pé"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Em tua presença"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Diante da cruz"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "A ele a glória"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "Vitorioso És"
+        }
+      ]
+    },
+    {
+      "date": "Qui, 21/05/2026",
+      "date_raw": "2026-05-21",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "",
+      "preacher": "Pr. Flávio",
+      "theme": "Quem Está Discipulando Seus Filhos? A Batalha Entre a Mesa e o Algoritmo",
+      "text": "Pv 13.24; 23.13-14; 29.15, 17",
+      "worship": "Manú (Ministro) • ---, --- (Back) • Bruno (Violão) • Efrain (Teclado) • Italo (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Valéria",
+      "media": "Som: Kauã • Proj: Edla e Ana da Tatiana",
+      "diaconia": "Acolhimento: Nadir",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "Quem Está Discipulando Seus Filhos? A Batalha Entre a Mesa e o Algoritmo",
+        "text": "Pv 13.24; 23.13-14; 29.15, 17",
+        "minister": "Manú",
+        "back1": "---",
+        "back2": "---",
+        "guitar_ac": "Bruno",
+        "guitar_el": "---",
+        "keys": "Efrain",
+        "bass": "Italo",
+        "drums": "Icaro",
+        "kids1": "Valéria",
+        "kids2": "",
+        "sound": "Kauã",
+        "proj": "Edla e Ana da Tatiana",
+        "stream": "",
+        "acolhimento": "Nadir",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Pra sempre"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Me esvaziar"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "A cruz"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Creio que tu és a cura"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "Vitorioso és"
+        }
+      ]
+    },
+    {
+      "date": "Dom, 24/05/2026",
+      "date_raw": "2026-05-24",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração REVIVA CANÇÕES",
+      "team": "Equipe 01",
+      "preacher": "Pr. Flávio",
+      "theme": "A Anatomia do Perdão: Abandonando a Contabilidade das Ofensas",
+      "text": "Mt 18.15-22",
+      "worship": "Manú (Ministro) • Ana J./Kamynnsky, Bruno (Back) • João Vitor (Violão) • Efrain (Teclado) • João Paulo (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Ana Carolina • T2: Maria Eduarda",
+      "media": "Som: Felipe • Proj: Ramon e Samuel",
+      "diaconia": "Acolhimento: Edinho e Sandra",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "A Anatomia do Perdão: Abandonando a Contabilidade das Ofensas",
+        "text": "Mt 18.15-22",
+        "minister": "Manú",
+        "back1": "Ana J./Kamynnsky",
+        "back2": "Bruno",
+        "guitar_ac": "João Vitor",
+        "guitar_el": "Italo",
+        "keys": "Efrain",
+        "bass": "João Paulo",
+        "drums": "Icaro",
+        "kids1": "Ana Carolina",
+        "kids2": "Maria Eduarda",
+        "sound": "Felipe",
+        "proj": "Ramon e Samuel",
+        "stream": "",
+        "acolhimento": "Edinho e Sandra",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Vem esta é a hora"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Tua graça me basta"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Nada além do sangue"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Quão grande é o meu Deus"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "Escudo"
+        }
+      ]
+    },
+    {
+      "date": "Qui, 28/05/2026",
+      "date_raw": "2026-05-28",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "",
+      "preacher": "Pr. Flávio",
+      "theme": "A Liturgia do Cotidiano: Ensinando a Fé Entre a Cozinha e o Trânsito",
+      "text": "Dt 6.4-9",
+      "worship": "Manú (Ministro) • Letícia, --- (Back) • Bruno (Violão) • Efrain (Teclado) • Italo (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Maria Eduarda",
+      "media": "Som: Felipe • Proj: Samuel",
+      "diaconia": "Acolhimento: Edinho e Sandra",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "A Liturgia do Cotidiano: Ensinando a Fé Entre a Cozinha e o Trânsito",
+        "text": "Dt 6.4-9",
+        "minister": "Manú",
+        "back1": "Letícia",
+        "back2": "---",
+        "guitar_ac": "Bruno",
+        "guitar_el": "---",
+        "keys": "Efrain",
+        "bass": "Italo",
+        "drums": "Icaro",
+        "kids1": "Maria Eduarda",
+        "kids2": "",
+        "sound": "Felipe",
+        "proj": "Samuel",
+        "stream": "",
+        "acolhimento": "Edinho e Sandra",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Alfa e omega"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Vem me buscar"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Gratidão"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Creio que tu és a cura"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "Que se abram os céus"
+        }
+      ]
+    },
+    {
+      "date": "Dom, 31/05/2026",
+      "date_raw": "2026-05-31",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração GRATIDÃO",
+      "team": "Equipe 02",
+      "preacher": "Pr. Flávio",
+      "theme": "A Mesa da Graça: Do Discurso à Realidade",
+      "text": "---",
+      "worship": "Manú (Ministro) • Ana J./Kamynnsky, Bruno (Back) • João Vitor (Violão) • Lucas (Teclado) • João Paulo (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Letícia e Ester • T2: Ana Júlia",
+      "media": "Som: Efrain • Proj: Jordana",
+      "diaconia": "Acolhimento: Johnatan e Tatiana",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "A Mesa da Graça: Do Discurso à Realidade",
+        "text": "---",
+        "minister": "Manú",
+        "back1": "Ana J./Kamynnsky",
+        "back2": "Bruno",
+        "guitar_ac": "João Vitor",
+        "guitar_el": "Flavio F",
+        "keys": "Lucas",
+        "bass": "João Paulo",
+        "drums": "Icaro",
+        "kids1": "Letícia e Ester",
+        "kids2": "Ana Júlia",
+        "sound": "Efrain",
+        "proj": "Jordana",
+        "stream": "",
+        "acolhimento": "Johnatan e Tatiana",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Filho do Deus vivo"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Alfa e omega"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Boa parte"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Casa de benção"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "Gratidão"
+        }
+      ]
+    }
+  ],
+  "Jun": [
+    {
+      "date": "Qui, 04/06/2026",
+      "date_raw": "2026-06-04",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "Equipe 02",
+      "preacher": "Pr. Flávio",
+      "theme": "A Dor Que Não Foi em Vão",
+      "text": "Hb 12.7-17; Sl 119.67-72",
+      "worship": "Manú (Ministro) • Bruno (Violão) • João Vitor (Teclado) • Italo (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Letícia • T2: Ana Júlia",
+      "media": "Som: Felipe",
+      "diaconia": "Acolhimento: Johnatan e Tatiana",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "A Dor Que Não Foi em Vão",
+        "text": "Hb 12.7-17; Sl 119.67-72",
+        "minister": "Manú",
+        "back1": "",
+        "back2": "",
+        "guitar_ac": "Bruno",
+        "guitar_el": "---",
+        "keys": "João Vitor",
+        "bass": "Italo",
+        "drums": "Icaro",
+        "kids1": "Letícia",
+        "kids2": "Ana Júlia",
+        "sound": "Felipe",
+        "proj": "",
+        "stream": "",
+        "acolhimento": "Johnatan e Tatiana",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "A cruz"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Oceanos"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Obra santa"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Creio que tu és a cura"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "Pai nosso"
+        }
+      ]
+    },
+    {
+      "date": "Dom, 07/06/2026",
+      "date_raw": "2026-06-07",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração CEIA DO SENHOR",
+      "team": "Equipe 03",
+      "preacher": "Pr. Flávio",
+      "theme": "O Corpo Partido Para Almas Quebradas",
+      "text": "Mt 17.14-21; 1 Jo 2.12-14",
+      "worship": "Manú (Ministro) • Kamynnsky, Bruno/Letícia (Back) • Flávio Filho (Violão) • João Vitor (Teclado) • João Paulo (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Valéria • T2: Jordana",
+      "media": "Som: Felipe • Proj: Ana da Tatiana",
+      "diaconia": "Acolhimento: Joel e Nadir",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "O Corpo Partido Para Almas Quebradas",
+        "text": "Mt 17.14-21; 1 Jo 2.12-14",
+        "minister": "Manú",
+        "back1": "Kamynnsky",
+        "back2": "Bruno/Letícia",
+        "guitar_ac": "Flávio Filho",
+        "guitar_el": "Ítalo",
+        "keys": "João Vitor",
+        "bass": "João Paulo",
+        "drums": "Icaro",
+        "kids1": "Valéria",
+        "kids2": "Jordana",
+        "sound": "Felipe",
+        "proj": "Ana da Tatiana",
+        "stream": "",
+        "acolhimento": "Joel e Nadir",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Vem esta é a hora"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Diante da cruz"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Pra sempre"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Vitorioso és"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "A Ele a Glória"
+        }
+      ]
+    },
+    {
+      "date": "Qui, 11/06/2026",
+      "date_raw": "2026-06-11",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "",
+      "preacher": "Pr. Flávio",
+      "theme": "Tirando as Máscaras da Alma",
+      "text": "Ap 3.14-22; Is 30.8-22",
+      "worship": "Manú (Ministro) • Letícia (Back) • Bruno (Violão) • Efrain (Teclado) • Italo (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Valéria • T2: Jordana",
+      "media": "Som: Felipe • Proj: Edla e Ana da Tatiana",
+      "diaconia": "Acolhimento: Joel e Nadir",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "Tirando as Máscaras da Alma",
+        "text": "Ap 3.14-22; Is 30.8-22",
+        "minister": "Manú",
+        "back1": "Letícia",
+        "back2": "",
+        "guitar_ac": "Bruno",
+        "guitar_el": "---",
+        "keys": "Efrain",
+        "bass": "Italo",
+        "drums": "Icaro",
+        "kids1": "Valéria",
+        "kids2": "Jordana",
+        "sound": "Felipe",
+        "proj": "Edla e Ana da Tatiana",
+        "stream": "",
+        "acolhimento": "Joel e Nadir",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Há um lugar"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Jeová Jiré"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Obra santa"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Quão Grande é o meu Deus"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "Quão lindo esse nome é"
+        }
+      ]
+    },
+    {
+      "date": "Dom, 14/06/2026",
+      "date_raw": "2026-06-14",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração PROFÉTICO",
+      "team": "Equipe 01",
+      "preacher": "Pr. Flávio",
+      "theme": "Batalha, Mente e Coração: Uma Cura Profunda",
+      "text": "Is 53; Gn 45.1-15",
+      "worship": "Manú (Ministro) • Kamynnsky/Ana Júlia, Bruno (Back) • João Vitor (Violão) • Efrain (Teclado) • Italo (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Ana Carolina • T2: Karol e Maria Ed",
+      "media": "Som: Felipe • Proj: Ramon e Samuel",
+      "diaconia": "Acolhimento: Edinho e Sandra",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "Batalha, Mente e Coração: Uma Cura Profunda",
+        "text": "Is 53; Gn 45.1-15",
+        "minister": "Manú",
+        "back1": "Kamynnsky/Ana Júlia",
+        "back2": "Bruno",
+        "guitar_ac": "João Vitor",
+        "guitar_el": "Flávio Filho",
+        "keys": "Efrain",
+        "bass": "Italo",
+        "drums": "Icaro",
+        "kids1": "Ana Carolina",
+        "kids2": "Karol e Maria Ed",
+        "sound": "Felipe",
+        "proj": "Ramon e Samuel",
+        "stream": "",
+        "acolhimento": "Edinho e Sandra",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Meia noite"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Jesus é o caminho"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Vem me buscar"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "A benção"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "Pai nosso"
+        }
+      ]
+    },
+    {
+      "date": "Qui, 18/06/2026",
+      "date_raw": "2026-06-18",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "",
+      "preacher": "Pr. Flávio",
+      "theme": "O Escândalo da Graça que Limpa a Culpa",
+      "text": "Is 1.15-20; Lc 7.36-50",
+      "worship": "Manú (Ministro) • Bruno (Violão) • Efrain (Teclado) • Italo (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Ana Carolina e Maria Ed. • T2: Maria Eduarda",
+      "media": "Som: Felipe • Proj: Ramon e Samuel",
+      "diaconia": "Acolhimento: Edinho e Sandra",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "O Escândalo da Graça que Limpa a Culpa",
+        "text": "Is 1.15-20; Lc 7.36-50",
+        "minister": "Manú",
+        "back1": "",
+        "back2": "",
+        "guitar_ac": "Bruno",
+        "guitar_el": "---",
+        "keys": "Efrain",
+        "bass": "Italo",
+        "drums": "Icaro",
+        "kids1": "Ana Carolina e Maria Ed.",
+        "kids2": "Maria Eduarda",
+        "sound": "Felipe",
+        "proj": "Ramon e Samuel",
+        "stream": "",
+        "acolhimento": "Edinho e Sandra",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Me esvaziar"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Maranata"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Obra santa"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Quem é esse"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "Digno é o Senhor"
+        }
+      ]
+    },
+    {
+      "date": "Dom, 21/06/2026",
+      "date_raw": "2026-06-21",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração GERAÇÕES",
+      "team": "Equipe 02",
+      "preacher": "Pr. Flávio",
+      "theme": "Soltando o Prisioneiro (E Descobrindo que era Você)",
+      "text": "Os 3.1-3; Mt 18.18-35",
+      "worship": "Manú (Ministro) • Kamynnsky (Back) • João Vitor (Violão) • Efrain (Teclado) • Italo (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Letícia e Ester • T2: Ana Júlia",
+      "media": "Som: Felipe",
+      "diaconia": "Acolhimento: Johnatan e Tatiana",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "Soltando o Prisioneiro (E Descobrindo que era Você)",
+        "text": "Os 3.1-3; Mt 18.18-35",
+        "minister": "Manú",
+        "back1": "Kamynnsky",
+        "back2": "",
+        "guitar_ac": "João Vitor",
+        "guitar_el": "---",
+        "keys": "Efrain",
+        "bass": "Italo",
+        "drums": "Icaro",
+        "kids1": "Letícia e Ester",
+        "kids2": "Ana Júlia",
+        "sound": "Felipe",
+        "proj": "",
+        "stream": "",
+        "acolhimento": "Johnatan e Tatiana",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Estamos de pé"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Que se abram os céus"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Alfa e Ômega"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Gratidão"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "Santo pra sempre"
+        }
+      ]
+    },
+    {
+      "date": "Qui, 25/06/2026",
+      "date_raw": "2026-06-25",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "",
+      "preacher": "Pr. Flávio",
+      "theme": "Página Virada: O Poder de um Novo Começo",
+      "text": "Lv 25.8-13; Lc 4.18-19",
+      "worship": "Manú (Ministro) • --- (Violão) • Efrain (Teclado) • Ítalo (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Letícia • T2: Ana Júlia",
+      "media": "Som: Felipe",
+      "diaconia": "Acolhimento: Johnatan e Tatiana",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "Página Virada: O Poder de um Novo Começo",
+        "text": "Lv 25.8-13; Lc 4.18-19",
+        "minister": "Manú",
+        "back1": "",
+        "back2": "",
+        "guitar_ac": "---",
+        "guitar_el": "---",
+        "keys": "Efrain",
+        "bass": "Ítalo",
+        "drums": "Icaro",
+        "kids1": "Letícia",
+        "kids2": "Ana Júlia",
+        "sound": "Felipe",
+        "proj": "",
+        "stream": "",
+        "acolhimento": "Johnatan e Tatiana",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "A cruz"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Yaweh se manifestará"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Obra santa"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Toda via me alegrarei"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "O que tua glória fez comigo"
+        }
+      ]
+    },
+    {
+      "date": "Dom, 28/05/2026",
+      "date_raw": "2026-05-28",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração REVIVA CANÇÕES",
+      "team": "Equipe 03",
+      "preacher": "Pr. Flávio",
+      "theme": "De Curados a Curadores: O Propósito das Suas Cicatrizes",
+      "text": "Is 58.6-12; Is 61.1-4",
+      "worship": "Manú (Ministro) • Kammynsky (Back) • João Vitor (Violão) • Efrain (Teclado) • João Paulo (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Valéria • T2: Jordana",
+      "media": "Som: Felipe • Proj: Edla e Ana da Tatiana",
+      "diaconia": "Acolhimento: Joel e Nadir",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "De Curados a Curadores: O Propósito das Suas Cicatrizes",
+        "text": "Is 58.6-12; Is 61.1-4",
+        "minister": "Manú",
+        "back1": "Kammynsky",
+        "back2": "",
+        "guitar_ac": "João Vitor",
+        "guitar_el": "Ítalo",
+        "keys": "Efrain",
+        "bass": "João Paulo",
+        "drums": "Icaro",
+        "kids1": "Valéria",
+        "kids2": "Jordana",
+        "sound": "Felipe",
+        "proj": "Edla e Ana da Tatiana",
+        "stream": "",
+        "acolhimento": "Joel e Nadir",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Teu amor não falha"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Corpo e família"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Ao erguermos as mãos"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Mover do Espírito"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "Escudo"
+        }
+      ]
+    }
+  ],
+  "Jul": [
+    {
+      "date": "Qui, 02/07/2026",
+      "date_raw": "2026-07-02",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "Equipe 03",
+      "preacher": "Pr. Flávio",
+      "theme": "QUEM É O DEUS A QUEM ORAMOS?",
+      "text": "At 17.22-30",
+      "worship": "Manú (Ministro) • Letícia, Ana Júlia (Back) • Bruno (Violão) • Efrain (Teclado) • Italo (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Jordana • T2: Ana Júlia",
+      "media": "Som: Felipe • Proj: Edla e Ana da Tatiana",
+      "diaconia": "",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "QUEM É O DEUS A QUEM ORAMOS?",
+        "text": "At 17.22-30",
+        "minister": "Manú",
+        "back1": "Letícia",
+        "back2": "Ana Júlia",
+        "guitar_ac": "Bruno",
+        "guitar_el": "-",
+        "keys": "Efrain",
+        "bass": "Italo",
+        "drums": "Icaro",
+        "kids1": "Jordana",
+        "kids2": "Ana Júlia",
+        "sound": "Felipe",
+        "proj": "Edla e Ana da Tatiana",
+        "stream": "",
+        "acolhimento": "",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Pra sempre"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Me esvaziar"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Poderoso Deus"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "A Ele a Glória"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "Vitorioso És"
+        }
+      ]
+    },
+    {
+      "date": "Dom, 05/07/2026",
+      "date_raw": "2026-07-05",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração CEIA DO SENHOR",
+      "team": "Equipe 01",
+      "preacher": "Pr. Flávio",
+      "theme": "O que Você Realmente Ama?",
+      "text": "Mc 12.28-34",
+      "worship": "Manú (Ministro) • Ana Júlia, Bruno (Back) • João Vitor (Violão) • Efrain (Teclado) • João Paulo (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Ana Carolina • T2: Maria Eduarda",
+      "media": "Som: Felipe • Proj: Ramon e Samuel",
+      "diaconia": "Acolhimento: Edinho e Sandra",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "O que Você Realmente Ama?",
+        "text": "Mc 12.28-34",
+        "minister": "Manú",
+        "back1": "Ana Júlia",
+        "back2": "Bruno",
+        "guitar_ac": "João Vitor",
+        "guitar_el": "Ítalo",
+        "keys": "Efrain",
+        "bass": "João Paulo",
+        "drums": "Icaro",
+        "kids1": "Ana Carolina",
+        "kids2": "Maria Eduarda",
+        "sound": "Felipe",
+        "proj": "Ramon e Samuel",
+        "stream": "",
+        "acolhimento": "Edinho e Sandra",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Porque Ele vive"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Aclame ao Senhor"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Canção do Apocalipse"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Pra sempre"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "Vitorioso És"
+        }
+      ]
+    },
+    {
+      "date": "Qui, 09/07/2026",
+      "date_raw": "2026-07-09",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "",
+      "preacher": "Efrain Rael",
+      "theme": "A Bússola Inerrante",
+      "text": "Os 4.6; Hb 4.12-13, 5.11-14",
+      "worship": "Manú (Ministro) • Ana Júlia (Back) • Bruno (Violão) • Efrain (Teclado) • Italo (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Maria Eduarda • T2: Jordana",
+      "media": "Som: Felipe • Proj: Ramon e Samuel",
+      "diaconia": "Acolhimento: Edinho e Sandra",
+      "details": {
+        "preacher": "Efrain Rael",
+        "theme": "A Bússola Inerrante",
+        "text": "Os 4.6; Hb 4.12-13, 5.11-14",
+        "minister": "Manú",
+        "back1": "Ana Júlia",
+        "back2": "",
+        "guitar_ac": "Bruno",
+        "guitar_el": "---",
+        "keys": "Efrain",
+        "bass": "Italo",
+        "drums": "Icaro",
+        "kids1": "Maria Eduarda",
+        "kids2": "Jordana",
+        "sound": "Felipe",
+        "proj": "Ramon e Samuel",
+        "stream": "",
+        "acolhimento": "Edinho e Sandra",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Pai nosso"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Alfa e omega"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Diante da cruz"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Maranata"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "Vale valer apena"
+        }
+      ]
+    },
+    {
+      "date": "Dom, 12/07/2026",
+      "date_raw": "2026-07-12",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração GERAÇÕES",
+      "team": "Equipe 02",
+      "preacher": "Pr. Flávio",
+      "theme": "O Silêncio Necessário",
+      "text": "Jo 10.2-5, 27",
+      "worship": "Karolyne (Ministro) • Manú, Bruno (Back) • João Vitor (Violão) • Efrain (Teclado) • Italo (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Letícia e Ester • T2: Ana Júlia",
+      "media": "Som: Felipe • Proj: Juliana e Jordana",
+      "diaconia": "Acolhimento: Johnatan e Tatiana",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "O Silêncio Necessário",
+        "text": "Jo 10.2-5, 27",
+        "minister": "Karolyne",
+        "back1": "Manú",
+        "back2": "Bruno",
+        "guitar_ac": "João Vitor",
+        "guitar_el": "Flávio Filho",
+        "keys": "Efrain",
+        "bass": "Italo",
+        "drums": "Icaro",
+        "kids1": "Letícia e Ester",
+        "kids2": "Ana Júlia",
+        "sound": "Felipe",
+        "proj": "Juliana e Jordana",
+        "stream": "",
+        "acolhimento": "Johnatan e Tatiana",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Te Agradeço"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Me esvaziar"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Digno é cordeiro"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Creio que tu És a cura"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "Vitorioso És"
+        }
+      ]
+    },
+    {
+      "date": "Qui, 16/07/2026",
+      "date_raw": "2026-07-16",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "",
+      "preacher": "Pra. Iracilene",
+      "theme": "A Cura da Orfandade",
+      "text": "Hb 2.10; Rm 8.14-17; Jo 15.15",
+      "worship": "Kamynnsky (Ministro) • Manú (Back) • Bruno (Violão) • Efrain (Teclado) • Italo (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Letícia • T2: Maria Eduarda",
+      "media": "Som: Felipe • Proj: Juliana e Jordana",
+      "diaconia": "Acolhimento: Johnatan e Tatiana",
+      "details": {
+        "preacher": "Pra. Iracilene",
+        "theme": "A Cura da Orfandade",
+        "text": "Hb 2.10; Rm 8.14-17; Jo 15.15",
+        "minister": "Kamynnsky",
+        "back1": "Manú",
+        "back2": "",
+        "guitar_ac": "Bruno",
+        "guitar_el": "",
+        "keys": "Efrain",
+        "bass": "Italo",
+        "drums": "Icaro",
+        "kids1": "Letícia",
+        "kids2": "Maria Eduarda",
+        "sound": "Felipe",
+        "proj": "Juliana e Jordana",
+        "stream": "",
+        "acolhimento": "Johnatan e Tatiana",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Escudo"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Que se abram os céus"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "A Ele a Glória"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Meu respirar"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "Me esvaziar"
+        }
+      ]
+    },
+    {
+      "date": "Dom, 19/07/2026",
+      "date_raw": "2026-07-19",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração REVIVA CANÇÕES",
+      "team": "Equipe 03",
+      "preacher": "Pr. Flávio",
+      "theme": "A Coragem de Ser Vulnerável",
+      "text": "Sl 25.12-14; 63.1-11",
+      "worship": "Kamynnsky (Ministro) • Manú, Bruno (Back) • João Vitor (Violão) • Efrain (Teclado) • João Paulo (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Ana Júlia e Ester • T2: Jordana",
+      "media": "Som: Felipe • Proj: Edla e Ana da Tatiana",
+      "diaconia": "Acolhimento: Edinho e Sandra",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "A Coragem de Ser Vulnerável",
+        "text": "Sl 25.12-14; 63.1-11",
+        "minister": "Kamynnsky",
+        "back1": "Manú",
+        "back2": "Bruno",
+        "guitar_ac": "João Vitor",
+        "guitar_el": "Italo",
+        "keys": "Efrain",
+        "bass": "João Paulo",
+        "drums": "Icaro",
+        "kids1": "Ana Júlia e Ester",
+        "kids2": "Jordana",
+        "sound": "Felipe",
+        "proj": "Edla e Ana da Tatiana",
+        "stream": "",
+        "acolhimento": "Edinho e Sandra",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Em espírito e em verdade"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Quão grande é o meu Deus"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "O Rei está voltando"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Ao Único"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "Coração igual ao teu"
+        }
+      ]
+    },
+    {
+      "date": "Qui, 23/07/2026",
+      "date_raw": "2026-07-23",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "",
+      "preacher": "Ana Paula",
+      "theme": "Arrancando as Ervas Daninhas",
+      "text": "1Jo 3.4-6, 9-10",
+      "worship": "Ana Júlia (Ministro) • Manú, Letícia (Back) • Bruno (Violão) • Efrain (Teclado) • Ítalo (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Valéria • T2: Ana Júlia",
+      "media": "Som: Felipe • Proj: Edla e Ana da Tatiana",
+      "diaconia": "Acolhimento: Moiséis e Thaynará",
+      "details": {
+        "preacher": "Ana Paula",
+        "theme": "Arrancando as Ervas Daninhas",
+        "text": "1Jo 3.4-6, 9-10",
+        "minister": "Ana Júlia",
+        "back1": "Manú",
+        "back2": "Letícia",
+        "guitar_ac": "Bruno",
+        "guitar_el": "-",
+        "keys": "Efrain",
+        "bass": "Ítalo",
+        "drums": "Icaro",
+        "kids1": "Valéria",
+        "kids2": "Ana Júlia",
+        "sound": "Felipe",
+        "proj": "Edla e Ana da Tatiana",
+        "stream": "",
+        "acolhimento": "Moiséis e Thaynará",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Pra sempre"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Coração igual ao teu"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Por que ele vive"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Creio que tu és a cura"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "Até que o senhor venha"
+        }
+      ]
+    },
+    {
+      "date": "Dom, 26/07/2026",
+      "date_raw": "2026-07-26",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração PROFÉTICO",
+      "team": "Equipe 01",
+      "preacher": "Pr. Flávio",
+      "theme": "A Seiva da Vida",
+      "text": "Gl 5.16-18, 22-24; Ef 5.18-21",
+      "worship": "Ana Júlia (Ministro) • Manú, Bruno/Letícia (Back) • João Vitor (Violão) • Efrain (Teclado) • João Paulo (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Valéria • T2: Maria Eduarda",
+      "media": "Som: Felipe • Proj: Ramon e Samuel",
+      "diaconia": "Acolhimento: Joel e Nadir",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "A Seiva da Vida",
+        "text": "Gl 5.16-18, 22-24; Ef 5.18-21",
+        "minister": "Ana Júlia",
+        "back1": "Manú",
+        "back2": "Bruno/Letícia",
+        "guitar_ac": "João Vitor",
+        "guitar_el": "Ítalo",
+        "keys": "Efrain",
+        "bass": "João Paulo",
+        "drums": "Icaro",
+        "kids1": "Valéria",
+        "kids2": "Maria Eduarda",
+        "sound": "Felipe",
+        "proj": "Ramon e Samuel",
+        "stream": "",
+        "acolhimento": "Joel e Nadir",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Vem esta é hora"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Meu respirar"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Digno é o cordeiro"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Ao único"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "Ele vem"
+        }
+      ]
+    },
+    {
+      "date": "Qui, 30/07/2026",
+      "date_raw": "2026-07-30",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "",
+      "preacher": "Ítalo",
+      "theme": "",
+      "text": "",
+      "worship": "Karolyne (Ministro) • Manú, Letícia (Back) • Bruno (Violão) • Efrain (Teclado) • Ítalo (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Ana Carolina • T2: Ana Júlia",
+      "media": "Som: Felipe • Proj: Ramon e Samuel",
+      "diaconia": "Acolhimento: Edinho e Sandra",
+      "details": {
+        "preacher": "Ítalo",
+        "theme": "",
+        "text": "",
+        "minister": "Karolyne",
+        "back1": "Manú",
+        "back2": "Letícia",
+        "guitar_ac": "Bruno",
+        "guitar_el": "---",
+        "keys": "Efrain",
+        "bass": "Ítalo",
+        "drums": "Icaro",
+        "kids1": "Ana Carolina",
+        "kids2": "Ana Júlia",
+        "sound": "Felipe",
+        "proj": "Ramon e Samuel",
+        "stream": "",
+        "acolhimento": "Edinho e Sandra",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Te Agradeço"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Me esvaziar"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Digno é cordeiro"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Creio que tu És a cura"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "Vitorioso És"
+        }
+      ]
+    }
+  ],
+  "Ago": [
+    {
+      "date": "Dom, 02/08/2026",
+      "date_raw": "2026-08-02",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração CEIA DO SENHOR",
+      "team": "Equipe 02",
+      "preacher": "Pr. Flávio",
+      "theme": "De Volta à Origem: A Cruz e o Fim das Nossas Desculpas",
+      "text": "Números 21.4-9",
+      "worship": "Manú (Ministro) • Kamynnsky, Bruno (Back) • João Vitor (Violão) • Efrain (Teclado) • Ítalo (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Valéria • T2: Letícia",
+      "media": "Som: Felipe • Proj: Ramon",
+      "diaconia": "Acolhimento: Johnatan e Tatiana",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "De Volta à Origem: A Cruz e o Fim das Nossas Desculpas",
+        "text": "Números 21.4-9",
+        "minister": "Manú",
+        "back1": "Kamynnsky",
+        "back2": "Bruno",
+        "guitar_ac": "João Vitor",
+        "guitar_el": "-",
+        "keys": "Efrain",
+        "bass": "Ítalo",
+        "drums": "Icaro",
+        "kids1": "Valéria",
+        "kids2": "Letícia",
+        "sound": "Felipe",
+        "proj": "Ramon",
+        "stream": "",
+        "acolhimento": "Johnatan e Tatiana",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Jesus em Tua presença"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Alfa e Ômega"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Vitorioso És"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Aclame ao Senhor"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "Poderoso Deus"
+        }
+      ]
+    },
+    {
+      "date": "Qui, 06/08/2026",
+      "date_raw": "2026-08-06",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "",
+      "preacher": "Efrain Rael",
+      "theme": "",
+      "text": "",
+      "worship": "Manú (Ministro) • Karolyne (Back) • - (Violão) • Efrain (Teclado) • Ítalo (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Letícia",
+      "media": "Som: Bruno • Proj: Juliana e Ana da Tati",
+      "diaconia": "Acolhimento: Johnatan e Tatiana",
+      "details": {
+        "preacher": "Efrain Rael",
+        "theme": "",
+        "text": "",
+        "minister": "Manú",
+        "back1": "Karolyne",
+        "back2": "-",
+        "guitar_ac": "-",
+        "guitar_el": "-",
+        "keys": "Efrain",
+        "bass": "Ítalo",
+        "drums": "Icaro",
+        "kids1": "Letícia",
+        "kids2": "",
+        "sound": "Bruno",
+        "proj": "Juliana e Ana da Tati",
+        "stream": "",
+        "acolhimento": "Johnatan e Tatiana",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Maranata"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Pai nosso"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Hosana"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Escudo"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "Quão grande é o meu Deus"
+        }
+      ]
+    },
+    {
+      "date": "Dom, 09/08/2026",
+      "date_raw": "2026-08-09",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração GERAÇÕES",
+      "team": "Equipe 03",
+      "preacher": "Pr. Flávio",
+      "theme": "O Conselheiro: As Perguntas de Deus que Desmontam o Nosso Orgulho",
+      "text": "Isaías 11:1-5",
+      "worship": "Ana Júlia (Ministro) • Manú (Back) • João Vitor (Violão) • Efrain (Teclado) • João Paulo (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Ana Carolina • T2: Jordana",
+      "media": "Som: Felipe • Proj: Ana Júlia",
+      "diaconia": "Acolhimento: Joel e Nadir",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "O Conselheiro: As Perguntas de Deus que Desmontam o Nosso Orgulho",
+        "text": "Isaías 11:1-5",
+        "minister": "Ana Júlia",
+        "back1": "Manú",
+        "back2": "-",
+        "guitar_ac": "João Vitor",
+        "guitar_el": "Flávio Filho",
+        "keys": "Efrain",
+        "bass": "João Paulo",
+        "drums": "Icaro",
+        "kids1": "Ana Carolina",
+        "kids2": "Jordana",
+        "sound": "Felipe",
+        "proj": "Ana Júlia",
+        "stream": "",
+        "acolhimento": "Joel e Nadir",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Fé"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Essência da adoração"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Sobre as águas"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Filho do Deus vivo"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "Quem é esse"
+        }
+      ]
+    },
+    {
+      "date": "Qui, 13/08/2026",
+      "date_raw": "2026-08-13",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "",
+      "preacher": "Ítalo",
+      "theme": "",
+      "text": "",
+      "worship": "Lucas (Ministro) • Léticia, Manú (Back) • Ítalo (Violão) • Lucas (Teclado) • Efrain (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Maria Eduarda",
+      "media": "Som: Bruno • Proj: Juliana e Ana da Tati",
+      "diaconia": "Acolhimento: Moisés e Thaynara",
+      "details": {
+        "preacher": "Ítalo",
+        "theme": "",
+        "text": "",
+        "minister": "Lucas",
+        "back1": "Léticia",
+        "back2": "Manú",
+        "guitar_ac": "Ítalo",
+        "guitar_el": "-",
+        "keys": "Lucas",
+        "bass": "Efrain",
+        "drums": "Icaro",
+        "kids1": "Maria Eduarda",
+        "kids2": "",
+        "sound": "Bruno",
+        "proj": "Juliana e Ana da Tati",
+        "stream": "",
+        "acolhimento": "Moisés e Thaynara",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Quem é esse"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Em tua presença"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Mensagem da cruz"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "A terra clama"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "Até que o senhor venha"
+        }
+      ]
+    },
+    {
+      "date": "Dom, 16/08/2026",
+      "date_raw": "2026-08-16",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração REVIVA CANÇÕES",
+      "team": "Equipe 01",
+      "preacher": "Pr. Flávio",
+      "theme": "A Verdade Acima dos Sentimentos: O Prumo da Palavra de Deus",
+      "text": "Salmo 119:97-104",
+      "worship": "Kamynnsky (Ministro) • Manú (Back) • João Vitor (Violão) • Efrain (Teclado) • João Paulo (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Ana Carolina • T2: Letícia",
+      "media": "Som: Felipe • Proj: Ramon",
+      "diaconia": "Acolhimento: Johnatan e Tatiana",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "A Verdade Acima dos Sentimentos: O Prumo da Palavra de Deus",
+        "text": "Salmo 119:97-104",
+        "minister": "Kamynnsky",
+        "back1": "Manú",
+        "back2": "-",
+        "guitar_ac": "João Vitor",
+        "guitar_el": "Ítalo",
+        "keys": "Efrain",
+        "bass": "João Paulo",
+        "drums": "Icaro",
+        "kids1": "Ana Carolina",
+        "kids2": "Letícia",
+        "sound": "Felipe",
+        "proj": "Ramon",
+        "stream": "",
+        "acolhimento": "Johnatan e Tatiana",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Grande é o Senhor"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Me esvaziar"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Santo, Santo, Santo"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Alvo mais que a neve"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "Em espírito e em verdade"
+        }
+      ]
+    },
+    {
+      "date": "Qui, 20/08/2026",
+      "date_raw": "2026-08-20",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "",
+      "preacher": "Manú",
+      "theme": "",
+      "text": "",
+      "worship": "Manú (Ministro) • Karolyne (Back) • Ítalo (Violão) • Lucas (Teclado) • Efrain (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Letícia",
+      "media": "Som: Bruno • Proj: Juliana e Ana da Tati",
+      "diaconia": "Acolhimento: Edinho e Sandra",
+      "details": {
+        "preacher": "Manú",
+        "theme": "",
+        "text": "",
+        "minister": "Manú",
+        "back1": "Karolyne",
+        "back2": "-",
+        "guitar_ac": "Ítalo",
+        "guitar_el": "-",
+        "keys": "Lucas",
+        "bass": "Efrain",
+        "drums": "Icaro",
+        "kids1": "Letícia",
+        "kids2": "",
+        "sound": "Bruno",
+        "proj": "Juliana e Ana da Tati",
+        "stream": "",
+        "acolhimento": "Edinho e Sandra",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Há um lugar"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Creio que tu es a Cura"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Vitorioso És"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Aclame ao senhor"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "A ele a glória"
+        }
+      ]
+    },
+    {
+      "date": "Dom, 23/08/2026",
+      "date_raw": "2026-08-23",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração PROFÉTICO",
+      "team": "Equipe 02",
+      "preacher": "Pr. Flávio",
+      "theme": "Dons que Curam, Liderança que Protege: O Corpo em Ação",
+      "text": "1 Samuel 10:5-7",
+      "worship": "Karolyne (Ministro) • Manú, Letícia (Back) • João Vitor (Violão) • Efrain (Teclado) • João Paulo (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Valéria • T2: Maria Eduarda",
+      "media": "Som: Felipe • Proj: Jordana",
+      "diaconia": "Acolhimento: Edinho e Sandra",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "Dons que Curam, Liderança que Protege: O Corpo em Ação",
+        "text": "1 Samuel 10:5-7",
+        "minister": "Karolyne",
+        "back1": "Manú",
+        "back2": "Letícia",
+        "guitar_ac": "João Vitor",
+        "guitar_el": "Ítalo",
+        "keys": "Efrain",
+        "bass": "João Paulo",
+        "drums": "Icaro",
+        "kids1": "Valéria",
+        "kids2": "Maria Eduarda",
+        "sound": "Felipe",
+        "proj": "Jordana",
+        "stream": "",
+        "acolhimento": "Edinho e Sandra",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Vem está é a hora"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Coração igual ao teu"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Porque Ele vive"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "A Ele a Glória"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "Vitorioso  És"
+        }
+      ]
+    },
+    {
+      "date": "Qui, 27/08/2026",
+      "date_raw": "2026-08-27",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "",
+      "preacher": "Efrain Rael",
+      "theme": "",
+      "text": "",
+      "worship": "Lucas (Ministro) • Letícia, Manú (Back) • Ítalo (Violão) • Lucas (Teclado) • Efrain (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Maria Eduarda",
+      "media": "Som: Bruno • Proj: Juliana e Ana da Tati",
+      "diaconia": "Acolhimento: Johnatan e Tatiana",
+      "details": {
+        "preacher": "Efrain Rael",
+        "theme": "",
+        "text": "",
+        "minister": "Lucas",
+        "back1": "Letícia",
+        "back2": "Manú",
+        "guitar_ac": "Ítalo",
+        "guitar_el": "-",
+        "keys": "Lucas",
+        "bass": "Efrain",
+        "drums": "Icaro",
+        "kids1": "Maria Eduarda",
+        "kids2": "",
+        "sound": "Bruno",
+        "proj": "Juliana e Ana da Tati",
+        "stream": "",
+        "acolhimento": "Johnatan e Tatiana",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Grande é o Senhor"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Gratidão"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Sobre as águas"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Ele vem"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "Santo pra sempre"
+        }
+      ]
+    },
+    {
+      "date": "Dom, 30/08/2026",
+      "date_raw": "2026-08-30",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração GRATIDÃO",
+      "team": "Equipe 03",
+      "preacher": "Pr. Flávio",
+      "theme": "Fé Visível: O Poder do Toque, da Cura e do Envio",
+      "text": "Gênesis 48:13-15",
+      "worship": "Manú (Ministro) • Kamynnsky, Bruno (Back) • João Vitor (Violão) • Efrain (Teclado) • João Paulo (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Ana Carolina • T2: Ana Júlia",
+      "media": "Som: Felipe • Proj: Ramon",
+      "diaconia": "Acolhimento: Joel e Nadir",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "Fé Visível: O Poder do Toque, da Cura e do Envio",
+        "text": "Gênesis 48:13-15",
+        "minister": "Manú",
+        "back1": "Kamynnsky",
+        "back2": "Bruno",
+        "guitar_ac": "João Vitor",
+        "guitar_el": "Ítalo",
+        "keys": "Efrain",
+        "bass": "João Paulo",
+        "drums": "Icaro",
+        "kids1": "Ana Carolina",
+        "kids2": "Ana Júlia",
+        "sound": "Felipe",
+        "proj": "Ramon",
+        "stream": "",
+        "acolhimento": "Joel e Nadir",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Filho do Deus Vivo"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Quem é esse"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Vem me Buscar"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Hosana"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "Pra sempre"
+        }
+      ]
+    }
+  ],
+  "Set": [
+    {
+      "date": "Qui, 03/09/2026",
+      "date_raw": "2026-09-03",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "Equipe 01",
+      "preacher": "Ítalo",
+      "theme": "Tema Livre",
+      "text": "",
+      "worship": "Manú (Ministro) • Manú (Back) • Ítalo (Violão) • Lucas (Teclado) • Efrain (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Letícia • T2: Ana Júlia",
+      "media": "Som: Bruno • Proj: Juliana e Ana Carolina",
+      "diaconia": "Acolhimento: Edinho e Sandra",
+      "details": {
+        "preacher": "Ítalo",
+        "theme": "Tema Livre",
+        "text": "",
+        "minister": "Manú",
+        "back1": "Manú",
+        "back2": "",
+        "guitar_ac": "Ítalo",
+        "guitar_el": "-",
+        "keys": "Lucas",
+        "bass": "Efrain",
+        "drums": "Icaro",
+        "kids1": "Letícia",
+        "kids2": "Ana Júlia",
+        "sound": "Bruno",
+        "proj": "Juliana e Ana Carolina",
+        "stream": "",
+        "acolhimento": "Edinho e Sandra",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Hosana"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Que se abram os céus"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Vitorioso és"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Me esvaziar"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "Creio que tu és a cura"
+        }
+      ]
+    },
+    {
+      "date": "Dom, 06/09/2026",
+      "date_raw": "2026-09-06",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração CEIA DO SENHOR",
+      "team": "",
+      "preacher": "Pr. Flávio",
+      "theme": "Reacendendo a chama do amor",
+      "text": "Ct 1.1-17; Ap. 2.1-5",
+      "worship": "Manú (Ministro) • Bruno/Letícia (Back) • João Vitor (Violão) • Efrain (Teclado) • Ítalo (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Manhã:Ana Carolina \nNoite: karolyne • T2: Maria Eduarda",
+      "media": "Som: Felipe/Lucas • Proj: Manhã: Ramon\nNoite: Ana Júlia",
+      "diaconia": "Acolhimento: Manhã: Edinho e Sandra\nNoite: Joel e Nadir",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "Reacendendo a chama do amor",
+        "text": "Ct 1.1-17; Ap. 2.1-5",
+        "minister": "Manú",
+        "back1": "-",
+        "back2": "Bruno/Letícia",
+        "guitar_ac": "João Vitor",
+        "guitar_el": "-",
+        "keys": "Efrain",
+        "bass": "Ítalo",
+        "drums": "Icaro",
+        "kids1": "Manhã:Ana Carolina \nNoite: karolyne",
+        "kids2": "Maria Eduarda",
+        "sound": "Felipe/Lucas",
+        "proj": "Manhã: Ramon\nNoite: Ana Júlia",
+        "stream": "",
+        "acolhimento": "Manhã: Edinho e Sandra\nNoite: Joel e Nadir",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Porque ele vive"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Alfa e omega"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Aclame ao senhor"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Cruz"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "Canção do apocalipse"
+        }
+      ]
+    },
+    {
+      "date": "Qui, 10/09/2026",
+      "date_raw": "2026-09-10",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "Equipe 02",
+      "preacher": "Efrain Rael",
+      "theme": "Tema Livre",
+      "text": "",
+      "worship": "Karolyne (Ministro) • Lucas (Back) • Ítalo (Violão) • Lucas (Teclado) • Efrain (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Maria Eduarda • T2: Jordana",
+      "media": "Som: Bruno • Proj: Juliana e Ana Carolina",
+      "diaconia": "Acolhimento: Johnatan e Tatiana",
+      "details": {
+        "preacher": "Efrain Rael",
+        "theme": "Tema Livre",
+        "text": "",
+        "minister": "Karolyne",
+        "back1": "Lucas",
+        "back2": "",
+        "guitar_ac": "Ítalo",
+        "guitar_el": "-",
+        "keys": "Lucas",
+        "bass": "Efrain",
+        "drums": "Icaro",
+        "kids1": "Maria Eduarda",
+        "kids2": "Jordana",
+        "sound": "Bruno",
+        "proj": "Juliana e Ana Carolina",
+        "stream": "",
+        "acolhimento": "Johnatan e Tatiana",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Pai nosso"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Essência da adoração"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Canção do Apocalipse"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Até que o Senhor venha"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "A Terra Clama"
+        }
+      ]
+    },
+    {
+      "date": "Dom, 13/09/2026",
+      "date_raw": "2026-09-13",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração GERAÇÕES",
+      "team": "",
+      "preacher": "Pr. Dinoildo",
+      "theme": "Tema Livre",
+      "text": "",
+      "worship": "Manú (Ministro) • Kamynnsky, Bruno (Back) • João Vitor (Violão) • Efrain (Teclado) • Italo (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Valéria e Ester • T2: Jordana",
+      "media": "Som: Felipe/Lucas • Proj: Juliana e Ana Júlia",
+      "diaconia": "Acolhimento: Johnatan e Tatiana",
+      "details": {
+        "preacher": "Pr. Dinoildo",
+        "theme": "Tema Livre",
+        "text": "",
+        "minister": "Manú",
+        "back1": "Kamynnsky",
+        "back2": "Bruno",
+        "guitar_ac": "João Vitor",
+        "guitar_el": "-",
+        "keys": "Efrain",
+        "bass": "Italo",
+        "drums": "Icaro",
+        "kids1": "Valéria e Ester",
+        "kids2": "Jordana",
+        "sound": "Felipe/Lucas",
+        "proj": "Juliana e Ana Júlia",
+        "stream": "",
+        "acolhimento": "Johnatan e Tatiana",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Teu amor não falha"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Vitorioso és"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Pai nosso"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Quão grande é o meu Deus"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "Pra sempre"
+        }
+      ]
+    },
+    {
+      "date": "Qui, 17/09/2026",
+      "date_raw": "2026-09-17",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "Equipe 03",
+      "preacher": "Manú",
+      "theme": "Tema Livre",
+      "text": "",
+      "worship": "Lucas (Ministro) • Manú (Back) • Ítalo (Violão) • Lucas (Teclado) • Efrain (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Letícia • T2: Maria Eduarda",
+      "media": "Som: Bruno • Proj: Juliana e Ana Carolina",
+      "diaconia": "Acolhimento: Moiséis e Thaynará",
+      "details": {
+        "preacher": "Manú",
+        "theme": "Tema Livre",
+        "text": "",
+        "minister": "Lucas",
+        "back1": "Manú",
+        "back2": "",
+        "guitar_ac": "Ítalo",
+        "guitar_el": "-",
+        "keys": "Lucas",
+        "bass": "Efrain",
+        "drums": "Icaro",
+        "kids1": "Letícia",
+        "kids2": "Maria Eduarda",
+        "sound": "Bruno",
+        "proj": "Juliana e Ana Carolina",
+        "stream": "",
+        "acolhimento": "Moiséis e Thaynará",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Grande e o senhor"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Gratidão"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Sobre as águas"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Ele vem"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "Santo pra sempre"
+        }
+      ]
+    },
+    {
+      "date": "Dom, 20/09/2026",
+      "date_raw": "2026-09-20",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração REVIVA CANÇÕES",
+      "team": "",
+      "preacher": "Pr. Flávio",
+      "theme": "Nutrindo a chama do amor",
+      "text": "Ct. 2.1-17; Pv. 5.15-23",
+      "worship": "Kamynnsky (Ministro) • Manú, Bruno (Back) • João Vitor (Violão) • Efrain (Teclado) • Ítalo (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Letícia e Ester • T2: Jordana",
+      "media": "Som: Felipe/Lucas • Proj: Juliana e Ana Júlia",
+      "diaconia": "Acolhimento: Joel e Nadir",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "Nutrindo a chama do amor",
+        "text": "Ct. 2.1-17; Pv. 5.15-23",
+        "minister": "Kamynnsky",
+        "back1": "Manú",
+        "back2": "Bruno",
+        "guitar_ac": "João Vitor",
+        "guitar_el": "-",
+        "keys": "Efrain",
+        "bass": "Ítalo",
+        "drums": "Icaro",
+        "kids1": "Letícia e Ester",
+        "kids2": "Jordana",
+        "sound": "Felipe/Lucas",
+        "proj": "Juliana e Ana Júlia",
+        "stream": "",
+        "acolhimento": "Joel e Nadir",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Grande é o Senhor"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Coração igual ao teu"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "A Ele a Glória"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Quão grande é o meu Deus"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "Poderoso Deus"
+        }
+      ]
+    },
+    {
+      "date": "Qui, 24/09/2026",
+      "date_raw": "2026-09-24",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "Equipe 01",
+      "preacher": "Edla",
+      "theme": "Tema Livre",
+      "text": "",
+      "worship": "Manú (Ministro) • Lucas (Back) • Ítalo (Violão) • Lucas (Teclado) • Efrain (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Valéria • T2: Ana Júlia",
+      "media": "Som: Bruno • Proj: Juliana e Ana Carolina",
+      "diaconia": "Acolhimento: Edinho e Sandra",
+      "details": {
+        "preacher": "Edla",
+        "theme": "Tema Livre",
+        "text": "",
+        "minister": "Manú",
+        "back1": "Lucas",
+        "back2": "",
+        "guitar_ac": "Ítalo",
+        "guitar_el": "-",
+        "keys": "Lucas",
+        "bass": "Efrain",
+        "drums": "Icaro",
+        "kids1": "Valéria",
+        "kids2": "Ana Júlia",
+        "sound": "Bruno",
+        "proj": "Juliana e Ana Carolina",
+        "stream": "",
+        "acolhimento": "Edinho e Sandra",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Hosana"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Escudo"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "A ele a Glória"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Oceanos"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "Maranata"
+        }
+      ]
+    },
+    {
+      "date": "Dom, 27/09/2026",
+      "date_raw": "2026-09-27",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração PROFÉTICO",
+      "team": "",
+      "preacher": "Pr. Flávio",
+      "theme": "Cura de dores que interferem com nosso amor",
+      "text": "Ct. 3.1-11; Is.62.1-5,12",
+      "worship": "Ana Júlia (Ministro) • Manú, Bruno (Back) • João Vitor (Violão) • Lucas (Teclado) • Efrain (Baixo) • Icaro (Bateria)",
+      "kids": "T1: Ana Carolina • T2: Maria Eduarda",
+      "media": "Som: Felipe/Lucas • Proj: Ramon e Juliana",
+      "diaconia": "Acolhimento: Edinho e Sandra",
+      "details": {
+        "preacher": "Pr. Flávio",
+        "theme": "Cura de dores que interferem com nosso amor",
+        "text": "Ct. 3.1-11; Is.62.1-5,12",
+        "minister": "Ana Júlia",
+        "back1": "Manú",
+        "back2": "Bruno",
+        "guitar_ac": "João Vitor",
+        "guitar_el": "Ítalo",
+        "keys": "Lucas",
+        "bass": "Efrain",
+        "drums": "Icaro",
+        "kids1": "Ana Carolina",
+        "kids2": "Maria Eduarda",
+        "sound": "Felipe/Lucas",
+        "proj": "Ramon e Juliana",
+        "stream": "",
+        "acolhimento": "Edinho e Sandra",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "color": "verde",
+          "badge": "VERDE • 01-19",
+          "title": "Fé"
+        },
+        {
+          "color": "amarelo",
+          "badge": "AMARELO • 20-39",
+          "title": "Creio que tu és a cura"
+        },
+        {
+          "color": "vermelho",
+          "badge": "VERMELHO • 40-59",
+          "title": "Filho do Deus vivo"
+        },
+        {
+          "color": "roxo",
+          "badge": "ROXO • 60-79",
+          "title": "Quem é esse"
+        },
+        {
+          "color": "azul",
+          "badge": "AZUL • 80-99",
+          "title": "Um coração igual ao Teu"
+        }
+      ]
+    },
+    {
+      "date": "Qui, 01/10/2026",
+      "date_raw": "2026-10-01",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "Equipe 02",
+      "preacher": "?",
+      "theme": "Tema Livre",
+      "text": "",
+      "worship": "A definir",
+      "kids": "T2: Ana Júlia",
+      "media": "A definir",
+      "diaconia": "",
+      "details": {
+        "preacher": "?",
+        "theme": "Tema Livre",
+        "text": "",
+        "minister": "",
+        "back1": "",
+        "back2": "",
+        "guitar_ac": "",
+        "guitar_el": "",
+        "keys": "",
+        "bass": "",
+        "drums": "",
+        "kids1": "",
+        "kids2": "Ana Júlia",
+        "sound": "",
+        "proj": "",
+        "stream": "",
+        "acolhimento": "",
+        "estacionamento": ""
+      },
+      "songs": []
+    }
+  ],
+  "Out": [
+    {
+      "date": "Qui, 01/10/2026",
+      "date_raw": "2026-10-01",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "Equipe 02",
+      "preacher": "Efrain Rael",
+      "theme": "O Poder da Oração no Secreto",
+      "text": "Sl 91",
+      "worship": "Manú (Ministro) • Bruno (Violão) • Efrain (Teclado) • Italo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Letícia",
+      "media": "Som: Felipe • Proj: Samuel • Transm: Lorivaldo",
+      "diaconia": "Acolhimento: Moisés e Thaynará",
+      "details": {
+        "preacher": "Efrain Rael",
+        "theme": "O Poder da Oração no Secreto",
+        "text": "Sl 91",
+        "minister": "Manú",
+        "back1": "",
+        "back2": "",
+        "guitar_ac": "Bruno",
+        "guitar_el": "",
+        "keys": "Efrain",
+        "bass": "Italo",
+        "drums": "Ícaro",
+        "kids1": "Letícia",
+        "kids2": "",
+        "sound": "Felipe",
+        "proj": "Samuel",
+        "stream": "Lorivaldo",
+        "acolhimento": "Moisés e Thaynará",
+        "estacionamento": ""
+      },
+      "songs": []
+    },
+    {
+      "date": "Dom, 04/10/2026",
+      "date_raw": "2026-10-04",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração CEIA DO SENHOR",
+      "team": "",
+      "preacher": "Pr. Flávio Amaral",
+      "theme": "A Mesa da Comunhão e o Fogo do Espírito",
+      "text": "Atos 2.1-4; 1Co 11.23-26",
+      "worship": "Manú (Ministro) • Karol, Kamynnsky (Back) • Bruno (Violão) • Teclado Base (Teclado) • João Paulo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Letícia e Ester • T2: Ana Júlia",
+      "media": "Som: Efrain • Proj: Jordana e Lucas • Transm: Lorivaldo",
+      "diaconia": "Acolhimento: Johnatan e Tatiana",
+      "details": {
+        "preacher": "Pr. Flávio Amaral",
+        "theme": "A Mesa da Comunhão e o Fogo do Espírito",
+        "text": "Atos 2.1-4; 1Co 11.23-26",
+        "minister": "Manú",
+        "back1": "Karol",
+        "back2": "Kamynnsky",
+        "guitar_ac": "Bruno",
+        "guitar_el": "Ítalo",
+        "keys": "Teclado Base",
+        "bass": "João Paulo",
+        "drums": "Ícaro",
+        "kids1": "Letícia e Ester",
+        "kids2": "Ana Júlia",
+        "sound": "Efrain",
+        "proj": "Jordana e Lucas",
+        "stream": "Lorivaldo",
+        "acolhimento": "Johnatan e Tatiana",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "order": 1,
+          "step": "Abertura Histórica",
+          "title": "HCC 193 - A Deus demos glória",
+          "artist": "Hinário Batista",
+          "block": 1,
+          "block_name": "Bloco 1 - Histórico",
+          "key": "G",
+          "tempo": "Solene / Moderno (95 BPM)",
+          "transition": "Resgate histórico com arranjo contemporâneo",
+          "notes": "Resgate da densidade teológica com arranjo atual da banda.",
+          "badge": "BLOCO 1 • HISTÓRICO",
+          "color": "blue"
+        },
+        {
+          "order": 2,
+          "step": "Celebração",
+          "title": "Vitorioso És",
+          "artist": "Gabriel Guedes",
+          "block": 5,
+          "block_name": "Bloco 5 - Escatologia",
+          "key": "C",
+          "tempo": "Vibrante / Triunfal (74 BPM)",
+          "transition": "Entrada de bateria cheia nos toms",
+          "notes": "Celebra o túmulo vazio e a derrota definitiva da morte.",
+          "badge": "BLOCO 5 • ESCATOLOGIA",
+          "color": "emerald"
+        },
+        {
+          "order": 3,
+          "step": "Dependência",
+          "title": "Meu respirar",
+          "artist": "Gabriela Rocha / Vineyard",
+          "block": 2,
+          "block_name": "Bloco 2 - Contrição",
+          "key": "G",
+          "tempo": "Lento / Íntimo (64 BPM)",
+          "transition": "Queda de dinâmica para momento solene da Ceia",
+          "notes": "Prepara para a Ceia; Cristo como sustentação diária e vital.",
+          "badge": "BLOCO 2 • CONTRIÇÃO",
+          "color": "purple"
+        },
+        {
+          "order": 4,
+          "step": "Adoração",
+          "title": "Canção do Apocalipse",
+          "artist": "Diante do Trono",
+          "block": 5,
+          "block_name": "Bloco 5 - Escatologia",
+          "key": "C",
+          "tempo": "Solene / Épico (62 BPM)",
+          "transition": "Construção épica; transição do teto da igreja para o céu",
+          "notes": "Transporta a igreja para a visão celestial de Apocalipse 4.",
+          "badge": "BLOCO 5 • ESCATOLOGIA",
+          "color": "emerald"
+        },
+        {
+          "order": 5,
+          "step": "Envio",
+          "title": "A Benção",
+          "artist": "Gabriel Guedes",
+          "block": 5,
+          "block_name": "Bloco 5 - Envio",
+          "key": "G",
+          "tempo": "Lento / Bênção (68 BPM)",
+          "transition": "Modulação suave para a oração pastoral final",
+          "notes": "Liberação pastoral apostólica (Números 6) sobre as famílias.",
+          "badge": "BLOCO 5 • ENVIO",
+          "color": "emerald"
+        }
+      ]
+    },
+    {
+      "date": "Qui, 08/10/2026",
+      "date_raw": "2026-10-08",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "Equipe 03",
+      "preacher": "Ana Paula",
+      "theme": "Fé e Cura nas Provações",
+      "text": "Tg 5.13-16",
+      "worship": "Efrain Rael (Ministro) • Bruno (Violão) • Efrain (Teclado) • Italo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Maria Eduarda",
+      "media": "Som: Felipe • Proj: Lucas • Transm: Lorivaldo",
+      "diaconia": "Acolhimento: Leadnro e Paula",
+      "details": {
+        "preacher": "Ana Paula",
+        "theme": "Fé e Cura nas Provações",
+        "text": "Tg 5.13-16",
+        "minister": "Efrain Rael",
+        "back1": "",
+        "back2": "",
+        "guitar_ac": "Bruno",
+        "guitar_el": "",
+        "keys": "Efrain",
+        "bass": "Italo",
+        "drums": "Ícaro",
+        "kids1": "Maria Eduarda",
+        "kids2": "",
+        "sound": "Felipe",
+        "proj": "Lucas",
+        "stream": "Lorivaldo",
+        "acolhimento": "Leadnro e Paula",
+        "estacionamento": ""
+      },
+      "songs": []
+    },
+    {
+      "date": "Dom, 11/10/2026",
+      "date_raw": "2026-10-11",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração GERAÇÕES",
+      "team": "",
+      "preacher": "Pr. Flávio Amaral",
+      "theme": "Legado Espiritual: Edificando a Próxima Geração",
+      "text": "Efésios 4.11-16; Pv 22.6",
+      "worship": "Karol (Ministro) • Bruno, Kamynnsky (Back) • Flávio F. (Violão) • Efrain (Teclado) • Italo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Valéria e Jordana • T2: Jordana",
+      "media": "Som: Kauê • Proj: Edla e Ana C. da Tatiana • Transm: Lorivaldo",
+      "diaconia": "Acolhimento: Joel e Nadir",
+      "details": {
+        "preacher": "Pr. Flávio Amaral",
+        "theme": "Legado Espiritual: Edificando a Próxima Geração",
+        "text": "Efésios 4.11-16; Pv 22.6",
+        "minister": "Karol",
+        "back1": "Bruno",
+        "back2": "Kamynnsky",
+        "guitar_ac": "Flávio F.",
+        "guitar_el": "",
+        "keys": "Efrain",
+        "bass": "Italo",
+        "drums": "Ícaro",
+        "kids1": "Valéria e Jordana",
+        "kids2": "Jordana",
+        "sound": "Kauê",
+        "proj": "Edla e Ana C. da Tatiana",
+        "stream": "Lorivaldo",
+        "acolhimento": "Joel e Nadir",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "order": 1,
+          "step": "Abertura",
+          "title": "Filho do Deus vivo",
+          "artist": "Nívea Soares",
+          "block": 1,
+          "block_name": "Bloco 1 - Chamada",
+          "key": "D",
+          "tempo": "Rápido / Moderado (118 BPM)",
+          "transition": "Abertura firme sem enrolação",
+          "notes": "Declaração rápida de identidade cristológica (Mateus 16).",
+          "badge": "BLOCO 1 • CELEBRAÇÃO",
+          "color": "blue"
+        },
+        {
+          "order": 2,
+          "step": "Transição",
+          "title": "Jesus é o caminho",
+          "artist": "Heloísa Rosa",
+          "block": 4,
+          "block_name": "Bloco 4 - Adoração Doxológica",
+          "key": "Em",
+          "tempo": "Médio / Firme (90 BPM)",
+          "transition": "Transição harmônica com pad em Ré menor/Mi menor",
+          "notes": "Vacina teológica contra o pluralismo e o relativismo.",
+          "badge": "BLOCO 4 • MAJESTADE",
+          "color": "amber"
+        },
+        {
+          "order": 3,
+          "step": "Contrição",
+          "title": "Diante da Cruz",
+          "artist": "Aline Barros",
+          "block": 2,
+          "block_name": "Bloco 2 - Contrição",
+          "key": "D",
+          "tempo": "Lento (68 BPM)",
+          "transition": "Banda reduz a intensidade; só violão e piano",
+          "notes": "A banda reduz volume; a igreja canta o abandono do orgulho.",
+          "badge": "BLOCO 2 • CONTRIÇÃO",
+          "color": "purple"
+        },
+        {
+          "order": 4,
+          "step": "Imersão",
+          "title": "É Ele",
+          "artist": "Drops",
+          "block": 4,
+          "block_name": "Bloco 4 - Adoração Doxológica",
+          "key": "G",
+          "tempo": "Worship Moderno (70 BPM)",
+          "transition": "Crescente contínuo de dinâmica até o refrão",
+          "notes": "Letra focada na preeminência absoluta de Cristo (Colossenses 1).",
+          "badge": "BLOCO 4 • MAJESTADE",
+          "color": "amber"
+        },
+        {
+          "order": 5,
+          "step": "Encerramento",
+          "title": "Quão grande é meu Deus",
+          "artist": "Soraya Morais",
+          "block": 4,
+          "block_name": "Bloco 4 - Adoração Doxológica",
+          "key": "C",
+          "tempo": "Lento / Grandioso (68 BPM)",
+          "transition": "Modulação suave para Dó; congregação cantando em uníssono",
+          "notes": "Nivela todas as faixas etárias de Inhumas em uníssono.",
+          "badge": "BLOCO 4 • MAJESTADE",
+          "color": "amber"
+        }
+      ]
+    },
+    {
+      "date": "Qui, 15/10/2026",
+      "date_raw": "2026-10-15",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "Equipe 01",
+      "preacher": "Edla",
+      "theme": "A Paz que Guarda o Coração",
+      "text": "Fp 4.4-9",
+      "worship": "Manú (Ministro) • Bruno (Violão) • Teclado Base (Teclado) • João Paulo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Letícia",
+      "media": "Som: Efrain • Proj: Samuel • Transm: Lorivaldo",
+      "diaconia": "Acolhimento: Edson e Sandra",
+      "details": {
+        "preacher": "Edla",
+        "theme": "A Paz que Guarda o Coração",
+        "text": "Fp 4.4-9",
+        "minister": "Manú",
+        "back1": "",
+        "back2": "",
+        "guitar_ac": "Bruno",
+        "guitar_el": "",
+        "keys": "Teclado Base",
+        "bass": "João Paulo",
+        "drums": "Ícaro",
+        "kids1": "Letícia",
+        "kids2": "",
+        "sound": "Efrain",
+        "proj": "Samuel",
+        "stream": "Lorivaldo",
+        "acolhimento": "Edson e Sandra",
+        "estacionamento": ""
+      },
+      "songs": []
+    },
+    {
+      "date": "Dom, 18/10/2026",
+      "date_raw": "2026-10-18",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração REVIVA CANÇÕES",
+      "team": "",
+      "preacher": "Pr. Flávio Amaral",
+      "theme": "Canções que Curam e Libertam",
+      "text": "Salmos 100.1-5; Cl 3.16",
+      "worship": "Manú (Ministro) • Karol, Kamynnsky (Back) • Bruno (Violão) • Efrain (Teclado) • Italo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Ana Carolina e Maria Eduarda • T2: Maria Eduarda",
+      "media": "Som: Felipe • Proj: Ramon e Samuel • Transm: Lorivaldo",
+      "diaconia": "Acolhimento: Edinho e Sandra",
+      "details": {
+        "preacher": "Pr. Flávio Amaral",
+        "theme": "Canções que Curam e Libertam",
+        "text": "Salmos 100.1-5; Cl 3.16",
+        "minister": "Manú",
+        "back1": "Karol",
+        "back2": "Kamynnsky",
+        "guitar_ac": "Bruno",
+        "guitar_el": "Ítalo",
+        "keys": "Efrain",
+        "bass": "Italo",
+        "drums": "Ícaro",
+        "kids1": "Ana Carolina e Maria Eduarda",
+        "kids2": "Maria Eduarda",
+        "sound": "Felipe",
+        "proj": "Ramon e Samuel",
+        "stream": "Lorivaldo",
+        "acolhimento": "Edinho e Sandra",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "order": 1,
+          "step": "Chamada",
+          "title": "Vem, esta é a hora",
+          "artist": "Vineyard",
+          "block": 1,
+          "block_name": "Bloco 1 - Chamada",
+          "key": "D",
+          "tempo": "Pop-Rock (110 BPM)",
+          "transition": "Linkagem harmônica contínua",
+          "notes": "Quebra o gelo e convoca a igreja à adoração pública.",
+          "badge": "BLOCO 1 • CELEBRAÇÃO",
+          "color": "blue"
+        },
+        {
+          "order": 2,
+          "step": "Celebração",
+          "title": "Todas as coisas",
+          "artist": "Fernandinho",
+          "block": 1,
+          "block_name": "Bloco 1 - Celebração",
+          "key": "G",
+          "tempo": "Pop-Rock (122 BPM)",
+          "transition": "Modulação direta D -> G com pad",
+          "notes": "Afirma a soberania de Deus sobre as circunstâncias (Rm 8:28).",
+          "badge": "BLOCO 1 • CELEBRAÇÃO",
+          "color": "blue"
+        },
+        {
+          "order": 3,
+          "step": "Contrição",
+          "title": "Quebrantado",
+          "artist": "Vineyard",
+          "block": 2,
+          "block_name": "Bloco 2 - Contrição",
+          "key": "C",
+          "tempo": "Lento (68 BPM)",
+          "transition": "Queda de andamento; entrada suave violão/teclado",
+          "notes": "Queda de andamento; reconhecimento da falibilidade humana.",
+          "badge": "BLOCO 2 • CONTRIÇÃO",
+          "color": "purple"
+        },
+        {
+          "order": 4,
+          "step": "Adoração (Ápice)",
+          "title": "Nada além do sangue",
+          "artist": "Fernandinho",
+          "block": 3,
+          "block_name": "Bloco 3 - Cruz & Salvação",
+          "key": "E",
+          "tempo": "Moderado Intenso (76 BPM)",
+          "transition": "Pad em Em -> E; build-up na ponte",
+          "notes": "O clímax na suficiência do sacrifício substitutivo.",
+          "badge": "BLOCO 3 • CRUZ",
+          "color": "rose"
+        },
+        {
+          "order": 5,
+          "step": "Fechamento",
+          "title": "A Ele a glória",
+          "artist": "Diante do Trono",
+          "block": 4,
+          "block_name": "Bloco 4 - Adoração Doxológica",
+          "key": "C",
+          "tempo": "Majestoso (65 BPM)",
+          "transition": "Modulação de encerramento; igreja a cappella no refrão",
+          "notes": "Resposta doxológica de Romanos 11:36, olhos fixos no trono.",
+          "badge": "BLOCO 4 • MAJESTADE",
+          "color": "amber"
+        }
+      ]
+    },
+    {
+      "date": "Qui, 22/10/2026",
+      "date_raw": "2026-10-22",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração",
+      "team": "Equipe 02",
+      "preacher": "Ítalo",
+      "theme": "Transformados Pela Renovação da Mente",
+      "text": "Rm 12.1-8",
+      "worship": "Bruno (Ministro) • Flávio F. (Violão) • Efrain (Teclado) • Italo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Valéria",
+      "media": "Som: Felipe • Proj: Lucas • Transm: Lorivaldo",
+      "diaconia": "Acolhimento: João Paulo e Roberta",
+      "details": {
+        "preacher": "Ítalo",
+        "theme": "Transformados Pela Renovação da Mente",
+        "text": "Rm 12.1-8",
+        "minister": "Bruno",
+        "back1": "",
+        "back2": "",
+        "guitar_ac": "Flávio F.",
+        "guitar_el": "",
+        "keys": "Efrain",
+        "bass": "Italo",
+        "drums": "Ícaro",
+        "kids1": "Valéria",
+        "kids2": "",
+        "sound": "Felipe",
+        "proj": "Lucas",
+        "stream": "Lorivaldo",
+        "acolhimento": "João Paulo e Roberta",
+        "estacionamento": ""
+      },
+      "songs": []
+    },
+    {
+      "date": "Dom, 25/10/2026",
+      "date_raw": "2026-10-25",
+      "weekday": "Domingo",
+      "title": "Culto de Celebração PROFÉTICO",
+      "team": "",
+      "preacher": "Pr. Flávio Amaral",
+      "theme": "Ouvindo a Voz de Deus no Tempo do Fim",
+      "text": "Joel 2.28-29; 1Co 14.1-3",
+      "worship": "Kamynnsky (Ministro) • Bruno, Manú (Back) • Bruno (Violão) • Teclado Base (Teclado) • João Paulo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Letícia, Ana Júlia e Ester • T2: Ana Júlia",
+      "media": "Som: Efrain • Proj: Jordana e Lucas • Transm: Lorivaldo",
+      "diaconia": "Acolhimento: Johnatan e Tatiana",
+      "details": {
+        "preacher": "Pr. Flávio Amaral",
+        "theme": "Ouvindo a Voz de Deus no Tempo do Fim",
+        "text": "Joel 2.28-29; 1Co 14.1-3",
+        "minister": "Kamynnsky",
+        "back1": "Bruno",
+        "back2": "Manú",
+        "guitar_ac": "Bruno",
+        "guitar_el": "Ítalo",
+        "keys": "Teclado Base",
+        "bass": "João Paulo",
+        "drums": "Ícaro",
+        "kids1": "Letícia, Ana Júlia e Ester",
+        "kids2": "Ana Júlia",
+        "sound": "Efrain",
+        "proj": "Jordana e Lucas",
+        "stream": "Lorivaldo",
+        "acolhimento": "Johnatan e Tatiana",
+        "estacionamento": ""
+      },
+      "songs": [
+        {
+          "order": 1,
+          "step": "Abertura",
+          "title": "Hosana",
+          "artist": "Diante do Trono",
+          "block": 1,
+          "block_name": "Bloco 1 - Chamada",
+          "key": "G",
+          "tempo": "Dinâmica Crescente (115 BPM)",
+          "transition": "Pad em G -> Emenda direta",
+          "notes": "Dinâmica crescente convocando a congregação.",
+          "badge": "BLOCO 1 • CELEBRAÇÃO",
+          "color": "blue"
+        },
+        {
+          "order": 2,
+          "step": "Clamor",
+          "title": "Abram-se os Portais",
+          "artist": "Fhop Music",
+          "block": 1,
+          "block_name": "Bloco 1 - Chamada",
+          "key": "E",
+          "tempo": "Solene / Enérgico (110 BPM)",
+          "transition": "Modulação direta",
+          "notes": "Invocação baseada no Salmo 24.",
+          "badge": "BLOCO 1 • CELEBRAÇÃO",
+          "color": "blue"
+        },
+        {
+          "order": 3,
+          "step": "Quebrantamento",
+          "title": "Fogo Purificador",
+          "artist": "Vineyard",
+          "block": 2,
+          "block_name": "Bloco 2 - Contrição",
+          "key": "D",
+          "tempo": "Lento (66 BPM)",
+          "transition": "Queda de dinâmica para oração e arrependimento",
+          "notes": "Busca por santificação e caráter refinado (Malaquias 3).",
+          "badge": "BLOCO 2 • CONTRIÇÃO",
+          "color": "purple"
+        },
+        {
+          "order": 4,
+          "step": "Adoração",
+          "title": "Canção do Apocalipse",
+          "artist": "Diante do Trono",
+          "block": 5,
+          "block_name": "Bloco 5 - Escatologia",
+          "key": "C",
+          "tempo": "Solene / Épico (62 BPM)",
+          "transition": "Construção de dinâmica progressiva",
+          "notes": "A visão celestial de Apocalipse 4.",
+          "badge": "BLOCO 5 • ESCATOLOGIA",
+          "color": "emerald"
+        },
+        {
+          "order": 5,
+          "step": "Envio",
+          "title": "O Espírito e a Noiva",
+          "artist": "Fhop Music",
+          "block": 5,
+          "block_name": "Bloco 5 - Escatologia",
+          "key": "Am",
+          "tempo": "Clamor Crescente (70 BPM)",
+          "transition": "Espontâneo final com ministração pastoral",
+          "notes": "Apocalipse 22. Clamor coletivo com intensidade crescente.",
+          "badge": "BLOCO 5 • ESCATOLOGIA",
+          "color": "emerald"
+        }
+      ]
+    },
+    {
+      "date": "Qui, 29/10/2026",
+      "date_raw": "2026-10-29",
+      "weekday": "Quinta-feira",
+      "title": "Casa de Oração e Vigília",
+      "team": "Equipe Geral",
+      "preacher": "Manú / Pr. Flávio",
+      "theme": "Vigiai e Orai: O Despertar da Igreja",
+      "text": "Mt 26.36-46",
+      "worship": "Manú (Ministro) • Karol (Back) • Bruno e Flávio F. (Violão) • Efrain (Teclado) • Italo (Baixo) • Ícaro (Bateria)",
+      "kids": "T1: Equipe Infantil",
+      "media": "Som: Felipe e Kauê • Proj: Ramon e Samuel • Transm: Lorivaldo",
+      "diaconia": "Acolhimento: Edinho e Sandra",
+      "details": {
+        "preacher": "Manú / Pr. Flávio",
+        "theme": "Vigiai e Orai: O Despertar da Igreja",
+        "text": "Mt 26.36-46",
+        "minister": "Manú",
+        "back1": "Karol",
+        "back2": "",
+        "guitar_ac": "Bruno e Flávio F.",
+        "guitar_el": "Ítalo",
+        "keys": "Efrain",
+        "bass": "Italo",
+        "drums": "Ícaro",
+        "kids1": "Equipe Infantil",
+        "kids2": "",
+        "sound": "Felipe e Kauê",
+        "proj": "Ramon e Samuel",
+        "stream": "Lorivaldo",
+        "acolhimento": "Edinho e Sandra",
+        "estacionamento": ""
+      },
+      "songs": []
+    }
+  ]
+}
