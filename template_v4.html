@@ -30,7 +30,10 @@
             <i class="fa-solid fa-church text-sm"></i>
           </div>
           <div>
-            <h1 class="text-base font-bold tracking-tight leading-tight">IBS Escala</h1>
+            <div class="flex items-center gap-1.5">
+              <h1 class="text-base font-bold tracking-tight leading-tight">IBS Escala</h1>
+              <span id="cloudSyncStatus" onclick="manualSyncSupabase()" class="cursor-pointer text-[9px] font-bold px-1.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-200 border border-emerald-400/40 flex items-center gap-1 shadow-2xs" title="Conectado ao Supabase (Genesis App) - Clique para sincronizar"><i class="fa-solid fa-cloud"></i> Nuvem</span>
+            </div>
             <p class="text-[11px] text-blue-200 font-medium">Igreja Batista Shamah • 2026</p>
           </div>
         </div>
@@ -1081,6 +1084,8 @@
     const TEAM_TEMPLATES = __TEAM_TEMPLATES_JSON__;
     const APPROVED_SONGS_DEFAULT = __APPROVED_SONGS_JSON__;
     const LITURGICAL_ROUTINES = __LITURGICAL_ROUTINES_JSON__;
+    const SUPABASE_URL = 'https://gwteazgdcwoeqvaqenso.supabase.co';
+    const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imd3dGVhemdkY3dvZXF2YXFlbnNvIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODgyOTQxOTcsImV4cCI6MjEwMzg3MDE5N30.UC5Id74Djabynk4rGQEOCCwQOMcZWzcfMEvml_evYUg';
 
     let APPROVED_SONGS = APPROVED_SONGS_DEFAULT;
     try {
@@ -1843,6 +1848,7 @@
       try {
         localStorage.setItem('ibs_services_v4', JSON.stringify(ALL_SERVICES));
       } catch(e) {}
+      syncToSupabase();
 
       closeSetlistModal();
       updateWorshipSelector(editingSetlistServiceIndex);
@@ -2039,6 +2045,7 @@
       try {
         localStorage.setItem('ibs_approved_songs', JSON.stringify(APPROVED_SONGS));
       } catch(err) {}
+      syncToSupabase();
 
       renderDatalists();
       document.getElementById('newApprovedSongForm').reset();
@@ -2236,6 +2243,7 @@
       try {
         localStorage.setItem('ibs_services_v4', JSON.stringify(ALL_SERVICES));
       } catch(err) {}
+      syncToSupabase();
 
       closeEditScaleModal();
       renderGeneralMonth();
@@ -2352,6 +2360,7 @@
       try {
         localStorage.setItem('ibs_volunteers_v5', JSON.stringify(VOLUNTEERS));
       } catch(err) {}
+      syncToSupabase();
 
       initUserDropdown();
       renderDatalists();
@@ -2422,6 +2431,7 @@
       try {
         localStorage.setItem('ibs_services_v4', JSON.stringify(ALL_SERVICES));
       } catch(err) {}
+      syncToSupabase();
 
       document.getElementById('globalMonthSelector').value = month;
       onMonthChange(month);
@@ -2492,11 +2502,175 @@
       alert('Disparando lembrete automático via WhatsApp para os voluntários pendentes de ' + mName + '!');
     }
 
+    // =========================================================
+    // SINCRONIZAÇÃO EM NUVEM (SUPABASE / GENESIS APP)
+    // =========================================================
+    let isSyncingSupabase = false;
+
+    async function syncToSupabase() {
+      if (isSyncingSupabase) return;
+      const statusEl = document.getElementById('cloudSyncStatus');
+      if (statusEl) {
+        statusEl.className = 'cursor-pointer text-[9px] font-bold px-1.5 py-0.5 rounded-full bg-amber-500/20 text-amber-200 border border-amber-400/40 flex items-center gap-1 shadow-2xs';
+        statusEl.innerHTML = '<i class="fa-solid fa-rotate fa-spin"></i> Nuvem...';
+      }
+
+      isSyncingSupabase = true;
+      try {
+        const payload = {
+          id: 'ibs_escala_master',
+          mensagem_aniversario_padrao: JSON.stringify({
+            services: ALL_SERVICES,
+            volunteers: VOLUNTEERS,
+            approved_songs: APPROVED_SONGS,
+            updated_at: new Date().toISOString()
+          })
+        };
+
+        const res = await fetch(SUPABASE_URL + '/rest/v1/crm_configuracoes', {
+          method: 'POST',
+          headers: {
+            'apikey': SUPABASE_ANON_KEY,
+            'Authorization': 'Bearer ' + SUPABASE_ANON_KEY,
+            'Content-Type': 'application/json',
+            'Prefer': 'resolution=merge-duplicates,return=representation'
+          },
+          body: JSON.stringify(payload)
+        });
+
+        if (res.ok) {
+          if (statusEl) {
+            statusEl.className = 'cursor-pointer text-[9px] font-bold px-1.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-200 border border-emerald-400/40 flex items-center gap-1 shadow-2xs';
+            statusEl.innerHTML = '<i class="fa-solid fa-cloud-check"></i> Nuvem OK';
+          }
+        }
+      } catch (err) {
+        console.warn('Erro ao sincronizar com Supabase:', err);
+        if (statusEl) {
+          statusEl.className = 'cursor-pointer text-[9px] font-bold px-1.5 py-0.5 rounded-full bg-rose-500/20 text-rose-200 border border-rose-400/40 flex items-center gap-1 shadow-2xs';
+          statusEl.innerHTML = '<i class="fa-solid fa-cloud-slash"></i> Offline';
+        }
+      } finally {
+        isSyncingSupabase = false;
+      }
+    }
+
+    async function fetchFromSupabase() {
+      const statusEl = document.getElementById('cloudSyncStatus');
+      if (statusEl) {
+        statusEl.className = 'cursor-pointer text-[9px] font-bold px-1.5 py-0.5 rounded-full bg-blue-500/20 text-blue-200 border border-blue-400/40 flex items-center gap-1 shadow-2xs';
+        statusEl.innerHTML = '<i class="fa-solid fa-rotate fa-spin"></i> Conectando...';
+      }
+
+      try {
+        const res = await fetch(SUPABASE_URL + '/rest/v1/crm_configuracoes?id=eq.ibs_escala_master&select=*', {
+          headers: {
+            'apikey': SUPABASE_ANON_KEY,
+            'Authorization': 'Bearer ' + SUPABASE_ANON_KEY
+          }
+        });
+
+        if (res.ok) {
+          const data = await res.json();
+          if (data && data[0] && data[0].mensagem_aniversario_padrao) {
+            const parsed = JSON.parse(data[0].mensagem_aniversario_padrao);
+            if (parsed.services && typeof parsed.services === 'object') {
+              ALL_SERVICES = parsed.services;
+              localStorage.setItem('ibs_services_v4', JSON.stringify(ALL_SERVICES));
+            }
+            if (parsed.volunteers && typeof parsed.volunteers === 'object') {
+              VOLUNTEERS = parsed.volunteers;
+              localStorage.setItem('ibs_volunteers_v5', JSON.stringify(VOLUNTEERS));
+            }
+            if (parsed.approved_songs && Array.isArray(parsed.approved_songs)) {
+              APPROVED_SONGS = parsed.approved_songs;
+              localStorage.setItem('ibs_approved_songs', JSON.stringify(APPROVED_SONGS));
+            }
+
+            initUserDropdown();
+            renderDatalists();
+            onMonthChange(currentMonth);
+            changeUser(currentUserId);
+          }
+        }
+
+        // Importa membros cadastrados no Genesis App
+        fetchMembrosFromSupabase();
+
+        if (statusEl) {
+          statusEl.className = 'cursor-pointer text-[9px] font-bold px-1.5 py-0.5 rounded-full bg-emerald-500/20 text-emerald-200 border border-emerald-400/40 flex items-center gap-1 shadow-2xs';
+          statusEl.innerHTML = '<i class="fa-solid fa-cloud-check"></i> Nuvem Conectada';
+        }
+      } catch (err) {
+        console.warn('Erro ao conectar com Supabase:', err);
+        if (statusEl) {
+          statusEl.className = 'cursor-pointer text-[9px] font-bold px-1.5 py-0.5 rounded-full bg-slate-500/20 text-slate-300 border border-white/20 flex items-center gap-1 shadow-2xs';
+          statusEl.innerHTML = '<i class="fa-solid fa-cloud"></i> Local';
+        }
+      }
+    }
+
+    async function fetchMembrosFromSupabase() {
+      try {
+        const res = await fetch(SUPABASE_URL + '/rest/v1/usuarios_membros?select=id,nome_completo,telefone_whatsapp,tipo_membro&order=nome_completo.asc', {
+          headers: {
+            'apikey': SUPABASE_ANON_KEY,
+            'Authorization': 'Bearer ' + SUPABASE_ANON_KEY
+          }
+        });
+        if (!res.ok) return;
+        const membros = await res.json();
+        if (Array.isArray(membros) && membros.length > 0) {
+          let updated = false;
+          membros.forEach(m => {
+            if (!m.nome_completo) return;
+            const idKey = m.nome_completo.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/[^a-z0-9]/g, '_');
+            if (!VOLUNTEERS[idKey]) {
+              const parts = m.nome_completo.trim().split(/\s+/);
+              const initials = (parts[0][0] + (parts[1] ? parts[1][0] : '')).toUpperCase();
+              let dept = 'Voluntariado Geral';
+              let role = 'Membro / Apoio';
+              if (m.tipo_membro === 'PASTOR') { dept = 'Liderança Pastoral'; role = 'Pastor / Preletor'; }
+              else if (m.tipo_membro === 'SUPERVISOR_REDE') { dept = 'Supervisão de Rede'; role = 'Supervisor'; }
+              else if (m.tipo_membro === 'LIDER_PG') { dept = 'Pequenos Grupos'; role = 'Líder de PG'; }
+
+              VOLUNTEERS[idKey] = {
+                name: m.nome_completo,
+                dept: dept,
+                role: role,
+                role_principal: role,
+                dept_principal: dept,
+                role_secundaria: '',
+                dept_secundaria: '',
+                phone: m.telefone_whatsapp || '',
+                team: 'Geral',
+                initials: initials
+              };
+              updated = true;
+            }
+          });
+          if (updated) {
+            localStorage.setItem('ibs_volunteers_v5', JSON.stringify(VOLUNTEERS));
+            initUserDropdown();
+            renderDatalists();
+          }
+        }
+      } catch(e) {}
+    }
+
+    function manualSyncSupabase() {
+      syncToSupabase();
+      alert('Sincronização em tempo real com o Supabase disparada com sucesso!');
+    }
+
     // Inicialização
     initUserDropdown();
     renderDatalists();
     onMonthChange('Out');
     changeUser('bruno');
+
+    // Conecta e sincroniza com a nuvem Supabase (Genesis App)
+    fetchFromSupabase();
   </script>
 </body>
 </html>
