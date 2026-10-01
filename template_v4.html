@@ -407,24 +407,44 @@
         <!-- Formulário Granular de Funções com Autocomplete dos Cadastrados -->
         <form id="scaleEditorForm" onsubmit="handleSaveScale(event)" class="space-y-3 text-xs">
           
-          <!-- SEÇÃO 1: PALAVRA / PÚLPITO -->
+          <!-- SEÇÃO 1: PALAVRA & LITURGIA DA CELEBRAÇÃO -->
           <div class="border border-slate-200 rounded-xl p-2.5 bg-slate-50/50 space-y-2">
             <h4 class="font-extrabold text-slate-800 flex items-center gap-1 text-[11px] text-blue-800">
-              <i class="fa-solid fa-book-bible"></i> Palavra & Liturgia
+              <i class="fa-solid fa-book-bible"></i> Palavra & Liturgia da Celebração
             </h4>
             <div class="grid grid-cols-2 gap-2">
               <div>
                 <label class="block font-semibold text-slate-600 text-[10px]">Ministrante / Preletor</label>
-                <input type="text" id="editPreacher" list="dl_preacher" placeholder="Buscar preletor..." class="w-full bg-white border border-slate-300 rounded p-1.5 outline-none focus:border-blue-500">
+                <input type="text" id="editPreacher" list="dl_preacher" placeholder="Buscar preletor..." class="w-full bg-white border border-slate-300 rounded p-1.5 outline-none focus:border-blue-500 font-medium">
               </div>
               <div>
-                <label class="block font-semibold text-slate-600 text-[10px]">Texto Bíblico</label>
-                <input type="text" id="editText" placeholder="Ex: Zacarias 4:10" class="w-full bg-white border border-slate-300 rounded p-1.5 outline-none">
+                <label class="block font-semibold text-slate-600 text-[10px]">Dirigente (Abertura / Avisos)</label>
+                <input type="text" id="editDirigente" list="dl_dirigente" placeholder="Buscar dirigente..." class="w-full bg-white border border-slate-300 rounded p-1.5 outline-none focus:border-blue-500">
+              </div>
+            </div>
+            <div class="grid grid-cols-2 gap-2">
+              <div>
+                <label class="block font-semibold text-slate-600 text-[10px]">Intercessão</label>
+                <input type="text" id="editIntercessao" list="dl_intercessao" placeholder="Buscar intercessor..." class="w-full bg-white border border-slate-300 rounded p-1.5 outline-none focus:border-blue-500">
+              </div>
+              <div>
+                <label class="block font-semibold text-slate-600 text-[10px]">Bênção Apostólica</label>
+                <input type="text" id="editBencao" list="dl_preacher" placeholder="Buscar ministro..." class="w-full bg-white border border-slate-300 rounded p-1.5 outline-none focus:border-blue-500">
+              </div>
+            </div>
+            <div class="grid grid-cols-2 gap-2">
+              <div>
+                <label class="block font-semibold text-slate-600 text-[10px]">Tema da Mensagem</label>
+                <input type="text" id="editTheme" placeholder="Ex: A Mesa da Comunhão" class="w-full bg-white border border-slate-300 rounded p-1.5 outline-none">
+              </div>
+              <div>
+                <label class="block font-semibold text-slate-600 text-[10px]">Texto Bíblico Base</label>
+                <input type="text" id="editText" placeholder="Ex: Atos 2.1-4; 1Co 11.23-26" class="w-full bg-white border border-slate-300 rounded p-1.5 outline-none">
               </div>
             </div>
             <div>
-              <label class="block font-semibold text-slate-600 text-[10px]">Tema da Mensagem</label>
-              <input type="text" id="editTheme" placeholder="Ex: Comece onde você está" class="w-full bg-white border border-slate-300 rounded p-1.5 outline-none">
+              <label class="block font-semibold text-slate-600 text-[10px]">Coordenação Geral / Celebração</label>
+              <input type="text" id="editCoordGeral" list="dl_all" placeholder="Ex: Pr. Flávio" class="w-full bg-white border border-slate-300 rounded p-1.5 outline-none focus:border-blue-500">
             </div>
           </div>
 
@@ -440,18 +460,28 @@
             </div>
             <div class="grid grid-cols-2 gap-2">
               <div>
-                <label class="block font-semibold text-slate-600 text-[10px]">Ministro(a) de Louvor</label>
-                <input type="text" id="editMinister" list="dl_minister" placeholder="Buscar ministro..." class="w-full bg-white border border-slate-300 rounded p-1.5 outline-none focus:border-blue-500">
+                <label class="block font-semibold text-slate-600 text-[10px]">Coordenação do Louvor</label>
+                <input type="text" id="editCoordLouvor" list="dl_all" placeholder="Ex: Asp. Efrain" class="w-full bg-white border border-slate-300 rounded p-1.5 outline-none focus:border-blue-500">
               </div>
               <div>
-                <label class="block font-semibold text-slate-600 text-[10px]">Back-vocals</label>
-                <input type="text" id="editBacks" list="dl_backs" placeholder="Buscar backs..." class="w-full bg-white border border-slate-300 rounded p-1.5 outline-none focus:border-blue-500">
+                <label class="block font-semibold text-slate-600 text-[10px]">Ministro(a) de Louvor</label>
+                <input type="text" id="editMinister" list="dl_minister" placeholder="Buscar ministro..." class="w-full bg-white border border-slate-300 rounded p-1.5 outline-none focus:border-blue-500 font-medium">
               </div>
             </div>
-            <div class="grid grid-cols-3 gap-1.5">
+            <div class="grid grid-cols-2 gap-2">
+              <div>
+                <label class="block font-semibold text-slate-600 text-[10px]">Back-vocals (separar por vírgula)</label>
+                <input type="text" id="editBacks" list="dl_backs" placeholder="Ex: Karol, Kamynnsky" class="w-full bg-white border border-slate-300 rounded p-1.5 outline-none focus:border-blue-500">
+              </div>
               <div>
                 <label class="block font-semibold text-slate-600 text-[10px]">Violão</label>
                 <input type="text" id="editGuitar" list="dl_guitar" placeholder="Violão..." class="w-full bg-white border border-slate-300 rounded p-1.5 outline-none focus:border-blue-500">
+              </div>
+            </div>
+            <div class="grid grid-cols-2 sm:grid-cols-4 gap-1.5">
+              <div>
+                <label class="block font-semibold text-indigo-700 text-[10px]">🎸 Guitarra</label>
+                <input type="text" id="editGuitarEl" list="dl_guitar_el" placeholder="Guitarra..." class="w-full bg-white border border-indigo-300 rounded p-1.5 outline-none focus:border-indigo-500 font-medium">
               </div>
               <div>
                 <label class="block font-semibold text-slate-600 text-[10px]">Teclado</label>
@@ -461,10 +491,10 @@
                 <label class="block font-semibold text-slate-600 text-[10px]">Baixo</label>
                 <input type="text" id="editBass" list="dl_bass" placeholder="Baixo..." class="w-full bg-white border border-slate-300 rounded p-1.5 outline-none focus:border-blue-500">
               </div>
-            </div>
-            <div>
-              <label class="block font-semibold text-slate-600 text-[10px]">Bateria</label>
-              <input type="text" id="editDrums" list="dl_drums" placeholder="Bateria..." class="w-full bg-white border border-slate-300 rounded p-1.5 outline-none focus:border-blue-500">
+              <div>
+                <label class="block font-semibold text-slate-600 text-[10px]">Bateria</label>
+                <input type="text" id="editDrums" list="dl_drums" placeholder="Bateria..." class="w-full bg-white border border-slate-300 rounded p-1.5 outline-none focus:border-blue-500">
+              </div>
             </div>
           </div>
 
@@ -473,7 +503,11 @@
             <h4 class="font-extrabold text-slate-800 flex items-center gap-1 text-[11px] text-rose-800">
               <i class="fa-solid fa-children"></i> Shamah Kids (Infantil)
             </h4>
-            <div class="grid grid-cols-2 gap-2">
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-2">
+              <div>
+                <label class="block font-semibold text-slate-600 text-[10px]">Coordenação Kids</label>
+                <input type="text" id="editCoordKids" list="dl_all" placeholder="Ex: Ana Carolina" class="w-full bg-white border border-slate-300 rounded p-1.5 outline-none focus:border-blue-500">
+              </div>
               <div>
                 <label class="block font-semibold text-slate-600 text-[10px]">Turma 01 (3 a 7 anos)</label>
                 <input type="text" id="editKids1" list="dl_kids" placeholder="Buscar voluntário..." class="w-full bg-white border border-slate-300 rounded p-1.5 outline-none focus:border-blue-500">
@@ -490,9 +524,19 @@
             <h4 class="font-extrabold text-slate-800 flex items-center gap-1 text-[11px] text-amber-800">
               <i class="fa-solid fa-sliders"></i> Mídia, Som & Transmissão
             </h4>
+            <div class="grid grid-cols-2 gap-2">
+              <div>
+                <label class="block font-semibold text-slate-600 text-[10px]">Coordenação da Mídia</label>
+                <input type="text" id="editCoordMidia" list="dl_all" placeholder="Ex: Felipe" class="w-full bg-white border border-slate-300 rounded p-1.5 outline-none focus:border-blue-500">
+              </div>
+              <div>
+                <label class="block font-semibold text-slate-600 text-[10px]">Mídia Social / Fotografia</label>
+                <input type="text" id="editMidiaSocial" list="dl_midia_social" placeholder="Ex: Karol e Equipe" class="w-full bg-white border border-slate-300 rounded p-1.5 outline-none focus:border-blue-500">
+              </div>
+            </div>
             <div class="grid grid-cols-3 gap-1.5">
               <div>
-                <label class="block font-semibold text-slate-600 text-[10px]">Mesa de Som</label>
+                <label class="block font-semibold text-slate-600 text-[10px]">Mesa de Som & Luz</label>
                 <input type="text" id="editSound" list="dl_sound" placeholder="Som..." class="w-full bg-white border border-slate-300 rounded p-1.5 outline-none focus:border-blue-500">
               </div>
               <div>
@@ -509,16 +553,26 @@
           <!-- SEÇÃO 5: DIACONATO & LOGÍSTICA -->
           <div class="border border-slate-200 rounded-xl p-2.5 bg-slate-50/50 space-y-2">
             <h4 class="font-extrabold text-slate-800 flex items-center gap-1 text-[11px] text-emerald-800">
-              <i class="fa-solid fa-door-open"></i> Diaconato, Acolhimento & Apoio
+              <i class="fa-solid fa-door-open"></i> Diaconato, Acolhimento & Logística
             </h4>
             <div class="grid grid-cols-2 gap-2">
+              <div>
+                <label class="block font-semibold text-slate-600 text-[10px]">Coordenação do Diaconato</label>
+                <input type="text" id="editCoordDiaconato" list="dl_all" placeholder="Ex: Pra. Iracilene" class="w-full bg-white border border-slate-300 rounded p-1.5 outline-none focus:border-blue-500">
+              </div>
               <div>
                 <label class="block font-semibold text-slate-600 text-[10px]">Acolhimento / Portaria</label>
                 <input type="text" id="editAcolhimento" list="dl_acolhimento" placeholder="Buscar acolhimento..." class="w-full bg-white border border-slate-300 rounded p-1.5 outline-none focus:border-blue-500">
               </div>
+            </div>
+            <div class="grid grid-cols-2 gap-2">
               <div>
                 <label class="block font-semibold text-slate-600 text-[10px]">Estacionamento / Nave</label>
                 <input type="text" id="editEstacionamento" list="dl_estacionamento" placeholder="Estacionamento..." class="w-full bg-white border border-slate-300 rounded p-1.5 outline-none focus:border-blue-500">
+              </div>
+              <div>
+                <label class="block font-semibold text-slate-600 text-[10px]">Copa e Banheiros</label>
+                <input type="text" id="editCopaBanheiros" list="dl_copa" placeholder="Ex: Valci, Divina..." class="w-full bg-white border border-slate-300 rounded p-1.5 outline-none focus:border-blue-500">
               </div>
             </div>
           </div>
@@ -526,9 +580,12 @@
           <!-- Datalists de Autocomplete Populados Dinamicamente via JS -->
           <datalist id="dl_all"></datalist>
           <datalist id="dl_preacher"></datalist>
+          <datalist id="dl_dirigente"></datalist>
+          <datalist id="dl_intercessao"></datalist>
           <datalist id="dl_minister"></datalist>
           <datalist id="dl_backs"></datalist>
           <datalist id="dl_guitar"></datalist>
+          <datalist id="dl_guitar_el"></datalist>
           <datalist id="dl_keys"></datalist>
           <datalist id="dl_bass"></datalist>
           <datalist id="dl_drums"></datalist>
@@ -536,8 +593,10 @@
           <datalist id="dl_sound"></datalist>
           <datalist id="dl_proj"></datalist>
           <datalist id="dl_stream"></datalist>
+          <datalist id="dl_midia_social"></datalist>
           <datalist id="dl_acolhimento"></datalist>
           <datalist id="dl_estacionamento"></datalist>
+          <datalist id="dl_copa"></datalist>
           <datalist id="dl_roles_suggestions">
             <option value="Ministro(a) de Louvor"></option>
             <option value="Back-vocal"></option>
@@ -1155,9 +1214,12 @@
     function renderDatalists() {
       const dlAll = document.getElementById('dl_all');
       const dlPreacher = document.getElementById('dl_preacher');
+      const dlDirigente = document.getElementById('dl_dirigente');
+      const dlIntercessao = document.getElementById('dl_intercessao');
       const dlMinister = document.getElementById('dl_minister');
       const dlBacks = document.getElementById('dl_backs');
       const dlGuitar = document.getElementById('dl_guitar');
+      const dlGuitarEl = document.getElementById('dl_guitar_el');
       const dlKeys = document.getElementById('dl_keys');
       const dlBass = document.getElementById('dl_bass');
       const dlDrums = document.getElementById('dl_drums');
@@ -1165,10 +1227,12 @@
       const dlSound = document.getElementById('dl_sound');
       const dlProj = document.getElementById('dl_proj');
       const dlStream = document.getElementById('dl_stream');
+      const dlMidiaSocial = document.getElementById('dl_midia_social');
       const dlAcolhimento = document.getElementById('dl_acolhimento');
       const dlEstacionamento = document.getElementById('dl_estacionamento');
+      const dlCopa = document.getElementById('dl_copa');
 
-      const dls = [dlAll, dlPreacher, dlMinister, dlBacks, dlGuitar, dlKeys, dlBass, dlDrums, dlKids, dlSound, dlProj, dlStream, dlAcolhimento, dlEstacionamento];
+      const dls = [dlAll, dlPreacher, dlDirigente, dlIntercessao, dlMinister, dlBacks, dlGuitar, dlGuitarEl, dlKeys, dlBass, dlDrums, dlKids, dlSound, dlProj, dlStream, dlMidiaSocial, dlAcolhimento, dlEstacionamento, dlCopa];
       dls.forEach(dl => { if (dl) dl.innerHTML = ''; });
 
       Object.keys(VOLUNTEERS).forEach(k => {
@@ -1196,11 +1260,21 @@
         if (allText.includes('pastor') || allText.includes('preletor') || allText.includes('intercess') || allText.includes('dirigente')) {
           addOpt(dlPreacher);
         }
+        if (allText.includes('dirigente') || allText.includes('pastor') || allText.includes('lideran') || allText.includes('abertura')) {
+          addOpt(dlDirigente);
+        }
+        if (allText.includes('intercess') || allText.includes('ora')) {
+          addOpt(dlIntercessao);
+        }
         if (allText.includes('louvor') || allText.includes('ministr') || allText.includes('canto') || allText.includes('vocal')) {
           addOpt(dlMinister);
           addOpt(dlBacks);
         }
-        if (allText.includes('viol') || allText.includes('guitar')) {
+        if (allText.includes('viol')) {
+          addOpt(dlGuitar);
+        }
+        if (allText.includes('guitar')) {
+          addOpt(dlGuitarEl);
           addOpt(dlGuitar);
         }
         if (allText.includes('teclado') || allText.includes('piano')) {
@@ -1224,28 +1298,40 @@
         if (allText.includes('transm')) {
           addOpt(dlStream);
         }
+        if (allText.includes('social') || allText.includes('foto') || allText.includes('comunica')) {
+          addOpt(dlMidiaSocial);
+        }
         if (allText.includes('diaconato') || allText.includes('acolh') || allText.includes('recep') || allText.includes('portaria')) {
           addOpt(dlAcolhimento);
         }
         if (allText.includes('diaconato') || allText.includes('estacion') || allText.includes('nave')) {
           addOpt(dlEstacionamento);
         }
+        if (allText.includes('copa') || allText.includes('banheiro') || allText.includes('cozinha') || allText.includes('limpeza')) {
+          addOpt(dlCopa);
+        }
       });
 
       // Adicionar opções padrão gerais aos datalists correspondentes
       const extraDefaults = {
         dl_preacher: ['Pr. Flávio Amaral', 'Pra. Iracilene', 'Pr. Carlos', 'Efrain Rael', 'Ana Paula', 'Edla', 'Manú', 'Ítalo'],
+        dl_dirigente: ['Pra. Iracilene', 'Jordana', 'Mané', 'Pr. Flávio', 'Pr. Carlos', 'Bruno'],
+        dl_intercessao: ['Edson e Sandra', 'Ângela e Nadir', 'Ana Paula e Letícia', 'Joel e Nadir', 'Moisés e Thaynará'],
         dl_minister: ['Manú', 'Karol', 'Bruno', 'Kamynnsky', 'Efrain Rael', 'Ana Júlia'],
+        dl_backs: ['Karol, Kamynnsky', 'Bruno', 'Kamynnsky', 'Karol', 'Letícia', 'Flávio F.'],
         dl_guitar: ['Bruno', 'Flávio F.'],
+        dl_guitar_el: ['Ítalo', 'Flávio F.', 'Bruno'],
         dl_keys: ['Efrain', 'Teclado Base'],
         dl_bass: ['Ítalo', 'João Paulo'],
         dl_drums: ['Ícaro'],
         dl_kids: ['Ana Carolina e Maria Eduarda', 'Letícia, Ana Júlia e Ester', 'Valéria e Jordana', 'Letícia e Ester', 'Ana Carolina', 'Valéria'],
-        dl_sound: ['Felipe', 'Efrain', 'Kauê'],
+        dl_sound: ['Felipe', 'Efrain', 'Kauê', 'Bruno'],
         dl_proj: ['Ramon e Samuel', 'Jordana e Lucas', 'Edla e Ana C. da Tatiana', 'Samuel', 'Lucas', 'Lorivaldo'],
         dl_stream: ['Lorivaldo'],
+        dl_midia_social: ['Karol e Equipe', 'Mariana', 'Karolyne', 'Equipe de Comunicação'],
         dl_acolhimento: ['Edinho e Sandra', 'Johnatan e Tatiana', 'Joel e Nadir', 'Leadnro e Paula', 'Moisés e Thaynará', 'Edson e Sandra', 'João Paulo e Roberta'],
-        dl_estacionamento: ['Equipe 01', 'Equipe 02', 'Equipe 03', 'Equipe Geral', 'Leadnro e Paula', 'Moisés e Thaynará']
+        dl_estacionamento: ['Equipe 01', 'Equipe 02', 'Equipe 03', 'Equipe Geral', 'Leadnro e Paula', 'Moisés e Thaynará'],
+        dl_copa: ['Valci', 'Divina', 'Ângela', 'Copa Geral']
       };
 
       Object.keys(extraDefaults).forEach(dlId => {
@@ -1333,31 +1419,44 @@
 
       const userServices = [];
       services.forEach(s => {
-        const txt = (s.preacher || '') + ' ' + (s.worship || '') + ' ' + (s.kids || '') + ' ' + (s.media || '') + ' ' + (s.diaconia || '');
+        const p = s.details || {};
+        const txt = (s.preacher || '') + ' ' + (s.liturgia || '') + ' ' + (s.worship || '') + ' ' + (s.kids || '') + ' ' + (s.media || '') + ' ' + (s.diaconia || '') + ' ' + Object.values(p).join(' ');
         const txtLower = txt.toLowerCase();
-        if (txtLower.includes(vName) || (currentUserId === 'pastor' && txtLower.includes('flávio'))) {
-          // Determina o posto de atuação neste culto
+        if (txtLower.includes(vName) || (currentUserId === 'pastor' && (txtLower.includes('flávio') || txtLower.includes('flavio')))) {
+          // Determina o posto exato de atuação neste culto
           let specificRole = '';
-          const p = s.details || {};
-          if (p.minister && p.minister.toLowerCase().includes(vName)) specificRole = 'Ministro(a) de Louvor';
+          if (p.dirigente && p.dirigente.toLowerCase().includes(vName)) specificRole = 'Dirigente da Celebração';
+          else if (p.intercessao && p.intercessao.toLowerCase().includes(vName)) specificRole = 'Intercessão';
+          else if (p.coord_geral && p.coord_geral.toLowerCase().includes(vName)) specificRole = 'Coordenação Geral';
+          else if (p.coord_celebracao && p.coord_celebracao.toLowerCase().includes(vName)) specificRole = 'Coordenação da Celebração';
+          else if (p.bencao && p.bencao.toLowerCase().includes(vName)) specificRole = 'Bênção Apostólica';
+          else if (p.coord_louvor && p.coord_louvor.toLowerCase().includes(vName)) specificRole = 'Coordenação do Louvor';
+          else if (p.minister && p.minister.toLowerCase().includes(vName)) specificRole = 'Ministro(a) de Louvor';
+          else if (p.guitar_el && p.guitar_el.toLowerCase().includes(vName)) specificRole = 'Guitarra';
           else if (p.guitar_ac && p.guitar_ac.toLowerCase().includes(vName)) specificRole = 'Violão';
           else if (p.back1 && p.back1.toLowerCase().includes(vName)) specificRole = 'Back-vocal';
           else if (p.back2 && p.back2.toLowerCase().includes(vName)) specificRole = 'Back-vocal';
+          else if (p.back3 && p.back3.toLowerCase().includes(vName)) specificRole = 'Back-vocal';
           else if (p.keys && p.keys.toLowerCase().includes(vName)) specificRole = 'Teclado';
           else if (p.bass && p.bass.toLowerCase().includes(vName)) specificRole = 'Contra-baixo';
           else if (p.drums && p.drums.toLowerCase().includes(vName)) specificRole = 'Bateria';
-          else if (p.kids1 && p.kids1.toLowerCase().includes(vName)) specificRole = 'Shamah Kids';
-          else if (p.kids2 && p.kids2.toLowerCase().includes(vName)) specificRole = 'Shamah Kids';
-          else if (p.sound && p.sound.toLowerCase().includes(vName)) specificRole = 'Mesa de Som';
+          else if (p.coord_kids && p.coord_kids.toLowerCase().includes(vName)) specificRole = 'Coordenação Shamah Kids';
+          else if (p.kids1 && p.kids1.toLowerCase().includes(vName)) specificRole = 'Shamah Kids (Turma 1)';
+          else if (p.kids2 && p.kids2.toLowerCase().includes(vName)) specificRole = 'Shamah Kids (Turma 2)';
+          else if (p.coord_midia && p.coord_midia.toLowerCase().includes(vName)) specificRole = 'Coordenação da Mídia';
+          else if (p.midia_social && p.midia_social.toLowerCase().includes(vName)) specificRole = 'Mídia Social / Comunicação';
+          else if (p.sound && p.sound.toLowerCase().includes(vName)) specificRole = 'Mesa de Som & Iluminação';
           else if (p.proj && p.proj.toLowerCase().includes(vName)) specificRole = 'Projeção Multimídia';
           else if (p.stream && p.stream.toLowerCase().includes(vName)) specificRole = 'Transmissão Online';
+          else if (p.coord_diaconato && p.coord_diaconato.toLowerCase().includes(vName)) specificRole = 'Coordenação do Diaconato';
           else if (p.acolhimento && p.acolhimento.toLowerCase().includes(vName)) specificRole = 'Acolhimento & Recepção';
-          else if (p.estacionamento && p.estacionamento.toLowerCase().includes(vName)) specificRole = 'Estacionamento';
+          else if (p.estacionamento && p.estacionamento.toLowerCase().includes(vName)) specificRole = 'Estacionamento & Nave';
+          else if (p.copa_banheiros && p.copa_banheiros.toLowerCase().includes(vName)) specificRole = 'Copa & Banheiros';
           else if (s.preacher && s.preacher.toLowerCase().includes(vName)) specificRole = 'Palavra / Preletor';
           else if (s.worship && s.worship.toLowerCase().includes(vName)) specificRole = 'Ministério de Louvor';
           else if (s.kids && s.kids.toLowerCase().includes(vName)) specificRole = 'Shamah Kids';
           else if (s.media && s.media.toLowerCase().includes(vName)) specificRole = 'Mídia & Tecnologia';
-          else if (s.diaconia && s.diaconia.toLowerCase().includes(vName)) specificRole = 'Diaconato';
+          else if (s.diaconia && s.diaconia.toLowerCase().includes(vName)) specificRole = 'Diaconato & Logística';
           else specificRole = v.role_principal || v.role;
 
           let roleTagHtml = '';
@@ -1425,22 +1524,91 @@
 
       services.forEach((s, idx) => {
         const card = document.createElement('div');
-        card.className = 'bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm';
+        card.className = 'bg-white border border-slate-200 rounded-xl overflow-hidden shadow-sm transition hover:shadow-md';
+        const d = s.details || {};
         
+        // 1. Liturgia e Palavra
+        let liturgiaBadges = [];
+        if (d.coord_geral) liturgiaBadges.push('<span class="inline-flex items-center gap-1 text-[10px] px-2 py-0.5 rounded font-medium bg-slate-100 text-slate-700 border border-slate-200"><i class="fa-solid fa-user-tie text-[9px] text-slate-500"></i><strong>Coord:</strong> ' + d.coord_geral + '</span>');
+        if (d.dirigente) liturgiaBadges.push('<span class="inline-flex items-center gap-1 text-[10px] px-2 py-0.5 rounded font-medium bg-indigo-50 text-indigo-700 border border-indigo-200"><i class="fa-solid fa-bullhorn text-[9px] text-indigo-500"></i><strong>Dirigente:</strong> ' + d.dirigente + '</span>');
+        if (d.intercessao) liturgiaBadges.push('<span class="inline-flex items-center gap-1 text-[10px] px-2 py-0.5 rounded font-medium bg-purple-50 text-purple-700 border border-purple-200"><i class="fa-solid fa-hands-praying text-[9px] text-purple-500"></i><strong>Intercessão:</strong> ' + d.intercessao + '</span>');
+        if (d.bencao) liturgiaBadges.push('<span class="inline-flex items-center gap-1 text-[10px] px-2 py-0.5 rounded font-medium bg-emerald-50 text-emerald-700 border border-emerald-200"><i class="fa-solid fa-cross text-[9px] text-emerald-500"></i><strong>Bênção:</strong> ' + d.bencao + '</span>');
+
         let preacherHtml = '';
-        if (s.preacher) {
-          preacherHtml = '<div><span class="text-[10px] uppercase font-bold text-slate-400 block">Palavra & Tema</span><p class="text-slate-800 font-bold">Ministrante: ' + s.preacher + '</p>' + (s.theme ? '<p class="text-slate-600 italic text-[11px]">' + s.theme + '</p>' : '') + (s.text ? '<p class="text-slate-400 text-[10px]">Texto: ' + s.text + '</p>' : '') + '</div>';
+        if (s.preacher || liturgiaBadges.length > 0) {
+          preacherHtml = '<div class="space-y-1.5">' +
+            '<div class="flex items-center justify-between">' +
+              '<span class="text-[10px] uppercase font-bold text-slate-400 flex items-center gap-1"><i class="fa-solid fa-book-bible text-blue-600"></i> Palavra & Liturgia</span>' +
+            '</div>' +
+            (s.preacher ? '<p class="text-slate-800 font-bold text-xs"><span class="text-blue-800">Ministrante:</span> ' + s.preacher + '</p>' : '') +
+            (s.theme ? '<p class="text-slate-600 italic text-[11px] leading-snug">“' + s.theme + '”</p>' : '') +
+            (s.text ? '<p class="text-slate-400 text-[10px]"><span class="font-semibold text-slate-500">Texto Bíblico:</span> ' + s.text + '</p>' : '') +
+            (liturgiaBadges.length > 0 ? '<div class="flex flex-wrap gap-1 mt-1.5">' + liturgiaBadges.join('') + '</div>' : '') +
+          '</div>';
         }
 
+        // 2. Louvor com Guitarra e Botão de Setlist
+        const songCount = (s.songs && Array.isArray(s.songs)) ? s.songs.length : 0;
+        const setlistBtn = songCount > 0 
+          ? '<button type="button" onclick="openSetlistModal(' + idx + ')" class="text-[10px] font-bold text-indigo-700 bg-indigo-50 hover:bg-indigo-100 border border-indigo-200 px-2 py-0.5 rounded-full flex items-center gap-1 transition shadow-2xs"><i class="fa-solid fa-guitar"></i> ' + songCount + ' Músicas</button>'
+          : '<button type="button" onclick="openSetlistModal(' + idx + ')" class="text-[10px] font-semibold text-slate-500 bg-slate-100 hover:bg-slate-200 px-2 py-0.5 rounded-full flex items-center gap-1 transition"><i class="fa-solid fa-plus text-[9px]"></i> Setlist</button>';
+
+        let worshipHtml = '<div class="pt-2 border-t border-slate-100">' +
+          '<div class="flex items-center justify-between mb-1">' +
+            '<span class="text-[10px] uppercase font-bold text-slate-400 flex items-center gap-1"><i class="fa-solid fa-music text-indigo-600"></i> Louvor & Instrumentistas</span>' +
+            setlistBtn +
+          '</div>' +
+          '<p class="text-[11px] text-slate-700 leading-relaxed font-medium">' + s.worship + '</p>' +
+        '</div>';
+
+        // 3. Shamah Kids & Mídia em Grid
+        let gridKidsMedia = '<div class="grid grid-cols-1 sm:grid-cols-2 gap-2 pt-2 border-t border-slate-100">' +
+          '<div class="bg-rose-50/50 p-2 rounded-lg border border-rose-100/80">' +
+            '<span class="text-[10px] uppercase font-bold text-rose-700 flex items-center gap-1 mb-0.5"><i class="fa-solid fa-children"></i> Shamah Kids</span>' +
+            '<p class="text-[11px] text-slate-700 leading-tight">' + s.kids + '</p>' +
+          '</div>' +
+          '<div class="bg-amber-50/50 p-2 rounded-lg border border-amber-100/80">' +
+            '<span class="text-[10px] uppercase font-bold text-amber-800 flex items-center gap-1 mb-0.5"><i class="fa-solid fa-sliders"></i> Mídia, Som & Cabine</span>' +
+            '<p class="text-[11px] text-slate-700 leading-tight">' + s.media + '</p>' +
+          '</div>' +
+        '</div>';
+
+        // 4. Diaconato & Apoio
         let diaconiaHtml = '';
         if (s.diaconia) {
-          diaconiaHtml = '<div class="pt-1 border-t border-slate-100"><span class="text-[10px] uppercase font-bold text-slate-400 block">Diaconato & Acolhimento</span><p class="text-[11px] text-slate-700">' + s.diaconia + '</p></div>';
+          diaconiaHtml = '<div class="pt-2 border-t border-slate-100">' +
+            '<div class="bg-emerald-50/50 p-2 rounded-lg border border-emerald-100/80">' +
+              '<span class="text-[10px] uppercase font-bold text-emerald-800 flex items-center gap-1 mb-0.5"><i class="fa-solid fa-door-open"></i> Diaconato, Acolhimento & Logística</span>' +
+              '<p class="text-[11px] text-slate-700 leading-tight">' + s.diaconia + '</p>' +
+            '</div>' +
+          '</div>';
         }
 
-        const teamTag = s.team ? '<span class="text-[10px] font-bold bg-blue-100 text-blue-800 px-1.5 py-0.2 rounded">' + s.team + '</span>' : '';
+        const teamTag = s.team ? '<span class="text-[10px] font-bold bg-blue-100 text-blue-800 px-2 py-0.5 rounded-full border border-blue-200">' + s.team + '</span>' : '';
         const hiddenClass = idx === 0 ? '' : 'hidden';
 
-        card.innerHTML = '<div class="p-3 bg-slate-50/80 flex items-center justify-between"><div onclick="toggleAccordion(' + idx + ')" class="cursor-pointer flex-1"><div class="flex items-center gap-1.5"><span class="text-xs font-extrabold text-blue-700">' + s.date + '</span>' + teamTag + '</div><h4 class="text-xs font-bold text-slate-800 leading-tight mt-0.5">' + s.title + '</h4></div><div class="flex items-center gap-2"><button onclick="openEditScaleModal(' + idx + ')" class="text-[11px] font-bold text-amber-700 bg-amber-50 hover:bg-amber-100 border border-amber-200 px-2 py-1 rounded-lg flex items-center gap-1 shadow-2xs transition" title="Editar Escala deste Culto"><i class="fa-solid fa-pen-to-square text-[10px]"></i> Escalar</button><i onclick="toggleAccordion(' + idx + ')" class="fa-solid fa-chevron-down text-xs text-slate-400 cursor-pointer p-1"></i></div></div><div id="acc-' + idx + '" class="p-3 text-xs space-y-2 border-t border-slate-100 ' + hiddenClass + '">' + preacherHtml + '<div class="pt-1 border-t border-slate-100"><span class="text-[10px] uppercase font-bold text-slate-400 block">Louvor</span><p class="text-[11px] text-slate-700">' + s.worship + '</p></div><div class="grid grid-cols-2 gap-2 pt-1 border-t border-slate-100"><div><span class="text-[10px] uppercase font-bold text-slate-400 block">Shamah Kids</span><p class="text-[11px] text-slate-700">' + s.kids + '</p></div><div><span class="text-[10px] uppercase font-bold text-slate-400 block">Mídia & Cabine</span><p class="text-[11px] text-slate-700">' + s.media + '</p></div></div>' + diaconiaHtml + '<div class="pt-2 border-t border-slate-100 flex justify-end"><button onclick="openEditScaleModal(' + idx + ')" class="text-xs font-bold text-blue-700 hover:text-blue-900 flex items-center gap-1"><i class="fa-solid fa-pen-to-square"></i> Editar Escala Completa</button></div></div>';
+        card.innerHTML = '<div class="p-3 bg-slate-50/80 flex items-center justify-between">' +
+          '<div onclick="toggleAccordion(' + idx + ')" class="cursor-pointer flex-1">' +
+            '<div class="flex items-center gap-1.5">' +
+              '<span class="text-xs font-extrabold text-blue-700">' + s.date + '</span>' + teamTag +
+            '</div>' +
+            '<h4 class="text-xs font-bold text-slate-800 leading-tight mt-0.5">' + s.title + '</h4>' +
+          '</div>' +
+          '<div class="flex items-center gap-2">' +
+            '<button onclick="openEditScaleModal(' + idx + ')" class="text-[11px] font-bold text-amber-700 bg-amber-50 hover:bg-amber-100 border border-amber-200 px-2 py-1 rounded-lg flex items-center gap-1 shadow-2xs transition" title="Editar Escala deste Culto"><i class="fa-solid fa-pen-to-square text-[10px]"></i> Escalar</button>' +
+            '<i onclick="toggleAccordion(' + idx + ')" class="fa-solid fa-chevron-down text-xs text-slate-400 cursor-pointer p-1"></i>' +
+          '</div>' +
+        '</div>' +
+        '<div id="acc-' + idx + '" class="p-3 text-xs space-y-2.5 border-t border-slate-100 ' + hiddenClass + '">' +
+          preacherHtml +
+          worshipHtml +
+          gridKidsMedia +
+          diaconiaHtml +
+          '<div class="pt-2 border-t border-slate-100 flex items-center justify-between">' +
+            '<button onclick="openSetlistModal(' + idx + ')" class="text-xs font-bold text-indigo-700 hover:text-indigo-900 flex items-center gap-1 transition"><i class="fa-solid fa-music"></i> Ver / Editar Repertório</button>' +
+            '<button onclick="openEditScaleModal(' + idx + ')" class="text-xs font-bold text-blue-700 hover:text-blue-900 flex items-center gap-1 transition"><i class="fa-solid fa-pen-to-square"></i> Editar Escala Completa</button>' +
+          '</div>' +
+        '</div>';
         
         container.appendChild(card);
       });
@@ -2140,46 +2308,77 @@
 
       const d = s.details || {};
 
+      // 1. Liturgia
       document.getElementById('editPreacher').value = d.preacher || s.preacher || '';
+      document.getElementById('editDirigente').value = d.dirigente || '';
+      document.getElementById('editIntercessao').value = d.intercessao || '';
+      document.getElementById('editBencao').value = d.bencao || '';
       document.getElementById('editTheme').value = d.theme || s.theme || '';
       document.getElementById('editText').value = d.text || s.text || '';
+      document.getElementById('editCoordGeral').value = d.coord_geral || d.coord_celebracao || '';
 
+      // 2. Louvor
+      document.getElementById('editCoordLouvor').value = d.coord_louvor || '';
       document.getElementById('editMinister').value = d.minister || '';
-      const backs = [d.back1, d.back2].filter(b => b && b !== '-').join(', ');
+      const backs = [d.back1, d.back2, d.back3].filter(b => b && b !== '-').join(', ');
       document.getElementById('editBacks').value = backs;
       document.getElementById('editGuitar').value = d.guitar_ac || '';
+      document.getElementById('editGuitarEl').value = d.guitar_el || '';
       document.getElementById('editKeys').value = d.keys || '';
       document.getElementById('editBass').value = d.bass || '';
       document.getElementById('editDrums').value = d.drums || 'Ícaro';
 
+      // 3. Kids
+      document.getElementById('editCoordKids').value = d.coord_kids || '';
       document.getElementById('editKids1').value = d.kids1 || '';
       document.getElementById('editKids2').value = d.kids2 || '';
 
+      // 4. Mídia
+      document.getElementById('editCoordMidia').value = d.coord_midia || '';
+      document.getElementById('editMidiaSocial').value = d.midia_social || '';
       document.getElementById('editSound').value = d.sound || '';
       document.getElementById('editProj').value = d.proj || '';
       document.getElementById('editStream').value = d.stream || 'Lorivaldo';
 
+      // 5. Diaconato
+      document.getElementById('editCoordDiaconato').value = d.coord_diaconato || '';
       document.getElementById('editAcolhimento').value = d.acolhimento || '';
       document.getElementById('editEstacionamento').value = d.estacionamento || s.team || '';
+      document.getElementById('editCopaBanheiros').value = d.copa_banheiros || '';
     }
 
     function applyTeamTemplate(teamKey) {
       const t = TEAM_TEMPLATES[teamKey];
       if (!t) return;
 
-      document.getElementById('editAcolhimento').value = t.acolhimento;
-      document.getElementById('editEstacionamento').value = t.estacionamento;
-      document.getElementById('editKids1').value = t.kids1;
-      document.getElementById('editKids2').value = t.kids2;
-      document.getElementById('editSound').value = t.sound;
-      document.getElementById('editProj').value = t.proj;
-      document.getElementById('editStream').value = t.stream;
-      document.getElementById('editMinister').value = t.minister;
+      if (t.coord_geral && document.getElementById('editCoordGeral')) document.getElementById('editCoordGeral').value = t.coord_geral;
+      if (t.dirigente && document.getElementById('editDirigente')) document.getElementById('editDirigente').value = t.dirigente;
+      if (t.intercessao && document.getElementById('editIntercessao')) document.getElementById('editIntercessao').value = t.intercessao;
+      if (t.bencao && document.getElementById('editBencao')) document.getElementById('editBencao').value = t.bencao;
+
+      if (t.coord_louvor && document.getElementById('editCoordLouvor')) document.getElementById('editCoordLouvor').value = t.coord_louvor;
+      document.getElementById('editMinister').value = t.minister || '';
       document.getElementById('editBacks').value = [t.back1, t.back2].filter(Boolean).join(', ');
-      document.getElementById('editGuitar').value = t.guitar_ac;
-      document.getElementById('editKeys').value = t.keys;
-      document.getElementById('editBass').value = t.bass;
-      document.getElementById('editDrums').value = t.drums;
+      document.getElementById('editGuitar').value = t.guitar_ac || '';
+      if (document.getElementById('editGuitarEl')) document.getElementById('editGuitarEl').value = t.guitar_el || '';
+      document.getElementById('editKeys').value = t.keys || '';
+      document.getElementById('editBass').value = t.bass || '';
+      document.getElementById('editDrums').value = t.drums || 'Ícaro';
+
+      if (t.coord_kids && document.getElementById('editCoordKids')) document.getElementById('editCoordKids').value = t.coord_kids;
+      document.getElementById('editKids1').value = t.kids1 || '';
+      document.getElementById('editKids2').value = t.kids2 || '';
+
+      if (t.coord_midia && document.getElementById('editCoordMidia')) document.getElementById('editCoordMidia').value = t.coord_midia;
+      if (t.midia_social && document.getElementById('editMidiaSocial')) document.getElementById('editMidiaSocial').value = t.midia_social;
+      document.getElementById('editSound').value = t.sound || '';
+      document.getElementById('editProj').value = t.proj || '';
+      document.getElementById('editStream').value = t.stream || 'Lorivaldo';
+
+      if (t.coord_diaconato && document.getElementById('editCoordDiaconato')) document.getElementById('editCoordDiaconato').value = t.coord_diaconato;
+      document.getElementById('editAcolhimento').value = t.acolhimento || '';
+      document.getElementById('editEstacionamento').value = t.estacionamento || '';
+      if (t.copa_banheiros && document.getElementById('editCopaBanheiros')) document.getElementById('editCopaBanheiros').value = t.copa_banheiros;
 
       alert('Base da ' + teamKey + ' aplicada com sucesso! Você pode editar ou trocar qualquer voluntário agora.');
     }
@@ -2190,77 +2389,126 @@
       const s = services[editingServiceIndex];
       if (!s) return;
 
+      // 1. Liturgia
       const preacher = document.getElementById('editPreacher').value.trim();
+      const dirigente = document.getElementById('editDirigente').value.trim();
+      const intercessao = document.getElementById('editIntercessao').value.trim();
+      const bencao = document.getElementById('editBencao').value.trim();
       const theme = document.getElementById('editTheme').value.trim();
       const text = document.getElementById('editText').value.trim();
+      const coord_geral = document.getElementById('editCoordGeral').value.trim();
 
+      // 2. Louvor
+      const coord_louvor = document.getElementById('editCoordLouvor').value.trim();
       const minister = document.getElementById('editMinister').value.trim();
       const backs = document.getElementById('editBacks').value.trim();
       const guitar = document.getElementById('editGuitar').value.trim();
+      const guitar_el = document.getElementById('editGuitarEl').value.trim();
       const keys = document.getElementById('editKeys').value.trim();
       const bass = document.getElementById('editBass').value.trim();
       const drums = document.getElementById('editDrums').value.trim();
 
+      // 3. Kids
+      const coord_kids = document.getElementById('editCoordKids').value.trim();
       const kids1 = document.getElementById('editKids1').value.trim();
       const kids2 = document.getElementById('editKids2').value.trim();
 
+      // 4. Mídia
+      const coord_midia = document.getElementById('editCoordMidia').value.trim();
+      const midia_social = document.getElementById('editMidiaSocial').value.trim();
       const sound = document.getElementById('editSound').value.trim();
       const proj = document.getElementById('editProj').value.trim();
       const stream = document.getElementById('editStream').value.trim();
 
+      // 5. Diaconato
+      const coord_diaconato = document.getElementById('editCoordDiaconato').value.trim();
       const acolhimento = document.getElementById('editAcolhimento').value.trim();
       const estacionamento = document.getElementById('editEstacionamento').value.trim();
+      const copa_banheiros = document.getElementById('editCopaBanheiros').value.trim();
 
-      // Atualizar objeto s
+      // Atualizar objeto principal s
       s.preacher = preacher;
       s.theme = theme;
       s.text = text;
 
-      // Reconstruir strings visuais
+      // Montar resumo liturgia
+      const lParts = [];
+      if (coord_geral) lParts.push('Coord. Geral: ' + coord_geral);
+      if (dirigente) lParts.push('Dirigente: ' + dirigente);
+      if (intercessao) lParts.push('Intercessão: ' + intercessao);
+      if (bencao) lParts.push('Bênção: ' + bencao);
+      s.liturgia = lParts.join(' • ') || '';
+
+      // Montar resumo louvor com GUITARRA
       const wParts = [];
+      if (coord_louvor) wParts.push('Coord: ' + coord_louvor);
       if (minister) wParts.push(minister + ' (Ministro)');
       if (backs) wParts.push(backs + ' (Back)');
       if (guitar) wParts.push(guitar + ' (Violão)');
+      if (guitar_el) wParts.push(guitar_el + ' (Guitarra)');
       if (keys) wParts.push(keys + ' (Teclado)');
       if (bass) wParts.push(bass + ' (Baixo)');
       if (drums) wParts.push(drums + ' (Bateria)');
       s.worship = wParts.join(' • ') || 'A definir';
 
+      // Montar resumo kids
       const kParts = [];
+      if (coord_kids) kParts.push('Coord: ' + coord_kids);
       if (kids1) kParts.push('T1: ' + kids1);
       if (kids2) kParts.push('T2: ' + kids2);
       s.kids = kParts.join(' • ') || 'A definir';
 
+      // Montar resumo mídia
       const mParts = [];
+      if (coord_midia) mParts.push('Coord: ' + coord_midia);
+      if (midia_social) mParts.push('Social: ' + midia_social);
       if (sound) mParts.push('Som: ' + sound);
       if (proj) mParts.push('Proj: ' + proj);
       if (stream) mParts.push('Transm: ' + stream);
       s.media = mParts.join(' • ') || 'A definir';
 
+      // Montar resumo diaconato
       const dParts = [];
+      if (coord_diaconato) dParts.push('Coord: ' + coord_diaconato);
       if (acolhimento) dParts.push('Acolhimento: ' + acolhimento);
       if (estacionamento) dParts.push('Estacionamento: ' + estacionamento);
+      if (copa_banheiros) dParts.push('Copa: ' + copa_banheiros);
       s.diaconia = dParts.join(' • ') || '';
 
       // Atualizar details granulares
+      const backArr = backs.split(',').map(b => b.trim()).filter(Boolean);
       s.details = {
+        ...(s.details || {}),
         preacher: preacher,
         theme: theme,
         text: text,
+        coord_geral: coord_geral,
+        coord_celebracao: coord_geral,
+        dirigente: dirigente,
+        intercessao: intercessao,
+        bencao: bencao,
+        coord_louvor: coord_louvor,
         minister: minister,
-        back1: backs.split(',')[0] ? backs.split(',')[0].trim() : '',
-        back2: backs.split(',')[1] ? backs.split(',')[1].trim() : '',
+        back1: backArr[0] || '',
+        back2: backArr[1] || '',
+        back3: backArr[2] || '',
         guitar_ac: guitar,
+        guitar_el: guitar_el,
         keys: keys,
         bass: bass,
         drums: drums,
+        coord_kids: coord_kids,
         kids1: kids1,
         kids2: kids2,
+        coord_midia: coord_midia,
+        midia_social: midia_social,
         sound: sound,
         proj: proj,
         stream: stream,
+        coord_diaconato: coord_diaconato,
         acolhimento: acolhimento,
-        estacionamento: estacionamento
+        estacionamento: estacionamento,
+        copa_banheiros: copa_banheiros
       };
 
       try {

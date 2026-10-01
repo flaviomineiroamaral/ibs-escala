@@ -397,23 +397,37 @@ for u_key, u_info in volunteers_map.items():
     if u_key == 'icaro': search_terms += ['ícaro', 'icaro']
     if u_key == 'manu': search_terms += ['manú', 'manu', 'manuele']
     if u_key == 'efrain': search_terms += ['efrain', 'asp. efrain']
+    if u_key == 'italo': search_terms += ['ítalo', 'italo']
+    if u_key == 'flavio_f': search_terms += ['flávio f.', 'flavio f', 'flávio f']
     
     for m, services in all_data.items():
         m_list = []
         for s in services:
             assigned_roles = []
-            txt_all = f"{s.get('preacher','')} {s.get('worship','')} {s.get('kids','')} {s.get('media','')} {s.get('diaconia','')}".lower()
+            dtl = s.get('details', {})
+            dtl_txt = " ".join(str(v) for v in dtl.values() if v)
+            txt_all = f"{s.get('preacher','')} {s.get('liturgia','')} {s.get('worship','')} {s.get('kids','')} {s.get('media','')} {s.get('diaconia','')} {dtl_txt}".lower()
+            
             if any(term in txt_all for term in search_terms):
-                if any(term in s.get('preacher','').lower() for term in search_terms):
-                    assigned_roles.append('Palavra / Preletor')
-                if any(term in s.get('worship','').lower() for term in search_terms):
+                lit_txt = f"{s.get('preacher','')} {s.get('liturgia','')} {dtl.get('dirigente','')} {dtl.get('intercessao','')} {dtl.get('bencao','')} {dtl.get('coord_geral','')}".lower()
+                if any(term in lit_txt for term in search_terms):
+                    assigned_roles.append('Palavra & Liturgia')
+                    
+                w_txt = f"{s.get('worship','')} {dtl.get('minister','')} {dtl.get('guitar_ac','')} {dtl.get('guitar_el','')} {dtl.get('keys','')} {dtl.get('bass','')} {dtl.get('drums','')} {dtl.get('back1','')} {dtl.get('back2','')} {dtl.get('coord_louvor','')}".lower()
+                if any(term in w_txt for term in search_terms):
                     assigned_roles.append('Ministério de Louvor')
-                if any(term in s.get('kids','').lower() for term in search_terms):
+                    
+                k_txt = f"{s.get('kids','')} {dtl.get('kids1','')} {dtl.get('kids2','')} {dtl.get('coord_kids','')}".lower()
+                if any(term in k_txt for term in search_terms):
                     assigned_roles.append('Shamah Kids')
-                if any(term in s.get('media','').lower() for term in search_terms):
-                    assigned_roles.append('Mídia / Som')
-                if any(term in s.get('diaconia','').lower() for term in search_terms):
-                    assigned_roles.append('Diaconato / Acolhimento')
+                    
+                m_txt = f"{s.get('media','')} {dtl.get('sound','')} {dtl.get('proj','')} {dtl.get('stream','')} {dtl.get('coord_midia','')} {dtl.get('midia_social','')}".lower()
+                if any(term in m_txt for term in search_terms):
+                    assigned_roles.append('Mídia & Cabine')
+                    
+                d_txt = f"{s.get('diaconia','')} {dtl.get('acolhimento','')} {dtl.get('estacionamento','')} {dtl.get('copa_banheiros','')} {dtl.get('coord_diaconato','')}".lower()
+                if any(term in d_txt for term in search_terms):
+                    assigned_roles.append('Diaconato & Apoio')
                     
                 m_list.append({
                     'date': s['date'],
@@ -430,52 +444,88 @@ volunteers_map_json_str = json.dumps(volunteers_map, ensure_ascii=False)
 
 team_templates = {
     "Equipe 01": {
-        "acolhimento": "Edinho e Sandra",
-        "estacionamento": "Equipe 01",
+        "coord_geral": "Pr. Flávio",
+        "coord_celebracao": "Pr. Flávio",
+        "dirigente": "Jordana",
+        "intercessao": "Edinho e Sandra",
+        "bencao": "Pr. Flávio",
+        "coord_louvor": "Efrain",
+        "minister": "Manú",
+        "back1": "Karol",
+        "back2": "Kamynnsky",
+        "guitar_ac": "Bruno",
+        "guitar_el": "Ítalo",
+        "keys": "Efrain",
+        "bass": "Italo",
+        "drums": "Ícaro",
+        "coord_kids": "Ana Carolina",
         "kids1": "Ana Carolina e Maria Eduarda",
         "kids2": "Maria Eduarda",
+        "coord_midia": "Felipe",
+        "midia_social": "Karol e Equipe",
         "sound": "Felipe",
         "proj": "Ramon e Samuel",
         "stream": "Lorivaldo",
+        "coord_diaconato": "Pra. Iracilene",
+        "acolhimento": "Edinho e Sandra",
+        "estacionamento": "Equipe 01",
+        "copa_banheiros": "Divina"
+    },
+    "Equipe 02": {
+        "coord_geral": "Pr. Flávio",
+        "coord_celebracao": "Pr. Flávio",
+        "dirigente": "Pra. Iracilene",
+        "intercessao": "Ângela e Nadir",
+        "bencao": "Pr. Flávio",
+        "coord_louvor": "Asp. Efrain",
         "minister": "Manú",
         "back1": "Karol",
         "back2": "Kamynnsky",
         "guitar_ac": "Bruno",
-        "keys": "Efrain",
-        "bass": "Italo",
-        "drums": "Ícaro"
-    },
-    "Equipe 02": {
-        "acolhimento": "Johnatan e Tatiana",
-        "estacionamento": "Equipe 02",
+        "guitar_el": "Ítalo",
+        "keys": "Teclado Base",
+        "bass": "João Paulo",
+        "drums": "Ícaro",
+        "coord_kids": "Ana Carolina",
         "kids1": "Letícia, Ana Júlia e Ester",
         "kids2": "Ana Júlia",
+        "coord_midia": "Felipe",
+        "midia_social": "Karol e Equipe",
         "sound": "Efrain",
         "proj": "Jordana e Lucas",
         "stream": "Lorivaldo",
-        "minister": "Manú",
-        "back1": "Karol",
-        "back2": "Kamynnsky",
-        "guitar_ac": "Bruno",
-        "keys": "Teclado Base",
-        "bass": "João Paulo",
-        "drums": "Ícaro"
+        "coord_diaconato": "Pra. Iracilene",
+        "acolhimento": "Johnatan e Tatiana",
+        "estacionamento": "Equipe 02",
+        "copa_banheiros": "Valci"
     },
     "Equipe 03": {
-        "acolhimento": "Joel e Nadir",
-        "estacionamento": "Equipe 03",
-        "kids1": "Valéria e Jordana",
-        "kids2": "Jordana",
-        "sound": "Kauê",
-        "proj": "Edla e Ana C. da Tatiana",
-        "stream": "Lorivaldo",
+        "coord_geral": "Pr. Flávio",
+        "coord_celebracao": "Pr. Flávio",
+        "dirigente": "Mané",
+        "intercessao": "Joel e Nadir",
+        "bencao": "Pr. Flávio",
+        "coord_louvor": "Efrain",
         "minister": "Karol",
         "back1": "Bruno",
         "back2": "Kamynnsky",
         "guitar_ac": "Flávio F.",
+        "guitar_el": "Flávio F.",
         "keys": "Efrain",
         "bass": "Italo",
-        "drums": "Ícaro"
+        "drums": "Ícaro",
+        "coord_kids": "Ana Carolina",
+        "kids1": "Valéria e Jordana",
+        "kids2": "Jordana",
+        "coord_midia": "Felipe",
+        "midia_social": "Karol e Equipe",
+        "sound": "Kauê",
+        "proj": "Edla e Ana C. da Tatiana",
+        "stream": "Lorivaldo",
+        "coord_diaconato": "Pra. Iracilene",
+        "acolhimento": "Joel e Nadir",
+        "estacionamento": "Equipe 03",
+        "copa_banheiros": "Valci"
     }
 }
 team_templates_json_str = json.dumps(team_templates, ensure_ascii=False)
